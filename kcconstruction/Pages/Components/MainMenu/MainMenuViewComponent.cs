@@ -1,9 +1,9 @@
 ﻿using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 
-namespace kcconstruction.Pages.Components.ModalPictureDemostrator
+namespace kcconstruction.Pages.Components.MainMenu
 {
-    public class ModalPictureDemonstratorViewComponent: ViewComponent
+    public class MainMenuViewComponent: ViewComponent
     {
         public async Task<IViewComponentResult> InvokeAsync()
         {

@@ -8,10 +8,14 @@ let paths = {
 };
 
 
-gulp.task("processingSass", function () {
-    return gulp.src("Styles/StyleSheet.scss")
+gulp.task("processingKCSass", function () {
+    return gulp.src("Styles/KCStyleSheet.scss")
     .pipe(sass())
         .pipe(gulp.dest("wwwroot/css"));
+});
+gulp.task("processingKCJs", function () {
+    return gulp.src("Scripts/KCScripts.js")
+        .pipe(gulp.dest("wwwroot/js"));
 });
 
 gulp.task('copyingFontAwesome', function() {

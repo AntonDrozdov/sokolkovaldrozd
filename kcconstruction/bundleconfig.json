@@ -3,9 +3,10 @@
         "outputFileName": "wwwroot/vendor.min.css",
         "inputFiles": [
             "node_modules/bootstrap/dist/css/bootstrap.min.css",
-            "node_modules/font-awesome/css/font-awesome.min.css"
+            "node_modules/font-awesome/css/font-awesome.min.css",
+            "wwwroot/css/styleSheet.css"
         ],
-        "minify": { "enabled": false }
+        "minify": { "enabled": true}
     },
     {
         "outputFileName": "wwwroot/vendor.min.js",
@@ -14,6 +15,6 @@
             "node_modules/popper.js/dist/umd/popper.min.js",
             "node_modules/bootstrap/dist/js/bootstrap.min.js"
         ],
-        "minify": { "enabled": false }
+        "minify": { "enabled": true }
     }
 ]

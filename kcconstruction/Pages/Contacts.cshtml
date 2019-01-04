@@ -1,0 +1,74 @@
+﻿@page
+@model kcconstruction.Pages.ContactsModel
+@{
+    Layout = "Layouts/_Layout";
+}
+
+<h1 class="kc-h1">Наши контакты</h1>
+<div class="row no-gutters kc-contacts-page">
+    <div class ="col-md-2 "></div>
+    <div class="col-md-4  kc-address">
+        <p><span>Наш офис:</span></p>
+        <p>197022, г. Санкт-Петербург, ул. Инструментальная, д.3, литера А офис 216</p>
+        <p>Бизнес-центр «Кантемировский»</p>
+        <p>Телефон:<span> 8 (812) 928-96-00 </span></p>
+        <p>Email: info@kc-construction.ru</p>
+    </div>
+
+    <div class="col-md-4 kc-map kc-border">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1996.4247213937554!2d30.319700316164827!3d59.97486566613767!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x469633e29c6d0b9b%3A0x48ee48bc4228aa4b!2z0JjQvdGB0YLRgNGD0LzQtdC90YLQsNC70YzQvdCw0Y8g0YPQuy4sIDMsINCh0LDQvdC60YIt0J_QtdGC0LXRgNCx0YPRgNCzLCAxOTcwMjI!5e0!3m2!1sru!2sru!4v1539874133180" height="300px" frameborder="0" style="border: 0" allowfullscreen></iframe>
+    </div>
+</div>
+
+<h2 class="kc-h2">Наша команда</h2>
+<div class="row justify-content-center no-gutters kc-contacts-page ">
+    <div class="col-md-6 kc-person">
+        <h3 class="kc-h3">Даниил Ковальчук</h3>
+        <p>Технический директор</p>
+        <p>Телефон:<span> +7(911)138 08 54</span></p>
+        @*<p>Email: kovalchuk@kc-consruction.ru</p>*@
+    </div>
+    <div class="col-md-6 kc-person">
+        <h3 class="kc-h3">Александр Соколов</h3>
+        <p>Главный конструктор</p>
+        <p>Телефон:<span> +7(911)983 26 75</span></p>
+        @*<p>Email: sokolov@kc-consruction.ru</p>*@
+    </div>
+    <div class="col-md-4 kc-person">
+        <h3 class="kc-h3">Болотова Ксения</h3>
+        <p>Конструктор</p>
+    </div>
+    <div class="col-md-4 kc-person">
+        <h3 class="kc-h3">Чулкова Анастасия</h3>
+        <p>Конструктор</p>
+    </div>
+    <div class="col-md-4 kc-person">
+        <h3 class="kc-h3">Молодина Юлия</h3>
+        <p>Конструктор</p>
+    </div>
+</div>
+
+<h2 class="kc-h2">Оставьте заявку или задайте нам вопрос</h2>
+<div class="row justify-content-center no-gutters kc-contacts-page">
+    <div class ="col-md-10 kc-feedback">
+        <form action="#" method="post">
+            <div class="form-group">
+                <label for="name">Ваше имя:</label>
+                <input type="name" name="name" class="form-control" id="name" placeholder="Ваше Имя">
+            </div>
+            <div class="form-group">
+                <label for="email1">Email:</label>
+                <input type="email" name="email" class="form-control" id="email1" placeholder="Email">
+            </div>
+            <div class="form-group">
+                <label for="phone">Номер телефона:</label>
+                <input type="phone" name="phone" class="form-control" id="phone" placeholder="Телефон">
+            </div>
+            <div class="form-group">
+                <label for="message">Сообщение:</label>
+                <textarea class="form-control" name="message" rows="3"></textarea>
+            </div>
+            <button type="submit" class="btn btn-outline-primary">Отправить сообщение</button>
+        </form>
+    </div>
+</div>

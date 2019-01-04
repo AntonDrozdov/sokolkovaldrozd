@@ -1,0 +1,61 @@
+    <nav class="navbar navbar-expand-md navbar-light bg-light">
+        <span class="navbar-brand mb-0 h1">KC construction</span>
+        <button class="navbar-toggler" 
+                type="button" 
+                data-target="#navbarSupportedContent" 
+                aria-controls="navbarSupportedContent" 
+                aria-expanded="false" 
+                aria-label="Toggle navigation"
+                (click) = "toggleNavbar()">
+            <span class="navbar-toggler-icon"></span>
+        </button>    
+        <div    class="collapse navbar-collapse" 
+                [ngClass] = "{'show': navbarOpen}"
+                id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class ="nav-item"  
+                    [ngClass]="{'active': activePage === 1}">
+                    <a  class="nav-link"
+                        [routerLink]='["/home"]' 
+                        (click)='collapse(1)'>Home
+                    </a>
+                </li>
+                <li class ="nav-item" 
+                    [ngClass]="{'active': activePage === 2}">
+                    <a  class="nav-link"
+                        [routerLink]='["/counter"]' 
+                        (click)='collapse(2)'>Counter
+                    </a>
+                </li>
+                <li class ="nav-item" 
+                    [ngClass]="{'active': activePage === 3}">
+                    <a  class="nav-link"
+                        [routerLink]='["/fetch-data"]' 
+                        (click)='collapse(3)'>Fetch Data
+                    </a>
+                </li>
+            </ul>  
+            <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-info my-2 my-sm-0" type="submit">Search</button>
+            </form>
+            <a class="nav-item nav-link" href="https://github.com/beeman" target="_blank">
+                <i class="fa fa-github"></i>
+            </a>
+            <a class="nav-item nav-link" href="https://twitter.com/beeman_nl" target="_blank">
+                <i class="fa fa-twitter"></i>
+            </a>
+            <a class="nav-item nav-link" href="https://medium.com/@beeman" target="_blank">
+                <i class="fa fa-medium"></i>
+            </a>        
+        </div>
+
+     
+
+      
+    </nav>
+
+
+
+
+

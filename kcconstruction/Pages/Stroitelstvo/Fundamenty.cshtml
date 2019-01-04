@@ -1,0 +1,22 @@
+﻿@page
+@model kcconstruction.Pages.Stroitelstvo.FundamentyModel
+@{
+    ViewData["Title"] = "KC Строительство - Фундаменты";
+    Layout = "~/Pages/Layouts/_Layout.cshtml";
+}
+
+<h1 class="kc-h1">Фундаменты</h1>
+<div class="row kc-main-page no-gutters">
+    <div class="kc-text">
+        Ниже представлены фото со строительных площадок наших объектов, где мы строили фундаменты
+    </div>
+</div>
+
+@foreach (var gallery in Model.Galleries)
+{
+    <div class="row justify-content-center no-gutters kc-projects-page">
+        @await Component.InvokeAsync("GallerySnippet", gallery)
+    </div>
+}
+
+

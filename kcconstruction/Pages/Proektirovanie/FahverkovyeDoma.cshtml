@@ -1,0 +1,21 @@
+﻿@page
+@model kcconstruction.Pages.Proektirovanie.FahverkovyeDomaModel
+@{
+    ViewData["Title"] = "КС Проектирование - Фахверковые дома";
+    Layout = "~/Pages/Layouts/_Layout.cshtml";
+}
+
+<h1 class="kc-h1">Фахверковые дома</h1>
+<div class="row no-gutters kc-main-page no-gutters">
+    <div class="kc-text">
+        Ниже представлены примеры наших проектов фахверковых домов
+    </div>
+</div>
+
+@foreach (var gallery in Model.Galleries)
+{
+    <div class="row justify-content-center no-gutters kc-projects-page">
+        @await Component.InvokeAsync("GallerySnippet", gallery)
+    </div>
+}
+

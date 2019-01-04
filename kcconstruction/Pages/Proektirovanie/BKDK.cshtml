@@ -1,0 +1,22 @@
+﻿@page
+@model kcconstruction.Pages.Proektirovanie.BKDKModel
+@{
+    ViewData["Title"] = "КС Проектирование - БКДК";
+    Layout = "~/Pages/Layouts/_Layout.cshtml";
+}
+
+<h1 class="kc-h1">Большепролетные деревянные конструкции (БКДК)</h1>
+<div class="row no-gutters kc-projects-page">
+    <div class="kc-text">
+        Ниже представлены примеры наших проектов большепролетных деревянных конструкций (БКДК)
+    </div>
+</div>
+
+@foreach (var gallery in Model.Galleries)
+{
+    <div class="row justify-content-center no-gutters kc-projects-page">
+        @await Component.InvokeAsync("GallerySnippet", gallery)
+    </div>
+}
+
+

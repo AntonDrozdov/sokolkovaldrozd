@@ -1,0 +1,20 @@
+﻿@page
+@model kcconstruction.Pages.Proektirovanie.KarkasnyeDomaModel
+@{
+    ViewData["Title"] = "КС Проектирование - Каркасные дома";
+    Layout = "~/Pages/Layouts/_Layout.cshtml";
+}
+
+<h1 class="kc-h1">Каркасные дома</h1>
+<div class="row kc-main-page no-gutters">
+    <div class="kc-text">
+        Ниже представлены примеры наших проектов каркасных домов
+    </div>
+</div>
+
+@foreach (var gallery in Model.Galleries)
+{
+    <div class="row justify-content-center no-gutters kc-projects-page">
+        @await Component.InvokeAsync("GallerySnippet", gallery)
+    </div>
+}

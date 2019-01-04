@@ -1,0 +1,20 @@
+﻿@page
+@model kcconstruction.Pages.Proektirovanie.StropilnyeSistemyModel
+@{
+    ViewData["Title"] = "КС Проектирование - Стропильные системы";
+    Layout = "~/Pages/Layouts/_Layout.cshtml";
+}
+
+<h1 class="kc-h1">Стропильные системы</h1>
+<div class="row kc-main-page no-gutters">
+    <div class="kc-text">
+        Ниже представлены примеры наших проектов стропильных систем
+    </div>
+</div>
+@foreach (var gallery in Model.Galleries)
+{
+    <div class="row justify-content-center no-gutters kc-projects-page">
+        @await Component.InvokeAsync("GallerySnippet", gallery)
+    </div>
+}
+

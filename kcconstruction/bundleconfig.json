@@ -3,8 +3,8 @@
         "outputFileName": "wwwroot/vendor.min.css",
         "inputFiles": [
             "node_modules/bootstrap/dist/css/bootstrap.min.css",
-            "node_modules/font-awesome/css/font-awesome.min.css",
-            "wwwroot/css/KCStyleSheet.css"
+            "wwwroot/css/KCStyleSheet.css",
+            "wwwroot/libs/font-awesome/css/all.min.css"
         ],
         "minify": { "enabled": true}
     },

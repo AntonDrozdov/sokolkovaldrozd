@@ -229,13 +229,24 @@ section {
   .kc-picturedemostrator #pictureDemonstratorContainer {
     text-align: center; }
   .kc-picturedemostrator button {
-    padding: 0px 15px 15px; }
+    /*padding: 0px 15px 15px;*/ }
   .kc-picturedemostrator button:active, .kc-picturedemostrator button:focus {
     outline: none !important; }
   .kc-picturedemostrator button::-moz-focus-inner {
     border: 0 !important; }
+  .kc-picturedemostrator .fas, .kc-picturedemostrator .far {
+    margin: 15px;
+    font-size: 40px;
+    color: #0a5098 !important;
+    cursor: pointer; }
+  .kc-picturedemostrator .fas:hover, .kc-picturedemostrator .far:hover {
+    opacity: .8; }
+  .kc-picturedemostrator .arrows {
+    text-align: justify; }
   .kc-picturedemostrator .close {
-    font-size: 2.5rem; }
+    font-size: 2.5rem;
+    opacity: 1;
+    outline: none; }
   .kc-picturedemostrator .modal-dialog {
     margin: auto;
     max-width: unset; }

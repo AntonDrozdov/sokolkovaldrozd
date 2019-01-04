@@ -348,7 +348,7 @@ section {
     }
 
     button {
-        padding: 0px 15px 15px;
+        /*padding: 0px 15px 15px;*/
     }
 
     button:active, button:focus {
@@ -359,8 +359,25 @@ section {
         border: 0 !important;
     }
 
+    .fas, .far {
+        margin: 15px;
+        font-size: 40px;
+        color: $kcblue !important;
+        cursor: pointer;
+    }
+
+    .fas:hover, .far:hover {
+        opacity: .8;
+    }
+
+    .arrows{
+        text-align:justify;
+    }
+
     .close {
         font-size: 2.5rem;
+        opacity: 1;
+        outline: none;
     }
 
     .modal-dialog {

@@ -216,41 +216,48 @@ section {
 .kc-projects-page .kc-gallery-snippet .kc-description {
   text-align: left; }
 
-.kc-picturedemostrator {
+.kc-pictureDemonstrator {
   width: 90%;
   height: 90%;
   margin: auto;
   overflow-x: unset !important;
   overflow-y: unset;
   padding-right: 15px !important; }
-  .kc-picturedemostrator img {
+  .kc-pictureDemonstrator img {
     max-width: 100%;
-    max-height: 780px; }
-  .kc-picturedemostrator #pictureDemonstratorContainer {
+    max-height: 750px; }
+  .kc-pictureDemonstrator #pictureDemonstratorContainer {
     text-align: center; }
-  .kc-picturedemostrator button {
-    /*padding: 0px 15px 15px;*/ }
-  .kc-picturedemostrator button:active, .kc-picturedemostrator button:focus {
+  .kc-pictureDemonstrator button:active, .kc-pictureDemonstrator button:focus {
     outline: none !important; }
-  .kc-picturedemostrator button::-moz-focus-inner {
+  .kc-pictureDemonstrator button::-moz-focus-inner {
     border: 0 !important; }
-  .kc-picturedemostrator .fas, .kc-picturedemostrator .far {
-    margin: 15px;
+  .kc-pictureDemonstrator .fas, .kc-pictureDemonstrator .far {
     font-size: 40px;
     color: #0a5098 !important;
     cursor: pointer; }
-  .kc-picturedemostrator .fas:hover, .kc-picturedemostrator .far:hover {
+  .kc-pictureDemonstrator .fas:hover, .kc-pictureDemonstrator .far:hover {
     opacity: .8; }
-  .kc-picturedemostrator .arrows {
-    text-align: justify; }
-  .kc-picturedemostrator .close {
+  .kc-pictureDemonstrator .close {
     font-size: 2.5rem;
     opacity: 1;
-    outline: none; }
-  .kc-picturedemostrator .modal-dialog {
+    outline: none;
+    margin-bottom: 15px; }
+  .kc-pictureDemonstrator .kc-pictureDemonstrator-controls {
+    width: 100%; }
+  .kc-pictureDemonstrator .arrows {
+    text-align: center;
+    margin-top: 15px; }
+  .kc-pictureDemonstrator .kc-left-arrow {
+    float: left;
+    width: 45%; }
+  .kc-pictureDemonstrator .kc-right-arrow {
+    float: right;
+    width: 45%; }
+  .kc-pictureDemonstrator .modal-dialog {
     margin: auto;
     max-width: unset; }
-  .kc-picturedemostrator .modal-open, .kc-picturedemostrator .modal {
+  .kc-pictureDemonstrator .modal-open, .kc-pictureDemonstrator .modal {
     overflow-x: unset;
     overflow-y: unset; }
 

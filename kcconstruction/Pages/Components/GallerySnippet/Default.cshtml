@@ -7,19 +7,20 @@
         <h2 class="kc-h2">@Model.Name</h2>
     </div>
 
-    <div class="row col-md-4 kc-images justify-content-center no-gutters">
-        <a href="#" onClick="openImage('@Model.PathToImages[0]');">
-            <img src="@Model.PathToImages[0]" class="kc-main-gallery-image" />
+    <div class="row col-md-6 kc-images justify-content-center no-gutters">
+        <input type="hidden" id="@Model.Name" value="asdf;qwer;zxcv">
+        <a href="#" onClick="showGallery('@Model.Name','@Model.PathToImages[0]');">
+            <img src="@Model.PathToImages[0]" class="kc-main-gallery-image"/>
         </a>
 
         @{
             int colCount = 4;
 
-            int colMdVal = 12/ colCount;
+            int colMdVal = 12 / colCount;
 
             int rowCount = Model.PathToImagesSm.Count / colCount;
 
-            int imNum = 0;
+            int imNum = 1;
 
             for (int j = 0; j < colCount; j++)
             {
@@ -29,8 +30,8 @@
                         if (imNum < @Model.PathToImagesSm.Count)
                         {
                             <div class="kc-thumb-gallery-image-wrapper" onClick="openImage('@Model.PathToImagesSm[imNum]');">
-                                <a onClick="openImage('@Model.PathToImagesSm[imNum]');">
-                                    <img src="@Model.PathToImagesSm[imNum]" class="kc-thumb-gallery-image" />
+                                <a onClick="showGallery('@Model.Name','@Model.PathToImagesSm[imNum]');">
+                                    <img src="@Model.PathToImagesSm[imNum]" class="kc-thumb-gallery-image"/>
                                 </a>
                             </div>
                             imNum++;
@@ -42,7 +43,7 @@
 
     </div>
     
-    <div class="col-md-8 kc-description">
+    <div class="col-md-6 kc-description">
         <h5 class="kc-h3">Характеристики и особености сооружения</h5>
     </div>
 </div>

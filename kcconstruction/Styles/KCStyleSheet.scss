@@ -330,7 +330,7 @@ section {
     }
 }
 
-.kc-picturedemostrator {
+.kc-pictureDemonstrator {
     width: 90%;
     height: 90%;
     margin: auto;
@@ -340,15 +340,11 @@ section {
 
     img {
         max-width: 100%;
-        max-height: 780px;
+        max-height: 750px;
     }
 
     #pictureDemonstratorContainer {
         text-align: center;
-    }
-
-    button {
-        /*padding: 0px 15px 15px;*/
     }
 
     button:active, button:focus {
@@ -360,7 +356,6 @@ section {
     }
 
     .fas, .far {
-        margin: 15px;
         font-size: 40px;
         color: $kcblue !important;
         cursor: pointer;
@@ -370,14 +365,35 @@ section {
         opacity: .8;
     }
 
-    .arrows{
-        text-align:justify;
-    }
-
     .close {
         font-size: 2.5rem;
         opacity: 1;
         outline: none;
+        margin-bottom: 15px;
+    }
+
+    .kc-pictureDemonstrator-controls {
+        width: 100%
+    }
+
+    .arrows {
+        text-align: center;
+        margin-top: 15px;
+    }
+
+    .kc-left-arrow {
+        float: left;
+        width: 45%;
+    }
+
+    .kc-right-arrow {
+        float: right;
+        width: 45%;
+    }
+
+
+
+    .kc-close {
     }
 
     .modal-dialog {

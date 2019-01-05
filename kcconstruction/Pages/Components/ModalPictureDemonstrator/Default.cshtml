@@ -5,23 +5,27 @@
                 <div class="container-fluid">
                     <div class="row">
                         <input type="hidden" id="pictureDemonstratorSourceInput" value="">
+                        <input type="hidden" id="pictureDemonstratorCurrentImage" value="">
                         <div class="col-12">
                             <div class="kc-pictureDemonstrator-controls kc-close">
-                                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
-                                    <i class="far fa-window-close"></i>
-                                </button>
+                                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+                                        <i class="far fa-window-close"></i>
+                                    </button>
                             </div>
 
-                            <div id="pictureDemonstratorContainer" class="kc-pictureDemonstrator-controls">
+                            <div id="pictureDemonstratorContainer" >
+                                <table><tr><td><img src="~/images/10pxtemplate.jpg"/></td><td></td></tr></table>
+
+                                <img src="~/images/10pxtemplate.jpg"/>
                                 <img src=""/>
                             </div>
 
                             <div class="kc-pictureDemonstrator-controls">
-                                <div class="arrows kc-left-arrow">
+                                <div id="pictureDemonstrator-previousImage" class="arrows kc-left-arrow">
                                     <i class="fas fa-chevron-left"></i>
                                 </div>
 
-                                <div class="arrows kc-right-arrow">
+                                <div id="pictureDemonstrator-nextImage" class="arrows kc-right-arrow">
                                     <i class="fas fa-chevron-right"></i>
                                 </div>
                             </div>

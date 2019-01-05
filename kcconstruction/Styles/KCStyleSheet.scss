@@ -337,6 +337,7 @@ section {
     overflow-x: unset !important;
     overflow-y: unset;
     padding-right: 15px !important;
+    text-align:center;
 
     img {
         max-width: 100%;
@@ -345,6 +346,10 @@ section {
 
     #pictureDemonstratorContainer {
         text-align: center;
+
+        table{
+            margin:auto;
+        }
     }
 
     button:active, button:focus {
@@ -370,10 +375,12 @@ section {
         opacity: 1;
         outline: none;
         margin-bottom: 15px;
+        margin-left:10px;
     }
 
     .kc-pictureDemonstrator-controls {
-        width: 100%
+        width: 100%;
+        cursor:pointer;
     }
 
     .arrows {

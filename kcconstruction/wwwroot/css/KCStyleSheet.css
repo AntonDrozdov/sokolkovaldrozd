@@ -222,12 +222,15 @@ section {
   margin: auto;
   overflow-x: unset !important;
   overflow-y: unset;
-  padding-right: 15px !important; }
+  padding-right: 15px !important;
+  text-align: center; }
   .kc-pictureDemonstrator img {
     max-width: 100%;
     max-height: 750px; }
   .kc-pictureDemonstrator #pictureDemonstratorContainer {
     text-align: center; }
+    .kc-pictureDemonstrator #pictureDemonstratorContainer table {
+      margin: auto; }
   .kc-pictureDemonstrator button:active, .kc-pictureDemonstrator button:focus {
     outline: none !important; }
   .kc-pictureDemonstrator button::-moz-focus-inner {
@@ -242,9 +245,11 @@ section {
     font-size: 2.5rem;
     opacity: 1;
     outline: none;
-    margin-bottom: 15px; }
+    margin-bottom: 15px;
+    margin-left: 10px; }
   .kc-pictureDemonstrator .kc-pictureDemonstrator-controls {
-    width: 100%; }
+    width: 100%;
+    cursor: pointer; }
   .kc-pictureDemonstrator .arrows {
     text-align: center;
     margin-top: 15px; }

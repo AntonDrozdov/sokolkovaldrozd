@@ -1,4 +1,5 @@
-﻿@model kcconstruction.ViewModels.GallerySnippetViewModel
+﻿@using System.Text
+@model kcconstruction.ViewModels.GallerySnippetViewModel
 
 
 <div class="row kc-main-page kc-gallery-snippet">
@@ -8,8 +9,20 @@
     </div>
 
     <div class="row col-md-6 kc-images justify-content-center no-gutters">
-        <input type="hidden" id="@Model.Name" value="asdf;qwer;zxcv">
-        <a href="#" onClick="showGallery('@Model.Name','@Model.PathToImages[0]');">
+        @{
+            var tmpStringBuilder = new StringBuilder();
+            foreach (var modelPathToImage in Model.PathToImages)
+            {
+                tmpStringBuilder.Append(modelPathToImage);
+                tmpStringBuilder.Append(';');
+            }
+
+            tmpStringBuilder.Remove(tmpStringBuilder.Length-1, 1);
+            var imagesAsStringList = tmpStringBuilder.ToString();
+        }
+
+        <input type="hidden" id="@Model.Name" value="@imagesAsStringList">
+        <a onClick="showGallery('@Model.Name', '@Model.PathToImages[0]');">
             <img src="@Model.PathToImages[0]" class="kc-main-gallery-image"/>
         </a>
 
@@ -29,8 +42,8 @@
                     {
                         if (imNum < @Model.PathToImagesSm.Count)
                         {
-                            <div class="kc-thumb-gallery-image-wrapper" onClick="openImage('@Model.PathToImagesSm[imNum]');">
-                                <a onClick="showGallery('@Model.Name','@Model.PathToImagesSm[imNum]');">
+                            <div class="kc-thumb-gallery-image-wrapper">
+                                <a onClick="showGallery('@Model.Name', '@Model.PathToImagesSm[imNum]');">
                                     <img src="@Model.PathToImagesSm[imNum]" class="kc-thumb-gallery-image"/>
                                 </a>
                             </div>

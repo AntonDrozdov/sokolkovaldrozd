@@ -11,6 +11,7 @@ $kcborderwidth:2px;
     }
 }
 
+
 body {
     margin: 0 auto;
     min-height: 100vh;
@@ -242,10 +243,69 @@ section {
         color: $kcblue;
     }
 
-    .kc-feedback {
-        margin: 0 15px;
+    .kc-contacts-feedback-button {
+        border: $kcborderwidth solid $kcblue;
+        margin: 0px 0px 25px 0px;
+        color: $kcblue;
+        font-weight: 500;
+        border-radius: 0;
+    }
+
+    .kc-contacts-feedback-button:hover {
+        background-color: $kcblue;
+        color: $kclightfont;
+    }
+
+    form:active, form:focus,
+    .btn:active, .btn:focus,
+    input:active, input:focus,
+    textarea:active, textarea:focus,
+    button:active, button:focus {
+        outline: none !important;
+        box-shadow: none !important;
     }
 }
+
+.kc-feedback-form {
+    color: $kcblue;
+    font-weight: 500;
+
+    .kc-feedback-form-button {
+        margin-bottom: 10px;
+    }
+
+    input, textarea {
+        border: 1px solid $kcblue;
+        border-radius: 0px;
+    }
+
+    .fas, .far {
+        font-size: 40px;
+        color: $kcblue !important;
+        cursor: pointer;
+    }
+
+    .fas:hover, .far:hover {
+        opacity: .8;
+    }
+
+    .close {
+        font-size: 2.5rem;
+        opacity: 1;
+        outline: none;
+        margin-bottom: 10px;
+    }
+
+    form:active, form:focus,
+    .btn:active, .btn:focus,
+    input:active, input:focus,
+    textarea:active, textarea:focus,
+    button:active, button:focus {
+        outline: none !important;
+        box-shadow: none !important;
+    }
+}
+
 
 .kc-projects-page {
     .kc-text {
@@ -354,6 +414,7 @@ section {
 
     button:active, button:focus {
         outline: none !important;
+        box-shadow:none;
     }
 
     button::-moz-focus-inner {
@@ -397,9 +458,7 @@ section {
         float: right;
         width: 45%;
     }
-
-
-
+       
     .kc-close {
     }
 

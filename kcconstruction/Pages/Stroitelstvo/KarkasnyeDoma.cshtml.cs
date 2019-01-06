@@ -27,12 +27,12 @@ namespace kcconstruction.Pages.Stroitelstvo
                         "/images/Stroitelstvo/KarkasnyeDoma/Razmetelevo_karkas/IGDR_003_sm.jpg",
                         "/images/Stroitelstvo/KarkasnyeDoma/Razmetelevo_karkas/IGDR_005_sm.jpg",
                         "/images/Stroitelstvo/KarkasnyeDoma/Razmetelevo_karkas/IGDR_006_sm.jpg",
-                        "/images/Stroitelstvo/KarkasnyeDoma/Razmetelevo_karkas/IGDR_007_sm.jpg",
-                        "/images/Stroitelstvo/KarkasnyeDoma/Razmetelevo_karkas/IGDR_008_sm.jpg",
-                        "/images/Stroitelstvo/KarkasnyeDoma/Razmetelevo_karkas/IGDR_009_sm.jpg",
                         "/images/Stroitelstvo/KarkasnyeDoma/Razmetelevo_karkas/IGDR_010_sm.jpg",
-                        "/images/Stroitelstvo/KarkasnyeDoma/Razmetelevo_karkas/IGDR_011_sm.jpg",
+                        "/images/Stroitelstvo/KarkasnyeDoma/Razmetelevo_karkas/IGDR_008_sm.jpg",
                         "/images/Stroitelstvo/KarkasnyeDoma/Razmetelevo_karkas/IGDR_012_sm.jpg",
+                        "/images/Stroitelstvo/KarkasnyeDoma/Razmetelevo_karkas/IGDR_007_sm.jpg",
+                        "/images/Stroitelstvo/KarkasnyeDoma/Razmetelevo_karkas/IGDR_011_sm.jpg",
+                        "/images/Stroitelstvo/KarkasnyeDoma/Razmetelevo_karkas/IGDR_009_sm.jpg"
                     },
                     PathToImages = new List<string>
                     {
@@ -42,10 +42,10 @@ namespace kcconstruction.Pages.Stroitelstvo
                         "/images/Stroitelstvo/KarkasnyeDoma/Razmetelevo_karkas/IGDR_004.jpg",
                         "/images/Stroitelstvo/KarkasnyeDoma/Razmetelevo_karkas/IGDR_005.jpg",
                         "/images/Stroitelstvo/KarkasnyeDoma/Razmetelevo_karkas/IGDR_006.jpg",
-                        "/images/Stroitelstvo/KarkasnyeDoma/Razmetelevo_karkas/IGDR_007.jpg",
+                        "/images/Stroitelstvo/KarkasnyeDoma/Razmetelevo_karkas/IGDR_010.jpg",
                         "/images/Stroitelstvo/KarkasnyeDoma/Razmetelevo_karkas/IGDR_008.jpg",
                         "/images/Stroitelstvo/KarkasnyeDoma/Razmetelevo_karkas/IGDR_009.jpg",
-                        "/images/Stroitelstvo/KarkasnyeDoma/Razmetelevo_karkas/IGDR_010.jpg",
+                        "/images/Stroitelstvo/KarkasnyeDoma/Razmetelevo_karkas/IGDR_007.jpg",
                         "/images/Stroitelstvo/KarkasnyeDoma/Razmetelevo_karkas/IGDR_011.jpg",
                         "/images/Stroitelstvo/KarkasnyeDoma/Razmetelevo_karkas/IGDR_012.jpg"
                     }
@@ -59,7 +59,7 @@ namespace kcconstruction.Pages.Stroitelstvo
                         "/images/Stroitelstvo/KarkasnyeDoma/Sosnovo_karkas/IGDS_001_sm.jpg",
                         "/images/Stroitelstvo/KarkasnyeDoma/Sosnovo_karkas/IGDS_004_sm.jpg",
                         "/images/Stroitelstvo/KarkasnyeDoma/Sosnovo_karkas/IGDS_002_sm.jpg",
-                        "/images/Stroitelstvo/KarkasnyeDoma/Sosnovo_karkas/IGDS_003_sm.jpg",
+                        "/images/Stroitelstvo/KarkasnyeDoma/Sosnovo_karkas/IGDS_024_sm.jpg",
                         "/images/Stroitelstvo/KarkasnyeDoma/Sosnovo_karkas/IGDS_007_sm.jpg",
                         "/images/Stroitelstvo/KarkasnyeDoma/Sosnovo_karkas/IGDS_011_sm.jpg",
                         "/images/Stroitelstvo/KarkasnyeDoma/Sosnovo_karkas/IGDS_013_sm.jpg",
@@ -68,7 +68,7 @@ namespace kcconstruction.Pages.Stroitelstvo
                         "/images/Stroitelstvo/KarkasnyeDoma/Sosnovo_karkas/IGDS_021_sm.jpg",
                         "/images/Stroitelstvo/KarkasnyeDoma/Sosnovo_karkas/IGDS_022_sm.jpg",
                         "/images/Stroitelstvo/KarkasnyeDoma/Sosnovo_karkas/IGDS_023_sm.jpg",
-                        "/images/Stroitelstvo/KarkasnyeDoma/Sosnovo_karkas/IGDS_024_sm.jpg",
+                        "/images/Stroitelstvo/KarkasnyeDoma/Sosnovo_karkas/IGDS_003_sm.jpg"
                     },
                     PathToImages = new List<string>
                     {

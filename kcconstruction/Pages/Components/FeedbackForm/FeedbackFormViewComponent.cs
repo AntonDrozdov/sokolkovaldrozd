@@ -1,9 +1,9 @@
 ﻿using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 
-namespace kcconstruction.Pages.Components.Footer
+namespace kcconstruction.Pages.Components.FeedbackForm
 {
-    public class FooterViewComponent : ViewComponent
+    public class FeedbackFormViewComponent : ViewComponent
     {
         public async Task<IViewComponentResult> InvokeAsync()
         {

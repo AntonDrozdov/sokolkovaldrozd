@@ -159,8 +159,51 @@ section {
     font-weight: 600;
     font-size: 20px; }
 
-.kc-contacts-page .kc-feedback {
-  margin: 0 15px; }
+.kc-contacts-page .kc-contacts-feedback-button {
+  border: 2px solid #0a5098;
+  margin: 0px 0px 25px 0px;
+  color: #0a5098;
+  font-weight: 500;
+  border-radius: 0; }
+
+.kc-contacts-page .kc-contacts-feedback-button:hover {
+  background-color: #0a5098;
+  color: #ffffff; }
+
+.kc-contacts-page form:active, .kc-contacts-page form:focus,
+.kc-contacts-page .btn:active, .kc-contacts-page .btn:focus,
+.kc-contacts-page input:active, .kc-contacts-page input:focus,
+.kc-contacts-page textarea:active, .kc-contacts-page textarea:focus,
+.kc-contacts-page button:active, .kc-contacts-page button:focus {
+  outline: none !important;
+  box-shadow: none !important; }
+
+.kc-feedback-form {
+  color: #0a5098;
+  font-weight: 500; }
+  .kc-feedback-form .kc-feedback-form-button {
+    margin-bottom: 10px; }
+  .kc-feedback-form input, .kc-feedback-form textarea {
+    border: 1px solid #0a5098;
+    border-radius: 0px; }
+  .kc-feedback-form .fas, .kc-feedback-form .far {
+    font-size: 40px;
+    color: #0a5098 !important;
+    cursor: pointer; }
+  .kc-feedback-form .fas:hover, .kc-feedback-form .far:hover {
+    opacity: .8; }
+  .kc-feedback-form .close {
+    font-size: 2.5rem;
+    opacity: 1;
+    outline: none;
+    margin-bottom: 10px; }
+  .kc-feedback-form form:active, .kc-feedback-form form:focus,
+  .kc-feedback-form .btn:active, .kc-feedback-form .btn:focus,
+  .kc-feedback-form input:active, .kc-feedback-form input:focus,
+  .kc-feedback-form textarea:active, .kc-feedback-form textarea:focus,
+  .kc-feedback-form button:active, .kc-feedback-form button:focus {
+    outline: none !important;
+    box-shadow: none !important; }
 
 .kc-projects-page .kc-text {
   text-indent: 1.5em;
@@ -232,7 +275,8 @@ section {
     .kc-pictureDemonstrator #pictureDemonstratorContainer table {
       margin: auto; }
   .kc-pictureDemonstrator button:active, .kc-pictureDemonstrator button:focus {
-    outline: none !important; }
+    outline: none !important;
+    box-shadow: none; }
   .kc-pictureDemonstrator button::-moz-focus-inner {
     border: 0 !important; }
   .kc-pictureDemonstrator .fas, .kc-pictureDemonstrator .far {

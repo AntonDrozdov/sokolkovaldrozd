@@ -1,7 +1,6 @@
 $(document).ready(function () {
-
     
-     showGallery = function (idOfSourceInput, pathToCurrentImageSm) {
+    showGallery = function (idOfSourceInput, pathToCurrentImageSm) {
         $("#pictureDemonstratorSourceInput").val( $("#" + idOfSourceInput).val());
 
          showImage(pathToCurrentImageSm);
@@ -63,6 +62,10 @@ $(document).ready(function () {
 
     $('#pictureDemonstrator-previousImage').on("click", function (evnt) {
         showNextImage("back");
+    });
+
+    $('#contactsFeedbackForm').on('click', function () {
+        $("#feedbackForm").modal('show');
     });
 
 });

@@ -48,27 +48,11 @@
     </div>
 </div>
 
-<h2 class="kc-h2">Оставьте заявку или задайте нам вопрос</h2>
-<div class="row justify-content-center no-gutters kc-contacts-page">
-    <div class ="col-md-10 kc-feedback">
-        <form action="#" method="post">
-            <div class="form-group">
-                <label for="name">Ваше имя:</label>
-                <input type="name" name="name" class="form-control" id="name" placeholder="Ваше Имя">
-            </div>
-            <div class="form-group">
-                <label for="email1">Email:</label>
-                <input type="email" name="email" class="form-control" id="email1" placeholder="Email">
-            </div>
-            <div class="form-group">
-                <label for="phone">Номер телефона:</label>
-                <input type="phone" name="phone" class="form-control" id="phone" placeholder="Телефон">
-            </div>
-            <div class="form-group">
-                <label for="message">Сообщение:</label>
-                <textarea class="form-control" name="message" rows="3"></textarea>
-            </div>
-            <button type="submit" class="btn btn-outline-primary">Отправить сообщение</button>
-        </form>
-    </div>
+<h2 class="kc-h2">Оставьте заявку или мы можем Вас проконсультировать</h2>
+<div  class="row justify-content-center no-gutters kc-contacts-page ">
+    <button type="button" id="contactsFeedbackForm" class="btn btn-outline-primary btn-lg btn-block kc-contacts-feedback-button">Задать вопрос</button>
 </div>
+
+@await Component.InvokeAsync("FeedbackForm")
+
+

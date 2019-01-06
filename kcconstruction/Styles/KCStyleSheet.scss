@@ -16,8 +16,8 @@ body {
     margin: 0 auto;
     min-height: 100vh;
     position: relative;
-    /*background-image: url('/images/sitebackgroung.jpg');*/
-    //background-repeat: repeat-x;
+    background-image: url('/images/sitebackgroung.jpg');
+    background-repeat: repeat-x;
     background-size: 100% 100%;
 }
 
@@ -150,6 +150,9 @@ section {
     }
 
     .kc-covers {
+        img {
+            width: 100%;
+        }
     }
 
     .kc-cover-section {
@@ -192,11 +195,16 @@ section {
         font-weight: 600;
     }
 
+
     .kc-ul-text {
         text-align: justify;
         font-size: 17px;
         color: $kcblue;
         font-weight: 500;
+
+        li{
+            margin-right:10px;
+        }
     }
 
     .kc-icon {

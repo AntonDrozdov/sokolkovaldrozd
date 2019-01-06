@@ -6,7 +6,8 @@ body {
   margin: 0 auto;
   min-height: 100vh;
   position: relative;
-  /*background-image: url('/images/sitebackgroung.jpg');*/
+  background-image: url("/images/sitebackgroung.jpg");
+  background-repeat: repeat-x;
   background-size: 100% 100%; }
 
 .container {
@@ -93,6 +94,9 @@ section {
   margin: 45px 25px 10px 25px;
   max-width: 250px; }
 
+.kc-main-page .kc-covers img {
+  width: 100%; }
+
 .kc-main-page .kc-cover-section {
   text-align: center;
   margin-bottom: 15px;
@@ -127,6 +131,8 @@ section {
   font-size: 17px;
   color: #0a5098;
   font-weight: 500; }
+  .kc-main-page .kc-ul-text li {
+    margin-right: 10px; }
 
 .kc-main-page .kc-icon {
   max-width: 100px; }

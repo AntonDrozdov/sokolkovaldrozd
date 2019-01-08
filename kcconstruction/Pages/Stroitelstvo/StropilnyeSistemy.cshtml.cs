@@ -18,11 +18,12 @@ namespace kcconstruction.Pages.Stroitelstvo
             {
                 new GallerySnippetViewModel
                 {
-                    Name = "Kirovsk_strop",
+                    Title = "Крыша гаража со стропильными фермами в Кировске",
+                    Name ="kryshasostropkirovsk_str",
                     PathToImagesSm = new List<string>
                     {
-                        "/images/Stroitelstvo/StropilnyeSistemy/Kirovsk_strop/GK_001_sm.jpg",
                         "/images/Stroitelstvo/StropilnyeSistemy/Kirovsk_strop/GK_004_sm.jpg",
+                        "/images/Stroitelstvo/StropilnyeSistemy/Kirovsk_strop/GK_001_sm.jpg",
                         "/images/Stroitelstvo/StropilnyeSistemy/Kirovsk_strop/GK_002_sm.jpg",
                         "/images/Stroitelstvo/StropilnyeSistemy/Kirovsk_strop/GK_003_sm.jpg",
                         "/images/Stroitelstvo/StropilnyeSistemy/Kirovsk_strop/GK_005_sm.jpg",
@@ -35,10 +36,10 @@ namespace kcconstruction.Pages.Stroitelstvo
                     },
                     PathToImages = new List<string>
                     {
+                        "/images/Stroitelstvo/StropilnyeSistemy/Kirovsk_strop/GK_004.jpg",
                         "/images/Stroitelstvo/StropilnyeSistemy/Kirovsk_strop/GK_001.jpg",
                         "/images/Stroitelstvo/StropilnyeSistemy/Kirovsk_strop/GK_002.jpg",
                         "/images/Stroitelstvo/StropilnyeSistemy/Kirovsk_strop/GK_003.jpg",
-                        "/images/Stroitelstvo/StropilnyeSistemy/Kirovsk_strop/GK_004.jpg",
                         "/images/Stroitelstvo/StropilnyeSistemy/Kirovsk_strop/GK_005.jpg",
                         "/images/Stroitelstvo/StropilnyeSistemy/Kirovsk_strop/GK_006.jpg",
                         "/images/Stroitelstvo/StropilnyeSistemy/Kirovsk_strop/GK_007.jpg",

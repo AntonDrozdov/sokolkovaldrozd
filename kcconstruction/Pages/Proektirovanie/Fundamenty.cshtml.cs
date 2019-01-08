@@ -19,7 +19,8 @@ namespace kcconstruction.Pages.Proektirovanie
             {
                 new GallerySnippetViewModel
                 {
-                    Name = "BDKD1",
+                    Title = "Мелкозаглубленный ленточный фундамент с цокольным этажом",
+                    Name ="melozaglublennyscokolem_prj",
                     PathToImagesSm = new List<string>
                     {
                         "/images/Proektirovanie/Fundamenty/PF1/PF1_001_sm.jpg",
@@ -30,15 +31,16 @@ namespace kcconstruction.Pages.Proektirovanie
                     PathToImages = new List<string>
                     {
                         "/images/Proektirovanie/Fundamenty/PF1/PF1_001.jpg",
+                        "/images/Proektirovanie/Fundamenty/PF1/PF1_004.jpg",
                         "/images/Proektirovanie/Fundamenty/PF1/PF1_002.jpg",
-                        "/images/Proektirovanie/Fundamenty/PF1/PF1_003.jpg",
-                        "/images/Proektirovanie/Fundamenty/PF1/PF1_004.jpg"
+                        "/images/Proektirovanie/Fundamenty/PF1/PF1_003.jpg"
                     }
 
                 },
                 new GallerySnippetViewModel
                 {
-                    Name = "BDKD2",
+                    Title = "Мелкозаглубленный ленточный фундамент в Ленинградской области",
+                    Name ="melkozaglublennylentochnyvlenobl_prj", 
                     PathToImagesSm = new List<string>
                     {
                         "/images/Proektirovanie/Fundamenty/PF2/PF2_001_sm.jpg",

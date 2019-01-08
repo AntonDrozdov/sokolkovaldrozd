@@ -14,7 +14,8 @@ namespace kcconstruction.Pages.Proektirovanie
             {
                 new GallerySnippetViewModel
                 {
-                    Name = "FD1",
+                    Title = "Фахверковый дом в Екатеренбурге",
+                    Name="fachverkekat_prj",
                     PathToImagesSm = new List<string>
                     {
                         "/images/Proektirovanie/FahverkovyeDoma/FD1/FD1_001_sm.jpg",
@@ -39,7 +40,8 @@ namespace kcconstruction.Pages.Proektirovanie
                 },
                 new GallerySnippetViewModel
                 {
-                    Name = "FD2",
+                    Title = "Современный фахверковый дом",
+                    Name ="sovremenfahverk_prj",
                     PathToImagesSm = new List<string>
                     {
                         "/images/Proektirovanie/FahverkovyeDoma/FD2/FD2_001_sm.jpg",
@@ -63,7 +65,8 @@ namespace kcconstruction.Pages.Proektirovanie
                 },
                 new GallerySnippetViewModel
                 {
-                    Name = "BDKD3",
+                    Title = "Фахверковый дом с плоской крышей",
+                    Name = "fahverksploskoykryshey_prj",
                     PathToImagesSm = new List<string>
                     {
                         "/images/Proektirovanie/FahverkovyeDoma/FD3/FD3_001_sm.jpg",
@@ -91,25 +94,26 @@ namespace kcconstruction.Pages.Proektirovanie
                 },
                 new GallerySnippetViewModel
                 {
-                    Name = "FD4",
+                    Title = "Компактный фахверковый дом в Ленинградской области",
+                    Name = "kompacynyfahverkvLenobl_prj",
                     PathToImagesSm = new List<string>
                     {
+                        "/images/Proektirovanie/FahverkovyeDoma/FD4/FD4_005_sm.jpg",
                         "/images/Proektirovanie/FahverkovyeDoma/FD4/FD4_001_sm.jpg",
                         "/images/Proektirovanie/FahverkovyeDoma/FD4/FD4_004_sm.jpg",
                         "/images/Proektirovanie/FahverkovyeDoma/FD4/FD4_002_sm.jpg",
                         "/images/Proektirovanie/FahverkovyeDoma/FD4/FD4_003_sm.jpg",
-                        "/images/Proektirovanie/FahverkovyeDoma/FD4/FD4_005_sm.jpg",
                         "/images/Proektirovanie/FahverkovyeDoma/FD4/FD4_006_sm.jpg",
                         "/images/Proektirovanie/FahverkovyeDoma/FD4/FD4_007_sm.jpg",
                         "/images/Proektirovanie/FahverkovyeDoma/FD4/FD4_008_sm.jpg"
                     },
                     PathToImages = new List<string>
                     {
+                        "/images/Proektirovanie/FahverkovyeDoma/FD4/FD4_005.jpg",
                         "/images/Proektirovanie/FahverkovyeDoma/FD4/FD4_001.jpg",
                         "/images/Proektirovanie/FahverkovyeDoma/FD4/FD4_002.jpg",
                         "/images/Proektirovanie/FahverkovyeDoma/FD4/FD4_003.jpg",
                         "/images/Proektirovanie/FahverkovyeDoma/FD4/FD4_004.jpg",
-                        "/images/Proektirovanie/FahverkovyeDoma/FD4/FD4_005.jpg",
                         "/images/Proektirovanie/FahverkovyeDoma/FD4/FD4_006.jpg",
                         "/images/Proektirovanie/FahverkovyeDoma/FD4/FD4_007.jpg",
                         "/images/Proektirovanie/FahverkovyeDoma/FD4/FD4_008.jpg"
@@ -118,7 +122,8 @@ namespace kcconstruction.Pages.Proektirovanie
                 },
                 new GallerySnippetViewModel
                 {
-                    Name = "FD5",
+                    Title = "Фахверковый дом премиум класса в Лемболово",
+                    Name = "premiumfahverklembolovo_prj",
                     PathToImagesSm = new List<string>
                     {
                         "/images/Proektirovanie/FahverkovyeDoma/FD5/FD5_001_sm.jpg",

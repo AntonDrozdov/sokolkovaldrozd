@@ -18,7 +18,8 @@ namespace kcconstruction.Pages.Proektirovanie
             {
                 new GallerySnippetViewModel
                 {
-                    Name = "SK1",
+                    Title = "Мансандра на Фонтаке в Санкт-Петербурге",
+                    Name = "mansardanafontanke_prj",
                     PathToImagesSm = new List<string>
                     {
                         "/images/Proektirovanie/StropilnyeSistemy/SK1/SK1_001_sm.jpg",
@@ -39,7 +40,8 @@ namespace kcconstruction.Pages.Proektirovanie
                 },
                 new GallerySnippetViewModel
                 {
-                    Name = "SK2",
+                    Title = "Крыша гаража со стропильными фермами в Кировске",
+                    Name = "kryshasostropkirovsk_prj",
                     PathToImagesSm = new List<string>
                     {
                         "/images/Proektirovanie/StropilnyeSistemy/SK2/SK2_001_sm.jpg",

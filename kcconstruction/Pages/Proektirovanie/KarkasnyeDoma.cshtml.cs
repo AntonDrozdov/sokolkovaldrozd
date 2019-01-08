@@ -18,7 +18,8 @@ namespace kcconstruction.Pages.Proektirovanie
             {
                 new GallerySnippetViewModel
                 {
-                    Name = "KD1",
+                    Title = "Одноэтажный дом в стиле \"Барн\"",
+                    Name = "odnoetazbarn_prj",
                     PathToImagesSm = new List<string>
                     {
                         "/images/Proektirovanie/KarkasnyeDoma/KD1/KD1_001_sm.jpg",
@@ -48,7 +49,8 @@ namespace kcconstruction.Pages.Proektirovanie
                 },
                 new GallerySnippetViewModel
                 {
-                    Name = "KD2",
+                    Title = "Каркасный дом в стиле \"Фрейм-Хаус\" в Разметелево",
+                    Name = "karkasfreinhausrazmetelevo_prj",
                     PathToImagesSm = new List<string>
                     {
                         "/images/Proektirovanie/KarkasnyeDoma/KD2/KD2_001_sm.jpg",
@@ -72,7 +74,8 @@ namespace kcconstruction.Pages.Proektirovanie
                 },
                 new GallerySnippetViewModel
                 {
-                    Name = "KD3",
+                    Title = "Каркасный дом с имитацией под клееный брус",
+                    Name= "karkassimitacieykleen_prj",
                     PathToImagesSm = new List<string>
                     {
                         "/images/Proektirovanie/KarkasnyeDoma/KD3/KD3_001_sm.jpg",

@@ -18,11 +18,12 @@ namespace kcconstruction.Pages.Stroitelstvo
             {
                 new GallerySnippetViewModel
                 {
-                    Name = "Gatchina_fundament",
+                    Title = "Утепленная шведская плита(УШП) в Гатчинской районе",
+                    Name = "ushpvgatchine_str",
                     PathToImagesSm = new List<string>
                     {
-                        "/images/Stroitelstvo/Fundamenty/Gatchina_fundament/FG_001_sm.jpg",
                         "/images/Stroitelstvo/Fundamenty/Gatchina_fundament/FG_004_sm.jpg",
+                        "/images/Stroitelstvo/Fundamenty/Gatchina_fundament/FG_001_sm.jpg",
                         "/images/Stroitelstvo/Fundamenty/Gatchina_fundament/FG_002_sm.jpg",
                         "/images/Stroitelstvo/Fundamenty/Gatchina_fundament/FG_003_sm.jpg",
                         "/images/Stroitelstvo/Fundamenty/Gatchina_fundament/FG_005_sm.jpg",
@@ -30,10 +31,10 @@ namespace kcconstruction.Pages.Stroitelstvo
                     },
                     PathToImages = new List<string>
                     {
+                        "/images/Stroitelstvo/Fundamenty/Gatchina_fundament/FG_004.jpg",
                         "/images/Stroitelstvo/Fundamenty/Gatchina_fundament/FG_001.jpg",
                         "/images/Stroitelstvo/Fundamenty/Gatchina_fundament/FG_002.jpg",
                         "/images/Stroitelstvo/Fundamenty/Gatchina_fundament/FG_003.jpg",
-                        "/images/Stroitelstvo/Fundamenty/Gatchina_fundament/FG_004.jpg",
                         "/images/Stroitelstvo/Fundamenty/Gatchina_fundament/FG_005.jpg",
                         "/images/Stroitelstvo/Fundamenty/Gatchina_fundament/FG_006.jpg"
                     }
@@ -41,14 +42,15 @@ namespace kcconstruction.Pages.Stroitelstvo
                 },
                 new GallerySnippetViewModel
                 {
-                    Name = "Pjatireche_fundament",
+                    Title = "Мелкозаглубленный плитный железобентонный фундамент в Сосново",
+                    Name="melkozagluvlennsosnovo_str",
                     PathToImagesSm = new List<string>
                     {
+                        "/images/Stroitelstvo/Fundamenty/Pjatireche_fundament/FP_005_sm.jpg",
                         "/images/Stroitelstvo/Fundamenty/Pjatireche_fundament/FP_001_sm.jpg",
                         "/images/Stroitelstvo/Fundamenty/Pjatireche_fundament/FP_004_sm.jpg",
                         "/images/Stroitelstvo/Fundamenty/Pjatireche_fundament/FP_002_sm.jpg",
                         "/images/Stroitelstvo/Fundamenty/Pjatireche_fundament/FP_003_sm.jpg",
-                        "/images/Stroitelstvo/Fundamenty/Pjatireche_fundament/FP_005_sm.jpg",
                         "/images/Stroitelstvo/Fundamenty/Pjatireche_fundament/FP_006_sm.jpg",
                         "/images/Stroitelstvo/Fundamenty/Pjatireche_fundament/FP_007_sm.jpg",
                         "/images/Stroitelstvo/Fundamenty/Pjatireche_fundament/FP_008_sm.jpg",
@@ -60,11 +62,11 @@ namespace kcconstruction.Pages.Stroitelstvo
                     },
                     PathToImages = new List<string>
                     {
+                        "/images/Stroitelstvo/Fundamenty/Pjatireche_fundament/FP_005.jpg",
                         "/images/Stroitelstvo/Fundamenty/Pjatireche_fundament/FP_001.jpg",
                         "/images/Stroitelstvo/Fundamenty/Pjatireche_fundament/FP_002.jpg",
                         "/images/Stroitelstvo/Fundamenty/Pjatireche_fundament/FP_003.jpg",
                         "/images/Stroitelstvo/Fundamenty/Pjatireche_fundament/FP_004.jpg",
-                        "/images/Stroitelstvo/Fundamenty/Pjatireche_fundament/FP_005.jpg",
                         "/images/Stroitelstvo/Fundamenty/Pjatireche_fundament/FP_006.jpg",
                         "/images/Stroitelstvo/Fundamenty/Pjatireche_fundament/FP_007.jpg",
                         "/images/Stroitelstvo/Fundamenty/Pjatireche_fundament/FP_008.jpg",

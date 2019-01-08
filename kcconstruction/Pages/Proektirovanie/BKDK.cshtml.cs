@@ -14,7 +14,8 @@ namespace kcconstruction.Pages.Proektirovanie
             {
                 new GallerySnippetViewModel
                 {
-                    Name = "BDKD1",
+                    Title = "Теннисный клуб в Подмосковье с пролетом ферм 55 м",
+                    Name = "tennisclub_prj",
                     PathToImagesSm = new List<string>
                     {
                         "/images/Proektirovanie/BKDK/BKDK1/BKDK1_001_sm.jpg",
@@ -41,7 +42,8 @@ namespace kcconstruction.Pages.Proektirovanie
                 }, 
                 new GallerySnippetViewModel
                 {
-                    Name = "BDKD2",
+                    Title = "Навес для хранения пиломатериалов с гнутоклееными рамами",
+                    Name = "navesgnutokleen_prj",
                     PathToImagesSm = new List<string>
                     {
                         "/images/Proektirovanie/BKDK/BKDK2/BKDK2_001_sm.jpg",
@@ -63,7 +65,8 @@ namespace kcconstruction.Pages.Proektirovanie
                 },
                 new GallerySnippetViewModel
                 {
-                    Name = "BDKD3",
+                    Title= "Производственный цех в Ленинградской области с металлодеревянными фермами",
+                    Name = "proizvodstcex_prj",
                     PathToImagesSm = new List<string>
                     {
                         "/images/Proektirovanie/BKDK/BKDK3/BKDK3_001_sm.jpg",
@@ -83,30 +86,31 @@ namespace kcconstruction.Pages.Proektirovanie
                 },
                 new GallerySnippetViewModel
                 {
-                Name = "BDKD4",
-                PathToImagesSm = new List<string>
-                {
-                    "/images/Proektirovanie/BKDK/BKDK4/BKDK4_001_sm.jpg",
-                    "/images/Proektirovanie/BKDK/BKDK4/BKDK4_004_sm.jpg",
-                    "/images/Proektirovanie/BKDK/BKDK4/BKDK4_002_sm.jpg",
-                    "/images/Proektirovanie/BKDK/BKDK4/BKDK4_003_sm.jpg",
-                    "/images/Proektirovanie/BKDK/BKDK4/BKDK4_005_sm.jpg",
-                    "/images/Proektirovanie/BKDK/BKDK4/BKDK4_006_sm.jpg",
-                    "/images/Proektirovanie/BKDK/BKDK4/BKDK4_007_sm.jpg",
-                    "/images/Proektirovanie/BKDK/BKDK4/BKDK4_008_sm.jpg"
-                },
-                PathToImages = new List<string>
-                {
-                    "/images/Proektirovanie/BKDK/BKDK4/BKDK4_001.jpg",
-                    "/images/Proektirovanie/BKDK/BKDK4/BKDK4_002.jpg",
-                    "/images/Proektirovanie/BKDK/BKDK4/BKDK4_003.jpg",
-                    "/images/Proektirovanie/BKDK/BKDK4/BKDK4_004.jpg",
-                    "/images/Proektirovanie/BKDK/BKDK4/BKDK4_005.jpg",
-                    "/images/Proektirovanie/BKDK/BKDK4/BKDK4_006.jpg",
-                    "/images/Proektirovanie/BKDK/BKDK4/BKDK4_007.jpg",
-                    "/images/Proektirovanie/BKDK/BKDK4/BKDK4_008.jpg"
+                    Title = "\"Ферма-ножницы\" на здании ресторана в Карелии",
+                    Name="fermanpznicy_prj",
+                    PathToImagesSm = new List<string>
+                    {
+                        "/images/Proektirovanie/BKDK/BKDK4/BKDK4_001_sm.jpg",
+                        "/images/Proektirovanie/BKDK/BKDK4/BKDK4_004_sm.jpg",
+                        "/images/Proektirovanie/BKDK/BKDK4/BKDK4_002_sm.jpg",
+                        "/images/Proektirovanie/BKDK/BKDK4/BKDK4_003_sm.jpg",
+                        "/images/Proektirovanie/BKDK/BKDK4/BKDK4_005_sm.jpg",
+                        "/images/Proektirovanie/BKDK/BKDK4/BKDK4_006_sm.jpg",
+                        "/images/Proektirovanie/BKDK/BKDK4/BKDK4_007_sm.jpg",
+                        "/images/Proektirovanie/BKDK/BKDK4/BKDK4_008_sm.jpg"
+                    },
+                    PathToImages = new List<string>
+                    {
+                        "/images/Proektirovanie/BKDK/BKDK4/BKDK4_001.jpg",
+                        "/images/Proektirovanie/BKDK/BKDK4/BKDK4_002.jpg",
+                        "/images/Proektirovanie/BKDK/BKDK4/BKDK4_003.jpg",
+                        "/images/Proektirovanie/BKDK/BKDK4/BKDK4_004.jpg",
+                        "/images/Proektirovanie/BKDK/BKDK4/BKDK4_005.jpg",
+                        "/images/Proektirovanie/BKDK/BKDK4/BKDK4_006.jpg",
+                        "/images/Proektirovanie/BKDK/BKDK4/BKDK4_007.jpg",
+                        "/images/Proektirovanie/BKDK/BKDK4/BKDK4_008.jpg"
+                    }
                 }
-            }
 
             });
         }

@@ -42,8 +42,6 @@ section {
 }
 
 .kc-navbar {
-
-
     background-color: $kcblue !important;
     color: $kclightfont;
 
@@ -52,6 +50,11 @@ section {
             color: $kclightfont !important;
             text-decoration: none;
         }
+    }
+
+    button:active, button:focus {
+        outline: none !important;
+        box-shadow: none;
     }
 
     .kc-navbar-link:hover {
@@ -163,6 +166,11 @@ section {
             border: $kcborderwidth solid $kcblue;
         }
 
+        i {
+            color: $kcblue;
+            font-size: 100px;
+        }
+
         text-align: center;
         margin-bottom: 15px;
         padding: 5px;
@@ -185,6 +193,15 @@ section {
         }
     }
 
+    .kc-fundament-cover {
+        margin-top: 20px;
+    }
+
+    .kc-typical-projects-cover {
+        img {
+            border: none;
+        }
+    }
 
     .kc-text {
         text-indent: 1.5em;
@@ -202,8 +219,8 @@ section {
         color: $kcblue;
         font-weight: 500;
 
-        li{
-            margin-right:10px;
+        li {
+            margin-right: 10px;
         }
     }
 
@@ -314,7 +331,6 @@ section {
     }
 }
 
-
 .kc-projects-page {
     .kc-text {
         text-indent: 1.5em;
@@ -409,7 +425,7 @@ section {
 
     img {
         max-width: 100%;
-        max-height: 750px;
+        max-height: 740px;
     }
 
     #pictureDemonstratorContainer {

@@ -17,13 +17,15 @@
 </head>
 <body>
     @await Component.InvokeAsync("ModalPictureDemonstrator")
-    <div class="container">
-        <div class="container-fluid">
-            @await Component.InvokeAsync("MainMenu")
-            @RenderBody()
-        </div>
-            @await Component.InvokeAsync("Footer")
+@await Component.InvokeAsync("MainMenu")
+<div class="container">
+    <div class="container-fluid">
+
+        @RenderBody()
     </div>
+
+</div>
+@await Component.InvokeAsync("Footer")
 </body>
 </html>
 

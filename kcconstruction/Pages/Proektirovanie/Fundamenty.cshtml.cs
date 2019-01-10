@@ -73,6 +73,38 @@ namespace kcconstruction.Pages.Proektirovanie
                     Sizes = "",
                     Square = "",
                 },
+                new GallerySnippetViewModel
+                {
+                    Title = "Мелкозаглубленный плитный железобентонный фундамент в Сосново",
+                    Name ="melkozaglublennyplotnysosnovo",
+                    PathToImagesSm = new List<string>
+                    {
+                        "/images/Proektirovanie/Fundamenty/PF3/PF3_001_sm.jpg",
+                        "/images/Proektirovanie/Fundamenty/PF3/PF3_004_sm.jpg",
+                        "/images/Proektirovanie/Fundamenty/PF3/PF3_002_sm.jpg",
+                        "/images/Proektirovanie/Fundamenty/PF3/PF3_003_sm.jpg",
+                        "/images/Proektirovanie/Fundamenty/PF3/PF3_005_sm.jpg",
+
+                    },
+                    PathToImages = new List<string>
+                    {
+                        "/images/Proektirovanie/Fundamenty/PF3/PF3_001.jpg",
+                        "/images/Proektirovanie/Fundamenty/PF3/PF3_002.jpg",
+                        "/images/Proektirovanie/Fundamenty/PF3/PF3_003.jpg",
+                        "/images/Proektirovanie/Fundamenty/PF3/PF3_004.jpg",
+                        "/images/Proektirovanie/Fundamenty/PF3/PF3_005.jpg",
+                    },
+                    FullCycleLink = "Stroitelstvo/Fundamenty",
+                    Region = "",
+                    CommonProperties = "",
+                    BuildingType = "",
+                    Technology = "",
+                    FundamentType = "",
+                    Floor = "",
+                    Sizes = "",
+                    Square = "",
+                    IsFullCycled = true,
+                },
             });
         }
     }

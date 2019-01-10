@@ -46,6 +46,7 @@ namespace kcconstruction.Pages.Proektirovanie
                         "/images/Proektirovanie/KarkasnyeDoma/KD1/KD1_009.jpg",
                         "/images/Proektirovanie/KarkasnyeDoma/KD1/KD1_010.jpg"
                     },
+                    FullCycleLink="Stroitelstvo/KarkasnyeDoma",
                     Region = "",
                     CommonProperties = "",
                     BuildingType = "",
@@ -53,12 +54,12 @@ namespace kcconstruction.Pages.Proektirovanie
                     FundamentType = "",
                     Floor = "",
                     Sizes = "",
-                    Square = "",
+                    Square = ""
                 },
                 new GallerySnippetViewModel
                 {
                     Title = "Каркасный дом в стиле \"Фрейм-Хаус\" в Разметелево",
-                    Name = "karkasfreinhausrazmetelevo_prj",
+                    Name = "karkasfreinhausrazmetelevo",
                     PathToImagesSm = new List<string>
                     {
                         "/images/Proektirovanie/KarkasnyeDoma/KD2/KD2_001_sm.jpg",
@@ -79,6 +80,7 @@ namespace kcconstruction.Pages.Proektirovanie
                         "/images/Proektirovanie/KarkasnyeDoma/KD2/KD2_006.jpg",
                         "/images/Proektirovanie/KarkasnyeDoma/KD2/KD2_007.jpg"
                     },
+                    FullCycleLink= "Stroitelstvo/KarkasnyeDoma",
                     Region = "",
                     CommonProperties = "",
                     BuildingType = "",
@@ -87,6 +89,7 @@ namespace kcconstruction.Pages.Proektirovanie
                     Floor = "",
                     Sizes = "",
                     Square = "",
+                    IsFullCycled = true
                 },
                 new GallerySnippetViewModel
                 {

@@ -238,9 +238,11 @@ section {
         text-align: center;
 
         img {
-            max-width: 200px;
+            max-width: 300px;
             height: auto;
-            padding: 15px 5px 0px 5px;
+            padding: 5px;
+            margin:5px;
+            border: $kcborderwidth solid $kcblue;
         }
 
         p span {
@@ -343,8 +345,8 @@ section {
             font-size: 16px;
             color: $kcblue;
             font-weight: 500;
-            text-decoration:underline;
-            margin:15px;
+            text-decoration: underline;
+            margin: 15px;
         }
     }
 
@@ -417,6 +419,23 @@ section {
 
         .kc-description {
             text-align: left;
+
+            .kc-infotext {
+                text-indent: 0em;
+                margin: 0 15px;
+                text-align: justify;
+                color: $kcblue;
+                font-weight: 600;
+
+                span{
+                    margin:0px 15px 0px 0px;
+                }
+            }
+        }
+
+        a {
+            font-size: 24px;
+            color: $kcblue;
         }
     }
 }

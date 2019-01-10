@@ -3,7 +3,7 @@
 
 
 <div class="row kc-main-page kc-gallery-snippet">
-    
+    <a name="#@Model.Name"></a>
     <div class="col-md-12 kc-title">
         <h2 class="kc-h2">@Model.Title</h2>
     </div>
@@ -60,43 +60,56 @@
         <div class="kc-text">
             <p>@Model.CommonProperties</p>
         </div>
-        <div class="kc-text">
+        <div class="kc-text kc-infotext">
             <p><span>Регион строительства:</span>@Model.Region</p>
         </div>
         @if (Model.FundamentType != "")
         {
-            <div class="kc-text">
+            <div class="kc-text kc-infotext">
                 <p><span>Тип объекта/назначение:</span>@Model.BuildingType</p>
             </div>
         }
         @if (Model.FundamentType != "")
         {
-            <div class="kc-text">
+            <div class="kc-text kc-infotext">
                 <p><span>Технология:</span>@Model.Technology</p>
             </div>
         }
         @if (Model.FundamentType != "")
         {
-            <div class="kc-text">
+            <div class="kc-text kc-infotext">
                 <p><span>Тип фундамента:</span>@Model.FundamentType</p>
             </div>
         }
         @if (Model.Floor != "")
         {
-            <div class="kc-text">
+            <div class="kc-text kc-infotext">
                 <p><span>Этажность:</span>@Model.Floor</p>
             </div>
         }
         @if (Model.Sizes != "")
         {
-            <div class="kc-text">
+            <div class="kc-text kc-infotext">
                 <p><span>Габаритные размеры:</span>@Model.Sizes</p>
             </div>
         }
         @if (Model.Square != "")
         {
-            <div class="kc-text">
+            <div class="kc-text kc-infotext">
                 <p><span>Площадь:</span>@Model.Square</p>
+            </div>
+        }
+        @if (Model.IsFullCycled)
+        {
+            <div class="kc-text kc-infotext">
+                @if (@Model.FullCycleLink.Contains("Stroitelstvo"))
+                {
+                    <a href="~/@Model.FullCycleLink#@Model.Name">Реализация проекта</a>
+                }
+                else
+                {
+                    <a href="~/@Model.FullCycleLink#@Model.Name">Проект</a>
+                }
             </div>
         }
     </div>

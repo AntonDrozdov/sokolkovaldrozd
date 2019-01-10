@@ -19,17 +19,18 @@ namespace kcconstruction.Pages.Stroitelstvo
                 new GallerySnippetViewModel
                 {
                     Title = "Каркасный дом в стиле \"Фрейм-Хаус\" в Разметелево",
-                    Name="karkasfreinhausrazmetelevo_str",
+                    Name="karkasfreinhausrazmetelevo",
                     PathToImagesSm = new List<string>
                     {
+                        "/images/Stroitelstvo/KarkasnyeDoma/Razmetelevo_karkas/IGDR_013_sm.jpg",
                         "/images/Stroitelstvo/KarkasnyeDoma/Razmetelevo_karkas/IGDR_004_sm.jpg",
                         "/images/Stroitelstvo/KarkasnyeDoma/Razmetelevo_karkas/IGDR_001_sm.jpg",
-                        "/images/Stroitelstvo/KarkasnyeDoma/Razmetelevo_karkas/IGDR_002_sm.jpg",
+                        "/images/Stroitelstvo/KarkasnyeDoma/Razmetelevo_karkas/IGDR_008_sm.jpg",
                         "/images/Stroitelstvo/KarkasnyeDoma/Razmetelevo_karkas/IGDR_003_sm.jpg",
                         "/images/Stroitelstvo/KarkasnyeDoma/Razmetelevo_karkas/IGDR_005_sm.jpg",
                         "/images/Stroitelstvo/KarkasnyeDoma/Razmetelevo_karkas/IGDR_006_sm.jpg",
                         "/images/Stroitelstvo/KarkasnyeDoma/Razmetelevo_karkas/IGDR_010_sm.jpg",
-                        "/images/Stroitelstvo/KarkasnyeDoma/Razmetelevo_karkas/IGDR_008_sm.jpg",
+                        "/images/Stroitelstvo/KarkasnyeDoma/Razmetelevo_karkas/IGDR_002_sm.jpg",
                         "/images/Stroitelstvo/KarkasnyeDoma/Razmetelevo_karkas/IGDR_012_sm.jpg",
                         "/images/Stroitelstvo/KarkasnyeDoma/Razmetelevo_karkas/IGDR_007_sm.jpg",
                         "/images/Stroitelstvo/KarkasnyeDoma/Razmetelevo_karkas/IGDR_011_sm.jpg",
@@ -37,6 +38,7 @@ namespace kcconstruction.Pages.Stroitelstvo
                     },
                     PathToImages = new List<string>
                     {
+                        "/images/Stroitelstvo/KarkasnyeDoma/Razmetelevo_karkas/IGDR_013.jpg",
                         "/images/Stroitelstvo/KarkasnyeDoma/Razmetelevo_karkas/IGDR_004.jpg",
                         "/images/Stroitelstvo/KarkasnyeDoma/Razmetelevo_karkas/IGDR_001.jpg",
                         "/images/Stroitelstvo/KarkasnyeDoma/Razmetelevo_karkas/IGDR_002.jpg",
@@ -48,8 +50,9 @@ namespace kcconstruction.Pages.Stroitelstvo
                         "/images/Stroitelstvo/KarkasnyeDoma/Razmetelevo_karkas/IGDR_009.jpg",
                         "/images/Stroitelstvo/KarkasnyeDoma/Razmetelevo_karkas/IGDR_007.jpg",
                         "/images/Stroitelstvo/KarkasnyeDoma/Razmetelevo_karkas/IGDR_011.jpg",
-                        "/images/Stroitelstvo/KarkasnyeDoma/Razmetelevo_karkas/IGDR_012.jpg"
+                        "/images/Stroitelstvo/KarkasnyeDoma/Razmetelevo_karkas/IGDR_012.jpg",
                     },
+                    FullCycleLink = "Proektirovanie/KarkasnyeDoma",
                     Region = "Ленинградская область",
                     CommonProperties = "Проект индивидуального жилого дома в стиле Timber Frame.\r\nДанный проект является уникальным по своей архитектуре и техноголии.\r\nБыли применены конструкции из гнутоклееных деревянных балок,\r\nизготовленных на самом современном производстве в России.\r\nНа навесе, прилегающем к дому, реальзованы деревянные фермы на подвижных опорах. В индивидуальном жилом строительстве подобное решение - большая редкость. ",
                     BuildingType = "Индивидуальный жилой дом",
@@ -57,7 +60,9 @@ namespace kcconstruction.Pages.Stroitelstvo
                     FundamentType = "Монолитная железобетонная плита с утеплением по периметру.",
                     Floor = "2х этажный",
                     Sizes = "18х11м ",
-                    Square = "240м2"
+                    Square = "240м2",
+                    IsFullCycled = true
+
                 },
                 new GallerySnippetViewModel
                 {

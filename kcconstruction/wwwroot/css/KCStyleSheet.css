@@ -160,9 +160,11 @@ section {
   font-weight: 500;
   color: #0a5098; }
   .kc-contacts-page .kc-person img {
-    max-width: 200px;
+    max-width: 300px;
     height: auto;
-    padding: 15px 5px 0px 5px; }
+    padding: 5px;
+    margin: 5px;
+    border: 2px solid #0a5098; }
   .kc-contacts-page .kc-person p span {
     font-weight: 600;
     font-size: 20px; }
@@ -282,6 +284,18 @@ section {
 
 .kc-projects-page .kc-gallery-snippet .kc-description {
   text-align: left; }
+  .kc-projects-page .kc-gallery-snippet .kc-description .kc-infotext {
+    text-indent: 0em;
+    margin: 0 15px;
+    text-align: justify;
+    color: #0a5098;
+    font-weight: 600; }
+    .kc-projects-page .kc-gallery-snippet .kc-description .kc-infotext span {
+      margin: 0px 15px 0px 0px; }
+
+.kc-projects-page .kc-gallery-snippet a {
+  font-size: 24px;
+  color: #0a5098; }
 
 .kc-pictureDemonstrator {
   width: 90%;

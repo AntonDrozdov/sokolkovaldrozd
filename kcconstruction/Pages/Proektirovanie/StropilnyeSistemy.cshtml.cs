@@ -76,7 +76,40 @@ namespace kcconstruction.Pages.Proektirovanie
                     Floor = "",
                     Sizes = "",
                     Square = "",
-                }
+                },
+                new GallerySnippetViewModel
+                {
+                    Title = "Мансарда на ул. Казанская в Санкт-Петербурге",
+                    Name = "mansardakazanskayaspb_prj",
+                    PathToImagesSm = new List<string>
+                    {
+                        "/images/Proektirovanie/StropilnyeSistemy/SK3/SK3_001_sm.jpg",
+                        "/images/Proektirovanie/StropilnyeSistemy/SK3/SK3_004_sm.jpg",
+                        "/images/Proektirovanie/StropilnyeSistemy/SK3/SK3_002_sm.jpg",
+                        "/images/Proektirovanie/StropilnyeSistemy/SK3/SK3_003_sm.jpg",
+                        "/images/Proektirovanie/StropilnyeSistemy/SK3/SK3_005_sm.jpg",
+                        "/images/Proektirovanie/StropilnyeSistemy/SK3/SK3_006_sm.jpg",
+                        "/images/Proektirovanie/StropilnyeSistemy/SK3/SK3_007_sm.jpg",
+                    },
+                    PathToImages = new List<string>
+                    {
+                        "/images/Proektirovanie/StropilnyeSistemy/SK3/SK3_001.jpg",
+                        "/images/Proektirovanie/StropilnyeSistemy/SK3/SK3_002.jpg",
+                        "/images/Proektirovanie/StropilnyeSistemy/SK3/SK3_003.jpg",
+                        "/images/Proektirovanie/StropilnyeSistemy/SK3/SK3_004.jpg",
+                        "/images/Proektirovanie/StropilnyeSistemy/SK3/SK3_005.jpg",
+                        "/images/Proektirovanie/StropilnyeSistemy/SK3/SK3_006.jpg",
+                        "/images/Proektirovanie/StropilnyeSistemy/SK3/SK3_007.jpg",
+                    },
+                    Region = "",
+                    CommonProperties = "",
+                    BuildingType = "",
+                    Technology = "",
+                    FundamentType = "",
+                    Floor = "",
+                    Sizes = "",
+                    Square = "",
+                },
             });
         }
     }

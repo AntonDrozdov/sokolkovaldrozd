@@ -179,7 +179,6 @@ namespace kcconstruction.Pages.Proektirovanie
                     Sizes = "",
                     Square = "",
                 }
-
             });
         }
     }

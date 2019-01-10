@@ -37,7 +37,15 @@ namespace kcconstruction.Pages.Proektirovanie
                         "/images/Proektirovanie/BKDK/BKDK1/BKDK1_006.jpg",
                         "/images/Proektirovanie/BKDK/BKDK1/BKDK1_007.jpg",
                         "/images/Proektirovanie/BKDK/BKDK1/BKDK1_008.jpg"
-                    }
+                    },
+                    Region = "",
+                    CommonProperties = "",
+                    BuildingType = "",
+                    Technology = "",
+                    FundamentType = "",
+                    Floor = "",
+                    Sizes = "",
+                    Square = "",
 
                 }, 
                 new GallerySnippetViewModel
@@ -61,7 +69,15 @@ namespace kcconstruction.Pages.Proektirovanie
                         "/images/Proektirovanie/BKDK/BKDK2/BKDK2_004.jpg",
                         "/images/Proektirovanie/BKDK/BKDK2/BKDK2_005.jpg",
                         "/images/Proektirovanie/BKDK/BKDK2/BKDK2_006.jpg"
-                    }
+                    },
+                    Region = "",
+                    CommonProperties = "",
+                    BuildingType = "",
+                    Technology = "",
+                    FundamentType = "",
+                    Floor = "",
+                    Sizes = "",
+                    Square = "",
                 },
                 new GallerySnippetViewModel
                 {
@@ -82,7 +98,15 @@ namespace kcconstruction.Pages.Proektirovanie
                         "/images/Proektirovanie/BKDK/BKDK3/BKDK3_003.jpg",
                         "/images/Proektirovanie/BKDK/BKDK3/BKDK3_004.jpg",
                         "/images/Proektirovanie/BKDK/BKDK3/BKDK3_005.jpg"
-                    }
+                    },
+                    Region = "",
+                    CommonProperties = "",
+                    BuildingType = "",
+                    Technology = "",
+                    FundamentType = "",
+                    Floor = "",
+                    Sizes = "",
+                    Square = "",
                 },
                 new GallerySnippetViewModel
                 {
@@ -109,7 +133,15 @@ namespace kcconstruction.Pages.Proektirovanie
                         "/images/Proektirovanie/BKDK/BKDK4/BKDK4_006.jpg",
                         "/images/Proektirovanie/BKDK/BKDK4/BKDK4_007.jpg",
                         "/images/Proektirovanie/BKDK/BKDK4/BKDK4_008.jpg"
-                    }
+                    },
+                    Region = "",
+                    CommonProperties = "",
+                    BuildingType = "",
+                    Technology = "",
+                    FundamentType = "",
+                    Floor = "",
+                    Sizes = "",
+                    Square = "",
                 }
 
             });

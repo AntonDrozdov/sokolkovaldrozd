@@ -58,7 +58,8 @@ section {
         margin-bottom: 15px; }
       .kc-footer .kc-footer-contacts .kc-footer-contacts-data p span {
         font-weight: 600;
-        font-size: 20px; }
+        font-size: 20px;
+        margin-top: 5px; }
   .kc-footer h5 {
     font-size: 26px;
     text-decoration: underline;
@@ -224,12 +225,17 @@ section {
     box-shadow: none !important; }
 
 .kc-projects-page .kc-text {
-  text-indent: 1.5em;
   margin: 0 15px;
-  text-align: justify;
-  font-size: 20px;
+  text-align: unset !important;
+  font-size: 16px;
   color: #0a5098;
   font-weight: 600; }
+  .kc-projects-page .kc-text span {
+    font-size: 16px;
+    color: #0a5098;
+    font-weight: 500;
+    text-decoration: underline;
+    margin: 15px; }
 
 .kc-projects-page .kc-gallery-snippet .kc-h2 {
   margin-top: 30px; }

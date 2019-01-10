@@ -34,7 +34,15 @@ namespace kcconstruction.Pages.Proektirovanie
                         "/images/Proektirovanie/Fundamenty/PF1/PF1_004.jpg",
                         "/images/Proektirovanie/Fundamenty/PF1/PF1_002.jpg",
                         "/images/Proektirovanie/Fundamenty/PF1/PF1_003.jpg"
-                    }
+                    },
+                    Region = "",
+                    CommonProperties = "",
+                    BuildingType = "",
+                    Technology = "",
+                    FundamentType = "",
+                    Floor = "",
+                    Sizes = "",
+                    Square = "",
 
                 },
                 new GallerySnippetViewModel
@@ -55,7 +63,15 @@ namespace kcconstruction.Pages.Proektirovanie
                         "/images/Proektirovanie/Fundamenty/PF2/PF2_002.jpg",
                         "/images/Proektirovanie/Fundamenty/PF2/PF2_003.jpg",
                         "/images/Proektirovanie/Fundamenty/PF2/PF2_004.jpg",
-                    }
+                    },
+                    Region = "",
+                    CommonProperties = "",
+                    BuildingType = "",
+                    Technology = "",
+                    FundamentType = "",
+                    Floor = "",
+                    Sizes = "",
+                    Square = "",
                 },
             });
         }

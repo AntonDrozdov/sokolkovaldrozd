@@ -47,7 +47,15 @@ namespace kcconstruction.Pages.Stroitelstvo
                         "/images/Stroitelstvo/StropilnyeSistemy/Kirovsk_strop/GK_009.jpg",
                         "/images/Stroitelstvo/StropilnyeSistemy/Kirovsk_strop/GK_010.jpg",
                         "/images/Stroitelstvo/StropilnyeSistemy/Kirovsk_strop/GK_011.jpg"
-                    }
+                    },
+                    Region = "",
+                    CommonProperties = "",
+                    BuildingType = "",
+                    Technology = "",
+                    FundamentType = "",
+                    Floor = "",
+                    Sizes = "",
+                    Square = "",
 
                 }
             });

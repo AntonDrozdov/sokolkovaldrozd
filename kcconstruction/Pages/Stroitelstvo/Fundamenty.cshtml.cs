@@ -37,7 +37,15 @@ namespace kcconstruction.Pages.Stroitelstvo
                         "/images/Stroitelstvo/Fundamenty/Gatchina_fundament/FG_003.jpg",
                         "/images/Stroitelstvo/Fundamenty/Gatchina_fundament/FG_005.jpg",
                         "/images/Stroitelstvo/Fundamenty/Gatchina_fundament/FG_006.jpg"
-                    }
+                    },
+                    Region = "",
+                    CommonProperties = "",
+                    BuildingType = "",
+                    Technology = "",
+                    FundamentType = "",
+                    Floor = "",
+                    Sizes = "",
+                    Square = "",
 
                 },
                 new GallerySnippetViewModel
@@ -75,7 +83,15 @@ namespace kcconstruction.Pages.Stroitelstvo
                         "/images/Stroitelstvo/Fundamenty/Pjatireche_fundament/FP_011.jpg",
                         "/images/Stroitelstvo/Fundamenty/Pjatireche_fundament/FP_012.jpg",
                         "/images/Stroitelstvo/Fundamenty/Pjatireche_fundament/FP_013.jpg"
-                    }
+                    },
+                    Region = "",
+                    CommonProperties = "",
+                    BuildingType = "",
+                    Technology = "",
+                    FundamentType = "",
+                    Floor = "",
+                    Sizes = "",
+                    Square = "",
                 }
 
             });

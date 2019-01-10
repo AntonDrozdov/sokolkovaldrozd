@@ -11,5 +11,13 @@ namespace kcconstruction.ViewModels
         public string Name { get; set; }
         public List<string> PathToImagesSm { get; set; }
         public List<string> PathToImages { get; set; }
+        public string Region { get; set; }
+        public string CommonProperties { get; set; }
+        public string BuildingType { get; set; }
+        public string Technology { get; set; }
+        public string FundamentType { get; set; }
+        public string Floor { get; set; }
+        public string Sizes { get; set; }
+        public string Square { get; set; }
     }
 }

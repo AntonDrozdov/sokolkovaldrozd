@@ -45,7 +45,15 @@ namespace kcconstruction.Pages.Proektirovanie
                         "/images/Proektirovanie/KarkasnyeDoma/KD1/KD1_008.jpg",
                         "/images/Proektirovanie/KarkasnyeDoma/KD1/KD1_009.jpg",
                         "/images/Proektirovanie/KarkasnyeDoma/KD1/KD1_010.jpg"
-                    }
+                    },
+                    Region = "",
+                    CommonProperties = "",
+                    BuildingType = "",
+                    Technology = "",
+                    FundamentType = "",
+                    Floor = "",
+                    Sizes = "",
+                    Square = "",
                 },
                 new GallerySnippetViewModel
                 {
@@ -70,7 +78,15 @@ namespace kcconstruction.Pages.Proektirovanie
                         "/images/Proektirovanie/KarkasnyeDoma/KD2/KD2_005.jpg",
                         "/images/Proektirovanie/KarkasnyeDoma/KD2/KD2_006.jpg",
                         "/images/Proektirovanie/KarkasnyeDoma/KD2/KD2_007.jpg"
-                    }
+                    },
+                    Region = "",
+                    CommonProperties = "",
+                    BuildingType = "",
+                    Technology = "",
+                    FundamentType = "",
+                    Floor = "",
+                    Sizes = "",
+                    Square = "",
                 },
                 new GallerySnippetViewModel
                 {
@@ -95,7 +111,15 @@ namespace kcconstruction.Pages.Proektirovanie
                         "/images/Proektirovanie/KarkasnyeDoma/KD3/KD3_005.jpg",
                         "/images/Proektirovanie/KarkasnyeDoma/KD3/KD3_006.jpg",
                         "/images/Proektirovanie/KarkasnyeDoma/KD3/KD3_007.jpg"
-                    }
+                    },
+                    Region = "",
+                    CommonProperties = "",
+                    BuildingType = "",
+                    Technology = "",
+                    FundamentType = "",
+                    Floor = "",
+                    Sizes = "",
+                    Square = "",
                 },
             });
         }

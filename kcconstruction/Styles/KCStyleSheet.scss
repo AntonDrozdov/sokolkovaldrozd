@@ -84,6 +84,7 @@ section {
             p span {
                 font-weight: 600;
                 font-size: 20px;
+                margin-top:5px;
             }
 
             line-height: 1em;
@@ -212,7 +213,6 @@ section {
         font-weight: 600;
     }
 
-
     .kc-ul-text {
         text-align: justify;
         font-size: 17px;
@@ -333,12 +333,19 @@ section {
 
 .kc-projects-page {
     .kc-text {
-        text-indent: 1.5em;
         margin: 0 15px;
-        text-align: justify;
-        font-size: 20px;
+        text-align: unset !important;
+        font-size: 16px;
         color: $kcblue;
         font-weight: 600;
+
+        span {
+            font-size: 16px;
+            color: $kcblue;
+            font-weight: 500;
+            text-decoration:underline;
+            margin:15px;
+        }
     }
 
     .kc-gallery-snippet {

@@ -49,8 +49,15 @@ namespace kcconstruction.Pages.Stroitelstvo
                         "/images/Stroitelstvo/KarkasnyeDoma/Razmetelevo_karkas/IGDR_007.jpg",
                         "/images/Stroitelstvo/KarkasnyeDoma/Razmetelevo_karkas/IGDR_011.jpg",
                         "/images/Stroitelstvo/KarkasnyeDoma/Razmetelevo_karkas/IGDR_012.jpg"
-                    }
-
+                    },
+                    Region = "Ленинградская область",
+                    CommonProperties = "Проект индивидуального жилого дома в стиле Timber Frame.\r\nДанный проект является уникальным по своей архитектуре и техноголии.\r\nБыли применены конструкции из гнутоклееных деревянных балок,\r\nизготовленных на самом современном производстве в России.\r\nНа навесе, прилегающем к дому, реальзованы деревянные фермы на подвижных опорах. В индивидуальном жилом строительстве подобное решение - большая редкость. ",
+                    BuildingType = "Индивидуальный жилой дом",
+                    Technology = "Деревянный каркас с утеплением стен 250мм и кровли 300мм. Тип кровли - мягкая черепица Shinglas. Наружная отделка стен - имитация брус. Отделка цоколя - натуральный камень.",
+                    FundamentType = "Монолитная железобетонная плита с утеплением по периметру.",
+                    Floor = "2х этажный",
+                    Sizes = "18х11м ",
+                    Square = "240м2"
                 },
                 new GallerySnippetViewModel
                 {
@@ -87,7 +94,15 @@ namespace kcconstruction.Pages.Stroitelstvo
                         "/images/Stroitelstvo/KarkasnyeDoma/Sosnovo_karkas/IGDS_021.jpg",
                         "/images/Stroitelstvo/KarkasnyeDoma/Sosnovo_karkas/IGDS_022.jpg",
                         "/images/Stroitelstvo/KarkasnyeDoma/Sosnovo_karkas/IGDS_024.jpg"
-                    }
+                    },
+                    Region = "",
+                    CommonProperties = "",
+                    BuildingType = "",
+                    Technology = "",
+                    FundamentType = "",
+                    Floor = "",
+                    Sizes = "",
+                    Square = "",
                 },
                 new GallerySnippetViewModel
                 {
@@ -113,7 +128,15 @@ namespace kcconstruction.Pages.Stroitelstvo
                         "/images/Stroitelstvo/KarkasnyeDoma/Vyborg_karkas/IGDV_005.jpg",
                         "/images/Stroitelstvo/KarkasnyeDoma/Vyborg_karkas/IGDV_006.jpg",
                         "/images/Stroitelstvo/KarkasnyeDoma/Vyborg_karkas/IGDV_007.jpg"
-                    }
+                    },
+                    Region = "",
+                    CommonProperties = "",
+                    BuildingType = "",
+                    Technology = "",
+                    FundamentType = "",
+                    Floor = "",
+                    Sizes = "",
+                    Square = "",
                 }
             });
         }

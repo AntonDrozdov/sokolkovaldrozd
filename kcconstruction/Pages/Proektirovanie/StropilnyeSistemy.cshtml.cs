@@ -35,7 +35,15 @@ namespace kcconstruction.Pages.Proektirovanie
                         "/images/Proektirovanie/StropilnyeSistemy/SK1/SK1_003.jpg",
                         "/images/Proektirovanie/StropilnyeSistemy/SK1/SK1_004.jpg",
                         "/images/Proektirovanie/StropilnyeSistemy/SK1/SK1_005.jpg"
-                    }
+                    },
+                    Region = "",
+                    CommonProperties = "",
+                    BuildingType = "",
+                    Technology = "",
+                    FundamentType = "",
+                    Floor = "",
+                    Sizes = "",
+                    Square = "",
 
                 },
                 new GallerySnippetViewModel
@@ -59,8 +67,15 @@ namespace kcconstruction.Pages.Proektirovanie
                         "/images/Proektirovanie/StropilnyeSistemy/SK2/SK2_004.jpg",
                         "/images/Proektirovanie/StropilnyeSistemy/SK2/SK2_005.jpg",
                         "/images/Proektirovanie/StropilnyeSistemy/SK2/SK2_006.jpg"
-                    }
-
+                    },
+                    Region = "",
+                    CommonProperties = "",
+                    BuildingType = "",
+                    Technology = "",
+                    FundamentType = "",
+                    Floor = "",
+                    Sizes = "",
+                    Square = "",
                 }
             });
         }

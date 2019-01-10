@@ -61,7 +61,15 @@ namespace kcconstruction.Pages.Proektirovanie
                         "/images/Proektirovanie/FahverkovyeDoma/FD2/FD2_005.jpg",
                         "/images/Proektirovanie/FahverkovyeDoma/FD2/FD2_006.jpg",
                         "/images/Proektirovanie/FahverkovyeDoma/FD2/FD2_007.jpg"
-                    }
+                    },
+                    Region = "",
+                    CommonProperties = "",
+                    BuildingType = "",
+                    Technology = "",
+                    FundamentType = "",
+                    Floor = "",
+                    Sizes = "",
+                    Square = "",
                 },
                 new GallerySnippetViewModel
                 {
@@ -90,7 +98,15 @@ namespace kcconstruction.Pages.Proektirovanie
                         "/images/Proektirovanie/FahverkovyeDoma/FD3/FD3_007.jpg",
                         "/images/Proektirovanie/FahverkovyeDoma/FD3/FD3_008.jpg",
                         "/images/Proektirovanie/FahverkovyeDoma/FD3/FD3_009.jpg"
-                    }
+                    },
+                    Region = "",
+                    CommonProperties = "",
+                    BuildingType = "",
+                    Technology = "",
+                    FundamentType = "",
+                    Floor = "",
+                    Sizes = "",
+                    Square = "",
                 },
                 new GallerySnippetViewModel
                 {
@@ -117,7 +133,15 @@ namespace kcconstruction.Pages.Proektirovanie
                         "/images/Proektirovanie/FahverkovyeDoma/FD4/FD4_006.jpg",
                         "/images/Proektirovanie/FahverkovyeDoma/FD4/FD4_007.jpg",
                         "/images/Proektirovanie/FahverkovyeDoma/FD4/FD4_008.jpg"
-                    }
+                    },
+                    Region = "",
+                    CommonProperties = "",
+                    BuildingType = "",
+                    Technology = "",
+                    FundamentType = "",
+                    Floor = "",
+                    Sizes = "",
+                    Square = "",
 
                 },
                 new GallerySnippetViewModel
@@ -145,8 +169,16 @@ namespace kcconstruction.Pages.Proektirovanie
                         "/images/Proektirovanie/FahverkovyeDoma/FD5/FD5_006.jpg",
                         "/images/Proektirovanie/FahverkovyeDoma/FD5/FD5_007.jpg",
                         "/images/Proektirovanie/FahverkovyeDoma/FD5/FD5_008.jpg"
-                    }
-            }
+                    },
+                    Region = "",
+                    CommonProperties = "",
+                    BuildingType = "",
+                    Technology = "",
+                    FundamentType = "",
+                    Floor = "",
+                    Sizes = "",
+                    Square = "",
+                }
 
             });
         }

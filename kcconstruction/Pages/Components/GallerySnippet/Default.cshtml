@@ -57,7 +57,48 @@
     </div>
     
     <div class="col-md-6 kc-description">
-        <h5 class="kc-h3">Характеристики и особености сооружения</h5>
+        <div class="kc-text">
+            <p>@Model.CommonProperties</p>
+        </div>
+        <div class="kc-text">
+            <p><span>Регион строительства:</span>@Model.Region</p>
+        </div>
+        @if (Model.FundamentType != "")
+        {
+            <div class="kc-text">
+                <p><span>Тип объекта/назначение:</span>@Model.BuildingType</p>
+            </div>
+        }
+        @if (Model.FundamentType != "")
+        {
+            <div class="kc-text">
+                <p><span>Технология:</span>@Model.Technology</p>
+            </div>
+        }
+        @if (Model.FundamentType != "")
+        {
+            <div class="kc-text">
+                <p><span>Тип фундамента:</span>@Model.FundamentType</p>
+            </div>
+        }
+        @if (Model.Floor != "")
+        {
+            <div class="kc-text">
+                <p><span>Этажность:</span>@Model.Floor</p>
+            </div>
+        }
+        @if (Model.Sizes != "")
+        {
+            <div class="kc-text">
+                <p><span>Габаритные размеры:</span>@Model.Sizes</p>
+            </div>
+        }
+        @if (Model.Square != "")
+        {
+            <div class="kc-text">
+                <p><span>Площадь:</span>@Model.Square</p>
+            </div>
+        }
     </div>
 </div>
 

@@ -17,6 +17,20 @@ body {
 .container-fluid {
   padding-left: 0px;
   padding-right: 0px; }
+  .container-fluid .kc-bigmainlink {
+    border-bottom: 2px solid #ffffff;
+    border-color: transparent;
+    padding-bottom: 10px; }
+  .container-fluid .kc-bigmainlink:hover {
+    border-bottom: 2px solid #0a5098; }
+  .container-fluid .kc-bigmainlink a:hover {
+    text-decoration: none; }
+  .container-fluid i {
+    font-size: 30px;
+    float: right; }
+  .container-fluid h2 {
+    margin-top: 15px;
+    margin-bottom: 10px; }
 
 section {
   padding: 60px 0;
@@ -182,7 +196,7 @@ section {
 
 .kc-contacts-page .kc-contacts-feedback-button {
   border: 2px solid #0a5098;
-  margin: 0px 0px 25px 0px;
+  margin: 0px 10px 25px 10px;
   color: #0a5098;
   font-weight: 500;
   border-radius: 0; }

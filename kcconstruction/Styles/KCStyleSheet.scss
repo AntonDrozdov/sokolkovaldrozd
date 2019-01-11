@@ -29,6 +29,30 @@ body {
 .container-fluid {
     padding-left: 0px;
     padding-right: 0px;
+
+    .kc-bigmainlink {
+        border-bottom: $kcborderwidth solid $kclightfont;
+        border-color: transparent;
+        padding-bottom: 10px;
+    }
+
+    .kc-bigmainlink:hover {
+        border-bottom: $kcborderwidth solid $kcblue;
+    }
+
+    .kc-bigmainlink a:hover {
+        text-decoration: none;
+    }
+
+    i {
+        font-size: 30px;
+        float: right;
+    }
+
+    h2 {
+        margin-top: 15px;
+        margin-bottom: 10px;
+    }
 }
 
 section {
@@ -241,7 +265,7 @@ section {
             max-width: 300px;
             height: auto;
             padding: 5px;
-            margin:5px;
+            margin: 5px;
             border: $kcborderwidth solid $kcblue;
         }
 
@@ -272,7 +296,7 @@ section {
 
     .kc-contacts-feedback-button {
         border: $kcborderwidth solid $kcblue;
-        margin: 0px 0px 25px 0px;
+        margin: 0px 10px 25px 10px;
         color: $kcblue;
         font-weight: 500;
         border-radius: 0;

@@ -25,9 +25,6 @@ body {
     border-bottom: 2px solid #0a5098; }
   .container-fluid .kc-bigmainlink a:hover {
     text-decoration: none; }
-  .container-fluid i {
-    font-size: 30px;
-    float: right; }
   .container-fluid h2 {
     margin-top: 15px;
     margin-bottom: 10px; }
@@ -125,8 +122,11 @@ section {
     padding: 5px;
     border: 2px solid #0a5098; }
   .kc-main-page .kc-cover-section i {
+    float: none;
     color: #0a5098;
     font-size: 100px; }
+  .kc-main-page .kc-cover-section .kc-text {
+    text-align: unset; }
   .kc-main-page .kc-cover-section a {
     color: #0a5098 !important;
     text-decoration: none;
@@ -152,12 +152,16 @@ section {
   font-size: 20px;
   color: #0a5098;
   font-weight: 600; }
+  .kc-main-page .kc-text i {
+    font-size: 30px;
+    float: right;
+    margin-right: 10px; }
 
 .kc-main-page .kc-ul-text {
   text-align: justify;
   font-size: 17px;
   color: #0a5098;
-  font-weight: 500; }
+  font-weight: 600; }
   .kc-main-page .kc-ul-text li {
     margin-right: 10px; }
 
@@ -216,8 +220,20 @@ section {
 .kc-feedback-form {
   color: #0a5098;
   font-weight: 500; }
+  .kc-feedback-form .logopic {
+    text-align: center; }
+    .kc-feedback-form .logopic img {
+      margin-left: 60px;
+      max-height: 40px; }
   .kc-feedback-form .kc-feedback-form-button {
+    border: 2px solid #0a5098;
+    color: #0a5098;
+    font-weight: 500;
+    border-radius: 0;
     margin-bottom: 10px; }
+  .kc-feedback-form .kc-feedback-form-button:hover {
+    background-color: #0a5098;
+    color: #ffffff; }
   .kc-feedback-form input, .kc-feedback-form textarea {
     border: 1px solid #0a5098;
     border-radius: 0px; }
@@ -264,6 +280,8 @@ section {
     margin: 2px; }
   .kc-projects-page .kc-gallery-snippet .kc-images .kc-main-gallery-image {
     width: 95%; }
+  .kc-projects-page .kc-gallery-snippet .kc-images .kc-main-gallery-image:hover {
+    cursor: pointer; }
   .kc-projects-page .kc-gallery-snippet .kc-images .kc-thumb-gallery-image {
     width: 95%;
     padding: 1px;
@@ -307,9 +325,23 @@ section {
     .kc-projects-page .kc-gallery-snippet .kc-description .kc-infotext span {
       margin: 0px 15px 0px 0px; }
 
-.kc-projects-page .kc-gallery-snippet a {
-  font-size: 24px;
-  color: #0a5098; }
+.kc-projects-page .kc-gallery-snippet .kc-cycle-link-wrapper button {
+  border: 2px solid #0a5098;
+  margin: 0px 10px 25px 0px;
+  color: #0a5098;
+  font-weight: 500;
+  border-radius: 0; }
+
+.kc-projects-page .kc-gallery-snippet .kc-cycle-link-wrapper button:hover {
+  background-color: #0a5098;
+  color: #ffffff; }
+
+.kc-projects-page .kc-gallery-snippet .kc-cycle-link-wrapper button:active, .kc-projects-page .kc-gallery-snippet .kc-cycle-link-wrapper button:focus {
+  outline: none !important;
+  box-shadow: none !important; }
+
+.kc-projects-page .kc-gallery-snippet .kc-cycle-link-wrapper i {
+  margin-right: 10px; }
 
 .kc-pictureDemonstrator {
   width: 90%;
@@ -319,9 +351,14 @@ section {
   overflow-y: unset;
   padding-right: 15px !important;
   text-align: center; }
+  .kc-pictureDemonstrator i {
+    float: none; }
   .kc-pictureDemonstrator img {
     max-width: 100%;
-    max-height: 740px; }
+    max-height: 680px; }
+  .kc-pictureDemonstrator .logopic img {
+    margin-left: 60px;
+    max-height: 40px; }
   .kc-pictureDemonstrator #pictureDemonstratorContainer {
     text-align: center; }
     .kc-pictureDemonstrator #pictureDemonstratorContainer table {

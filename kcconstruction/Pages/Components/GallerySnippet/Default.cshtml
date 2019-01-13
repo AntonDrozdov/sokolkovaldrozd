@@ -3,11 +3,13 @@
 
 
 <div class="row kc-main-page kc-gallery-snippet">
-    <a name="#@Model.Name"></a>
     <div class="col-md-12 kc-title">
-        <h2 class="kc-h2">@Model.Title</h2>
+        @{
+            var anchorName = Model.Name + "Anchor";
+        }
+        <h2 id="@anchorName" class="kc-h2">@Model.Title</h2>
     </div>
-
+    
     <div class="row col-md-6 kc-images justify-content-center no-gutters">
         @{
             var tmpStringBuilder = new StringBuilder();
@@ -101,15 +103,28 @@
         }
         @if (Model.IsFullCycled)
         {
-            <div class="kc-text kc-infotext">
-                @if (@Model.FullCycleLink.Contains("Stroitelstvo"))
-                {
-                    <a href="~/@Model.FullCycleLink#@Model.Name">Реализация проекта</a>
-                }
-                else
-                {
-                    <a href="~/@Model.FullCycleLink#@Model.Name">Проект</a>
-                }
+            <div class="kc-text kc-infotext">                    
+                <div class="kc-cycle-link-wrapper">
+                        @if (@Model.FullCycleLink.Contains("Stroitelstvo"))
+                        {
+                            var hrefValue = "/"+ Model.FullCycleLink+"#"+ Model.Name + "Anchor";
+                            <button onclick="window.location.href='@hrefValue'"  class="btn btn-outline-primary btn-lg btn-block ">
+                                Реализация проекта
+                                <i class="fas fa-angle-double-right"></i>
+                                <i class="fas fa-landmark"></i>
+                            </button>
+                        }
+                        else
+                        {
+                            var hrefValue = "/"+ Model.FullCycleLink+"#"+ Model.Name + "Anchor";
+                            <button onclick="window.location.href='@hrefValue'"  class="btn btn-outline-primary btn-lg btn-block ">
+                                Проект
+                                <i class="fas fa-angle-double-right"></i>
+                                <i class="fas fa-pencil-alt"></i>
+                            </button>
+
+                        }
+                </div>
             </div>
         }
     </div>

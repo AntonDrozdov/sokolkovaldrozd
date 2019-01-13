@@ -44,11 +44,6 @@ body {
         text-decoration: none;
     }
 
-    i {
-        font-size: 30px;
-        float: right;
-    }
-
     h2 {
         margin-top: 15px;
         margin-bottom: 10px;
@@ -192,6 +187,7 @@ section {
         }
 
         i {
+            float: none;
             color: $kcblue;
             font-size: 100px;
         }
@@ -199,6 +195,10 @@ section {
         text-align: center;
         margin-bottom: 15px;
         padding: 5px;
+
+        .kc-text {
+            text-align: unset;
+        }
 
         a {
             color: $kcblue !important;
@@ -235,13 +235,19 @@ section {
         font-size: 20px;
         color: $kcblue;
         font-weight: 600;
+
+        i {
+            font-size: 30px;
+            float: right;
+            margin-right: 10px;
+        }
     }
 
     .kc-ul-text {
         text-align: justify;
         font-size: 17px;
         color: $kcblue;
-        font-weight: 500;
+        font-weight: 600;
 
         li {
             margin-right: 10px;
@@ -321,8 +327,26 @@ section {
     color: $kcblue;
     font-weight: 500;
 
+    .logopic {
+        text-align: center;
+
+        img {
+            margin-left: 60px;
+            max-height: 40px;
+        }
+    }
+
     .kc-feedback-form-button {
+        border: $kcborderwidth solid $kcblue;
+        color: $kcblue;
+        font-weight: 500;
+        border-radius: 0;
         margin-bottom: 10px;
+    }
+
+    .kc-feedback-form-button:hover {
+        background-color: $kcblue;
+        color: $kclightfont;
     }
 
     input, textarea {
@@ -396,6 +420,10 @@ section {
                 width: 95%;
             }
 
+            .kc-main-gallery-image:hover {
+                cursor: pointer;
+            }
+
             .kc-thumb-gallery-image {
                 width: 95%;
                 padding: 1px;
@@ -451,15 +479,35 @@ section {
                 color: $kcblue;
                 font-weight: 600;
 
-                span{
-                    margin:0px 15px 0px 0px;
+                span {
+                    margin: 0px 15px 0px 0px;
                 }
             }
         }
 
-        a {
-            font-size: 24px;
-            color: $kcblue;
+        .kc-cycle-link-wrapper {
+
+            button {
+                border: $kcborderwidth solid $kcblue;
+                margin: 0px 10px 25px 0px;
+                color: $kcblue;
+                font-weight: 500;
+                border-radius: 0;
+            }
+
+            button:hover {
+                background-color: $kcblue;
+                color: $kclightfont;
+            }
+
+            button:active, button:focus {
+                outline: none !important;
+                box-shadow: none !important;
+            }
+
+            i {
+                margin-right: 10px;
+            }
         }
     }
 }
@@ -471,24 +519,35 @@ section {
     overflow-x: unset !important;
     overflow-y: unset;
     padding-right: 15px !important;
-    text-align:center;
+    text-align: center;
+
+    i {
+        float: none;
+    }
 
     img {
         max-width: 100%;
-        max-height: 740px;
+        max-height: 680px;
+    }
+
+    .logopic {
+        img {
+            margin-left: 60px;
+            max-height: 40px;
+        }
     }
 
     #pictureDemonstratorContainer {
         text-align: center;
 
-        table{
-            margin:auto;
+        table {
+            margin: auto;
         }
     }
 
     button:active, button:focus {
         outline: none !important;
-        box-shadow:none;
+        box-shadow: none;
     }
 
     button::-moz-focus-inner {
@@ -510,12 +569,12 @@ section {
         opacity: 1;
         outline: none;
         margin-bottom: 15px;
-        margin-left:10px;
+        margin-left: 10px;
     }
 
     .kc-pictureDemonstrator-controls {
         width: 100%;
-        cursor:pointer;
+        cursor: pointer;
     }
 
     .arrows {
@@ -532,9 +591,8 @@ section {
         float: right;
         width: 45%;
     }
-       
-    .kc-close {
-    }
+
+
 
     .modal-dialog {
         margin: auto;

@@ -26,13 +26,7 @@ namespace kcconstruction.Pages.Stroitelstvo
                         "/images/Stroitelstvo/StropilnyeSistemy/Kirovsk_strop/GK_001_sm.jpg",
                         "/images/Stroitelstvo/StropilnyeSistemy/Kirovsk_strop/GK_002_sm.jpg",
                         "/images/Stroitelstvo/StropilnyeSistemy/Kirovsk_strop/GK_003_sm.jpg",
-                        "/images/Stroitelstvo/StropilnyeSistemy/Kirovsk_strop/GK_005_sm.jpg",
-                        "/images/Stroitelstvo/StropilnyeSistemy/Kirovsk_strop/GK_006_sm.jpg",
-                        "/images/Stroitelstvo/StropilnyeSistemy/Kirovsk_strop/GK_007_sm.jpg",
-                        "/images/Stroitelstvo/StropilnyeSistemy/Kirovsk_strop/GK_008_sm.jpg",
-                        "/images/Stroitelstvo/StropilnyeSistemy/Kirovsk_strop/GK_009_sm.jpg",
-                        "/images/Stroitelstvo/StropilnyeSistemy/Kirovsk_strop/GK_010_sm.jpg",
-                        "/images/Stroitelstvo/StropilnyeSistemy/Kirovsk_strop/GK_011_sm.jpg"
+                        "/images/Stroitelstvo/StropilnyeSistemy/Kirovsk_strop/GK_005_sm.jpg"
                     },
                     PathToImages = new List<string>
                     {
@@ -40,13 +34,7 @@ namespace kcconstruction.Pages.Stroitelstvo
                         "/images/Stroitelstvo/StropilnyeSistemy/Kirovsk_strop/GK_001.jpg",
                         "/images/Stroitelstvo/StropilnyeSistemy/Kirovsk_strop/GK_002.jpg",
                         "/images/Stroitelstvo/StropilnyeSistemy/Kirovsk_strop/GK_003.jpg",
-                        "/images/Stroitelstvo/StropilnyeSistemy/Kirovsk_strop/GK_005.jpg",
-                        "/images/Stroitelstvo/StropilnyeSistemy/Kirovsk_strop/GK_006.jpg",
-                        "/images/Stroitelstvo/StropilnyeSistemy/Kirovsk_strop/GK_007.jpg",
-                        "/images/Stroitelstvo/StropilnyeSistemy/Kirovsk_strop/GK_008.jpg",
-                        "/images/Stroitelstvo/StropilnyeSistemy/Kirovsk_strop/GK_009.jpg",
-                        "/images/Stroitelstvo/StropilnyeSistemy/Kirovsk_strop/GK_010.jpg",
-                        "/images/Stroitelstvo/StropilnyeSistemy/Kirovsk_strop/GK_011.jpg"
+                        "/images/Stroitelstvo/StropilnyeSistemy/Kirovsk_strop/GK_005.jpg"
                     },
                     Region = "",
                     CommonProperties = "",

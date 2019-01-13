@@ -63,10 +63,7 @@ namespace kcconstruction.Pages.Stroitelstvo
                         "/images/Stroitelstvo/Fundamenty/Pjatireche_fundament/FP_007_sm.jpg",
                         "/images/Stroitelstvo/Fundamenty/Pjatireche_fundament/FP_008_sm.jpg",
                         "/images/Stroitelstvo/Fundamenty/Pjatireche_fundament/FP_009_sm.jpg",
-                        "/images/Stroitelstvo/Fundamenty/Pjatireche_fundament/FP_010_sm.jpg",
-                        "/images/Stroitelstvo/Fundamenty/Pjatireche_fundament/FP_011_sm.jpg",
-                        "/images/Stroitelstvo/Fundamenty/Pjatireche_fundament/FP_012_sm.jpg",
-                        "/images/Stroitelstvo/Fundamenty/Pjatireche_fundament/FP_013_sm.jpg"
+                        "/images/Stroitelstvo/Fundamenty/Pjatireche_fundament/FP_010_sm.jpg"
                     },
                     PathToImages = new List<string>
                     {
@@ -79,10 +76,7 @@ namespace kcconstruction.Pages.Stroitelstvo
                         "/images/Stroitelstvo/Fundamenty/Pjatireche_fundament/FP_007.jpg",
                         "/images/Stroitelstvo/Fundamenty/Pjatireche_fundament/FP_008.jpg",
                         "/images/Stroitelstvo/Fundamenty/Pjatireche_fundament/FP_009.jpg",
-                        "/images/Stroitelstvo/Fundamenty/Pjatireche_fundament/FP_010.jpg",
-                        "/images/Stroitelstvo/Fundamenty/Pjatireche_fundament/FP_011.jpg",
-                        "/images/Stroitelstvo/Fundamenty/Pjatireche_fundament/FP_012.jpg",
-                        "/images/Stroitelstvo/Fundamenty/Pjatireche_fundament/FP_013.jpg"
+                        "/images/Stroitelstvo/Fundamenty/Pjatireche_fundament/FP_010.jpg"
                     },
                     FullCycleLink = "Proektirovanie/Fundamenty",
                     Region = "",

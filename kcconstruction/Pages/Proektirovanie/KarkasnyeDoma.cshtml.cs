@@ -124,6 +124,72 @@ namespace kcconstruction.Pages.Proektirovanie
                     Sizes = "",
                     Square = "",
                 },
+                new GallerySnippetViewModel
+                {
+                    Title = "Скандинавский каркасный дом в Рощино",
+                    Name= "scandikarkarochino",
+                    PathToImagesSm = new List<string>
+                    {
+                        "/images/Proektirovanie/KarkasnyeDoma/KD4/KD4_001_sm.jpg",
+                        "/images/Proektirovanie/KarkasnyeDoma/KD4/KD4_004_sm.jpg",
+                        "/images/Proektirovanie/KarkasnyeDoma/KD4/KD4_002_sm.jpg",
+                        "/images/Proektirovanie/KarkasnyeDoma/KD4/KD4_003_sm.jpg",
+                        "/images/Proektirovanie/KarkasnyeDoma/KD4/KD4_005_sm.jpg",
+                        "/images/Proektirovanie/KarkasnyeDoma/KD4/KD4_006_sm.jpg",
+                        "/images/Proektirovanie/KarkasnyeDoma/KD4/KD4_007_sm.jpg"
+                    },
+                    PathToImages = new List<string>
+                    {
+                        "/images/Proektirovanie/KarkasnyeDoma/KD4/KD4_001.jpg",
+                        "/images/Proektirovanie/KarkasnyeDoma/KD4/KD4_002.jpg",
+                        "/images/Proektirovanie/KarkasnyeDoma/KD4/KD4_003.jpg",
+                        "/images/Proektirovanie/KarkasnyeDoma/KD4/KD4_004.jpg",
+                        "/images/Proektirovanie/KarkasnyeDoma/KD4/KD4_005.jpg",
+                        "/images/Proektirovanie/KarkasnyeDoma/KD4/KD4_006.jpg",
+                        "/images/Proektirovanie/KarkasnyeDoma/KD4/KD4_007.jpg"
+                    },
+                    Region = "",
+                    CommonProperties = "",
+                    BuildingType = "",
+                    Technology = "",
+                    FundamentType = "",
+                    Floor = "",
+                    Sizes = "",
+                    Square = "",
+                },
+                new GallerySnippetViewModel
+                {
+                    Title = "Одноэтажный современнный каркасный дом в Выборге",
+                    Name= "odnoetazhkarkasvyborg",
+                    PathToImagesSm = new List<string>
+                    {
+                        "/images/Proektirovanie/KarkasnyeDoma/KD5/KD4_001_sm.jpg",
+                        "/images/Proektirovanie/KarkasnyeDoma/KD5/KD4_004_sm.jpg",
+                        "/images/Proektirovanie/KarkasnyeDoma/KD5/KD4_002_sm.jpg",
+                        "/images/Proektirovanie/KarkasnyeDoma/KD5/KD4_003_sm.jpg",
+                        "/images/Proektirovanie/KarkasnyeDoma/KD5/KD4_005_sm.jpg",
+                        "/images/Proektirovanie/KarkasnyeDoma/KD5/KD4_006_sm.jpg",
+                        "/images/Proektirovanie/KarkasnyeDoma/KD5/KD4_007_sm.jpg"
+                    },
+                    PathToImages = new List<string>
+                    {
+                        "/images/Proektirovanie/KarkasnyeDoma/KD5/KD4_001.jpg",
+                        "/images/Proektirovanie/KarkasnyeDoma/KD5/KD4_002.jpg",
+                        "/images/Proektirovanie/KarkasnyeDoma/KD5/KD4_003.jpg",
+                        "/images/Proektirovanie/KarkasnyeDoma/KD5/KD4_004.jpg",
+                        "/images/Proektirovanie/KarkasnyeDoma/KD5/KD4_005.jpg",
+                        "/images/Proektirovanie/KarkasnyeDoma/KD5/KD4_006.jpg",
+                        "/images/Proektirovanie/KarkasnyeDoma/KD5/KD4_007.jpg"
+                    },
+                    Region = "",
+                    CommonProperties = "",
+                    BuildingType = "",
+                    Technology = "",
+                    FundamentType = "",
+                    Floor = "",
+                    Sizes = "",
+                    Square = "",
+                },
             });
         }
     }

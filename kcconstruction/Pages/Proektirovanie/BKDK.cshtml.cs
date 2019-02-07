@@ -15,7 +15,7 @@ namespace kcconstruction.Pages.Proektirovanie
                 new GallerySnippetViewModel
                 {
                     Title = "Теннисный клуб в Подмосковье с пролетом ферм 55 м",
-                    Name = "tennisclub_prj",
+                    Name = "tennisclub",
                     PathToImagesSm = new List<string>
                     {
                         "/images/Proektirovanie/BKDK/BKDK1/BKDK1_001_sm.jpg",
@@ -38,8 +38,11 @@ namespace kcconstruction.Pages.Proektirovanie
                         "/images/Proektirovanie/BKDK/BKDK1/BKDK1_007.jpg",
                         "/images/Proektirovanie/BKDK/BKDK1/BKDK1_008.jpg"
                     },
-                    Region = "",
-                    CommonProperties = "",
+                    Region = "Ленинградская область",
+                    CommonProperties = "Проект здания теннисного корта." +
+                                       "В данном проекте применены уникальные металло-деревянные фермы пролетом 52м. " +
+                                       "Разработка подобных проектов - всегда интересная и трудная задача. " +
+                                       "Работы велись совместно со специальстами ЦНИИСК им.Кучеренко. На сегодняшний день проект находится в стадии реализации.",
                     BuildingType = "",
                     Technology = "",
                     FundamentType = "",
@@ -51,7 +54,7 @@ namespace kcconstruction.Pages.Proektirovanie
                 new GallerySnippetViewModel
                 {
                     Title = "Навес для хранения пиломатериалов с гнутоклееными рамами",
-                    Name = "navesgnutokleen_prj",
+                    Name = "navesgnutokleen",
                     PathToImagesSm = new List<string>
                     {
                         "/images/Proektirovanie/BKDK/BKDK2/BKDK2_001_sm.jpg",
@@ -70,8 +73,8 @@ namespace kcconstruction.Pages.Proektirovanie
                         "/images/Proektirovanie/BKDK/BKDK2/BKDK2_005.jpg",
                         "/images/Proektirovanie/BKDK/BKDK2/BKDK2_006.jpg"
                     },
-                    Region = "",
-                    CommonProperties = "",
+                    Region = "Ленинграсдкая область",
+                    CommonProperties = "Здание выполнено из клееных и гнутоклееных балок. Несущая способность обеспечиваетс¤ за счет рам пролетом 15м.",
                     BuildingType = "",
                     Technology = "",
                     FundamentType = "",
@@ -82,7 +85,7 @@ namespace kcconstruction.Pages.Proektirovanie
                 new GallerySnippetViewModel
                 {
                     Title= "Производственный цех в Ленинградской области с металлодеревянными фермами",
-                    Name = "proizvodstcex_prj",
+                    Name = "proizvodstcex",
                     PathToImagesSm = new List<string>
                     {
                         "/images/Proektirovanie/BKDK/BKDK3/BKDK3_001_sm.jpg",
@@ -99,8 +102,11 @@ namespace kcconstruction.Pages.Proektirovanie
                         "/images/Proektirovanie/BKDK/BKDK3/BKDK3_004.jpg",
                         "/images/Proektirovanie/BKDK/BKDK3/BKDK3_005.jpg"
                     },
-                    Region = "",
-                    CommonProperties = "",
+                    Region = "Ленинградская область",
+                    CommonProperties = "Проект здания производственного цеха. " +
+                                       "Здание выполнено из клееных и гнутоклееных балок." +
+                                       "Узлы на вклееных стержнях и рамы пролетом 14,2м." +
+                                       "Здание успешно построено на территории деревообрабатывающего завода в Ленинградской области.",
                     BuildingType = "",
                     Technology = "",
                     FundamentType = "",
@@ -111,7 +117,7 @@ namespace kcconstruction.Pages.Proektirovanie
                 new GallerySnippetViewModel
                 {
                     Title = "\"Ферма-ножницы\" на здании ресторана в Карелии",
-                    Name="fermanpznicy_prj",
+                    Name="fermanpznicy",
                     PathToImagesSm = new List<string>
                     {
                         "/images/Proektirovanie/BKDK/BKDK4/BKDK4_001_sm.jpg",
@@ -134,8 +140,10 @@ namespace kcconstruction.Pages.Proektirovanie
                         "/images/Proektirovanie/BKDK/BKDK4/BKDK4_007.jpg",
                         "/images/Proektirovanie/BKDK/BKDK4/BKDK4_008.jpg"
                     },
-                    Region = "",
-                    CommonProperties = "",
+                    Region = "Республика Карелия",
+                    CommonProperties = "Проект здания ресторана. " +
+                                       "Одно из решений - фермы-ножницы, выполенные из клееных балок в сочетании с металлическими элементами. " +
+                                       "Здание реализовано на территории Республики Карелия.",
                     BuildingType = "",
                     Technology = "",
                     FundamentType = "",
@@ -143,7 +151,6 @@ namespace kcconstruction.Pages.Proektirovanie
                     Sizes = "",
                     Square = "",
                 }
-
             });
         }
     }

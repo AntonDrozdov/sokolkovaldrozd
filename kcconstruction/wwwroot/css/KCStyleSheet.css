@@ -21,6 +21,10 @@ body {
     border-bottom: 2px solid #ffffff;
     border-color: transparent;
     padding-bottom: 10px; }
+    .container-fluid .kc-bigmainlink i {
+      margin-top: 7px !important;
+      float: right !important;
+      font-size: 26px !important; }
   .container-fluid .kc-bigmainlink:hover {
     border-bottom: 2px solid #0a5098; }
   .container-fluid .kc-bigmainlink a:hover {
@@ -136,7 +140,7 @@ section {
     font-weight: 500; }
   .kc-main-page .kc-cover-section span {
     color: #0a5098;
-    font-size: 25px;
+    font-size: 26px;
     font-weight: 900; }
 
 .kc-main-page .kc-fundament-cover {
@@ -329,6 +333,7 @@ section {
   border: 2px solid #0a5098;
   margin: 0px 10px 25px 0px;
   color: #0a5098;
+  font-size: 1.1em;
   font-weight: 500;
   border-radius: 0; }
 
@@ -337,11 +342,13 @@ section {
   color: #ffffff; }
 
 .kc-projects-page .kc-gallery-snippet .kc-cycle-link-wrapper button:active, .kc-projects-page .kc-gallery-snippet .kc-cycle-link-wrapper button:focus {
+  border-color: #0a5098;
+  background-color: #0a5098;
   outline: none !important;
   box-shadow: none !important; }
 
 .kc-projects-page .kc-gallery-snippet .kc-cycle-link-wrapper i {
-  margin-right: 10px; }
+  margin-right: 5px; }
 
 .kc-pictureDemonstrator {
   width: 90%;

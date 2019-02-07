@@ -38,7 +38,7 @@ namespace kcconstruction.Pages.Stroitelstvo
                         "/images/Stroitelstvo/Fundamenty/Gatchina_fundament/FG_005.jpg",
                         "/images/Stroitelstvo/Fundamenty/Gatchina_fundament/FG_006.jpg"
                     },
-                    Region = "",
+                    Region = "Ленинградская область",
                     CommonProperties = "",
                     BuildingType = "",
                     Technology = "",
@@ -79,7 +79,7 @@ namespace kcconstruction.Pages.Stroitelstvo
                         "/images/Stroitelstvo/Fundamenty/Pjatireche_fundament/FP_010.jpg"
                     },
                     FullCycleLink = "Proektirovanie/Fundamenty",
-                    Region = "",
+                    Region = "Ленинградская область",
                     CommonProperties = "",
                     BuildingType = "",
                     Technology = "",

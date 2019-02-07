@@ -160,7 +160,7 @@ namespace kcconstruction.Pages.Stroitelstvo
                         "/images/Stroitelstvo/KarkasnyeDoma/Sosnovo_karkas/IGDS_011.jpg",
                         "/images/Stroitelstvo/KarkasnyeDoma/Sosnovo_karkas/IGDS_012.jpg"
                     },
-                    Region = "",
+                    Region = "Ленинградская область",
                     CommonProperties = "",
                     BuildingType = "",
                     Technology = "",
@@ -191,7 +191,7 @@ namespace kcconstruction.Pages.Stroitelstvo
                         "/images/Stroitelstvo/KarkasnyeDoma/Vyborg_karkas/IGDV_005.jpg",
                         "/images/Stroitelstvo/KarkasnyeDoma/Vyborg_karkas/IGDV_006.jpg"
                     },
-                    Region = "",
+                    Region = "Выборг",
                     CommonProperties = "",
                     BuildingType = "",
                     Technology = "",

@@ -33,14 +33,18 @@
 
             int colMdVal = 12 / colCount;
 
-            int rowCount = Model.PathToImagesSm.Count / colCount;
+            double rowCountTmp = Convert.ToDouble(Model.PathToImagesSm.Count - 1) / colCount;
+            double rowCount = Math.Ceiling(rowCountTmp);
+            int colsWithExtraAmountOfCols = (Model.PathToImagesSm.Count - 1) % colCount;
 
             int imNum = 1;
 
             for (int j = 0; j < colCount; j++)
             {
+                var picColCount = (j < colsWithExtraAmountOfCols) ? rowCount : rowCount - 1;
+                picColCount = (picColCount == 0) ? 1 : picColCount;
                 <div class="col-@colMdVal">
-                    @for (int i = 0; i < rowCount; i++)
+                    @for (int i = 0; i < picColCount; i++)
                     {
                         if (imNum < @Model.PathToImagesSm.Count)
                         {
@@ -110,7 +114,7 @@
                             var hrefValue = "/"+ Model.FullCycleLink+"#"+ Model.Name + "Anchor";
                             <button onclick="window.location.href='@hrefValue'"  class="btn btn-outline-primary btn-lg btn-block ">
                                 Реализация проекта
-                                <i class="fas fa-angle-double-right"></i>
+                                <i class="fas fa-arrow-right"></i>
                                 <i class="fas fa-landmark"></i>
                             </button>
                         }
@@ -119,7 +123,7 @@
                             var hrefValue = "/"+ Model.FullCycleLink+"#"+ Model.Name + "Anchor";
                             <button onclick="window.location.href='@hrefValue'"  class="btn btn-outline-primary btn-lg btn-block ">
                                 Проект
-                                <i class="fas fa-angle-double-right"></i>
+                                <i class="fas fa-arrow-right"></i>
                                 <i class="fas fa-pencil-alt"></i>
                             </button>
 

@@ -19,7 +19,7 @@ namespace kcconstruction.Pages.Stroitelstvo
                 new GallerySnippetViewModel
                 {
                     Title = "Крыша гаража со стропильными фермами в Кировске",
-                    Name ="kryshasostropkirovsk_str",
+                    Name ="kryshasostropkirovsk",
                     PathToImagesSm = new List<string>
                     {
                         "/images/Stroitelstvo/StropilnyeSistemy/Kirovsk_strop/GK_004_sm.jpg",
@@ -36,7 +36,8 @@ namespace kcconstruction.Pages.Stroitelstvo
                         "/images/Stroitelstvo/StropilnyeSistemy/Kirovsk_strop/GK_003.jpg",
                         "/images/Stroitelstvo/StropilnyeSistemy/Kirovsk_strop/GK_005.jpg"
                     },
-                    Region = "",
+                    FullCycleLink= "Proektirovanie/StropilnyeSistemy",
+                    Region = "Кировск",
                     CommonProperties = "",
                     BuildingType = "",
                     Technology = "",
@@ -44,6 +45,7 @@ namespace kcconstruction.Pages.Stroitelstvo
                     Floor = "",
                     Sizes = "",
                     Square = "",
+                    IsFullCycled = true
 
                 }
             });

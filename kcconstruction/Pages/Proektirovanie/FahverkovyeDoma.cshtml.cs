@@ -35,7 +35,18 @@ namespace kcconstruction.Pages.Proektirovanie
                         "/images/Proektirovanie/FahverkovyeDoma/FD1/FD1_005.jpg",
                         "/images/Proektirovanie/FahverkovyeDoma/FD1/FD1_006.jpg",
                         "/images/Proektirovanie/FahverkovyeDoma/FD1/FD1_007.jpg"
-                    }
+                    },
+                    Region = "Екатеренбург",
+                    CommonProperties = "Проект индивидуального жилого дома. " +
+                                       "Здание выполнено по современной технологии - фахверк. " +
+                                       "В несущем каркасе применены рамы из клееного бруса пролетомпорядка 8м. " +
+                                       "Это позволило освобовить внутреннее пространство от опор и применить масштабное безрамное остекление.",
+                    BuildingType = "",
+                    Technology = "",
+                    FundamentType = "",
+                    Floor = "",
+                    Sizes = "",
+                    Square = "",
 
                 },
                 new GallerySnippetViewModel
@@ -62,8 +73,10 @@ namespace kcconstruction.Pages.Proektirovanie
                         "/images/Proektirovanie/FahverkovyeDoma/FD2/FD2_006.jpg",
                         "/images/Proektirovanie/FahverkovyeDoma/FD2/FD2_007.jpg"
                     },
-                    Region = "",
-                    CommonProperties = "",
+                    Region = "Ленинградская область",
+                    CommonProperties = "Проект индивидуального жилого дома. " +
+                                       "Классический фахверковый дом. Весь несущий каркас выполнен из конструктивного клееного бруса. " +
+                                       "Cтоечно-балочная система играет как несущую, так и декоративную роль - брус окрашивается в заводских условиях в несколько слоев.",
                     BuildingType = "",
                     Technology = "",
                     FundamentType = "",
@@ -99,8 +112,11 @@ namespace kcconstruction.Pages.Proektirovanie
                         "/images/Proektirovanie/FahverkovyeDoma/FD3/FD3_008.jpg",
                         "/images/Proektirovanie/FahverkovyeDoma/FD3/FD3_009.jpg"
                     },
-                    Region = "",
-                    CommonProperties = "",
+                    Region = "Ленинградская область",
+                    CommonProperties = "Проект индивидуального жилого дома. " +
+                                       "Проект выполнен по фахверковой технологии в стиле hi-tech. " +
+                                       "Кубические очертания, плоская кровля и отсутсвие свесов - вот визитная карточка этого стиля. " +
+                                       "Комплект констукций изготовлен на современном оборудовании HUNDEGGER.",
                     BuildingType = "",
                     Technology = "",
                     FundamentType = "",
@@ -134,8 +150,10 @@ namespace kcconstruction.Pages.Proektirovanie
                         "/images/Proektirovanie/FahverkovyeDoma/FD4/FD4_007.jpg",
                         "/images/Proektirovanie/FahverkovyeDoma/FD4/FD4_008.jpg"
                     },
-                    Region = "",
-                    CommonProperties = "",
+                    Region = "Ленинградская область",
+                    CommonProperties = "Проект индивидуального жилого дома. " +
+                                       "Проект выполнен по классической технологии - фахверк. " +
+                                       "Комплект констукций изготовлен на современном оборудовании HUNDEGGER. ",
                     BuildingType = "",
                     Technology = "",
                     FundamentType = "",
@@ -170,8 +188,13 @@ namespace kcconstruction.Pages.Proektirovanie
                         "/images/Proektirovanie/FahverkovyeDoma/FD5/FD5_007.jpg",
                         "/images/Proektirovanie/FahverkovyeDoma/FD5/FD5_008.jpg"
                     },
-                    Region = "",
-                    CommonProperties = "",
+                    Region = "Ленинградская область",
+                    CommonProperties = "Проект индивидуального жилого дома. " +
+                                       "Проект выполнен по фахверковой технологии в стиле hi-tech. " +
+                                       "Уникальный по своему размаху и примененным решениям проект. " +
+                                       "Исполинские балки высотой до 800мм в купе с безрамным остеклением составляют одновременно массивную и прозрачную конструкцию. " +
+                                       "На сегодняшний день произвести подобные конструкции в России объективно способно только одно производство. " +
+                                       "Комплект констукций изготовлен на современном оборудовании HUNDEGGER.",
                     BuildingType = "",
                     Technology = "",
                     FundamentType = "",

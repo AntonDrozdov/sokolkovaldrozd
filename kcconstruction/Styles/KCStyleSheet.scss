@@ -34,6 +34,12 @@ body {
         border-bottom: $kcborderwidth solid $kclightfont;
         border-color: transparent;
         padding-bottom: 10px;
+
+        i {
+            margin-top: 7px !important;
+            float: right !important;
+            font-size: 26px !important;
+        }
     }
 
     .kc-bigmainlink:hover {
@@ -213,10 +219,12 @@ section {
 
         span {
             color: $kcblue;
-            font-size: 25px;
+            font-size: 26px;
             font-weight: 900;
         }
     }
+
+
 
     .kc-fundament-cover {
         margin-top: 20px;
@@ -491,6 +499,7 @@ section {
                 border: $kcborderwidth solid $kcblue;
                 margin: 0px 10px 25px 0px;
                 color: $kcblue;
+                font-size: 1.1em;
                 font-weight: 500;
                 border-radius: 0;
             }
@@ -501,12 +510,14 @@ section {
             }
 
             button:active, button:focus {
+                border-color:$kcblue;
+                background-color: $kcblue;
                 outline: none !important;
                 box-shadow: none !important;
             }
 
             i {
-                margin-right: 10px;
+                margin-right: 5px;
             }
         }
     }

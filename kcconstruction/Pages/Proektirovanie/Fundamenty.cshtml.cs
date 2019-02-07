@@ -35,8 +35,10 @@ namespace kcconstruction.Pages.Proektirovanie
                         "/images/Proektirovanie/Fundamenty/PF1/PF1_002.jpg",
                         "/images/Proektirovanie/Fundamenty/PF1/PF1_003.jpg"
                     },
-                    Region = "",
-                    CommonProperties = "",
+                    Region = "Ленинградская область",
+                    CommonProperties = "Проект монолитного железобетонного фундамента. " +
+                                       "Данный фундамент спроектирован под здание пожарного узла с прилегающим к нему резервуаром для воды. " +
+                                       "Для реализации подобных проектов требуется применение специальных решений - таких как специальный водостойкий бетон и комплексная гидроизоляция.",
                     BuildingType = "",
                     Technology = "",
                     FundamentType = "",
@@ -64,8 +66,11 @@ namespace kcconstruction.Pages.Proektirovanie
                         "/images/Proektirovanie/Fundamenty/PF2/PF2_003.jpg",
                         "/images/Proektirovanie/Fundamenty/PF2/PF2_004.jpg",
                     },
-                    Region = "",
-                    CommonProperties = "",
+                    Region = "Ленинградская область",
+                    CommonProperties = "Проект монолитного железобетонного фундамента. " +
+                                       "Данный фундамент спроектирован под индивидуальный жилой дом. " +
+                                       "Фундамент - монолитная железобетонная плита с ребрами вниз. " +
+                                       "Проект реализован в поселке Репино Ленинградской области.",
                     BuildingType = "",
                     Technology = "",
                     FundamentType = "",
@@ -95,8 +100,11 @@ namespace kcconstruction.Pages.Proektirovanie
                         "/images/Proektirovanie/Fundamenty/PF3/PF3_005.jpg",
                     },
                     FullCycleLink = "Stroitelstvo/Fundamenty",
-                    Region = "",
-                    CommonProperties = "",
+                    Region = "Ленинградская область",
+                    CommonProperties = "Проект монолитного железобетонного фундамента и укрепления склона участка. " +
+                                       "Данный фундамент спроектирован под индивидуальный жилой дом из клееного бруса площадью 300м.кв. " +
+                                       "Конструктивная схема основания - монолитная железобетонная плита толщиной 200мм с ребрами 200х500мм вниз. " +
+                                       "В данном проекте была выполнена работа по расчету несущей способности фундамента а также был запланирован ряд мероприятий по усилению грунтов учатка.",
                     BuildingType = "",
                     Technology = "",
                     FundamentType = "",

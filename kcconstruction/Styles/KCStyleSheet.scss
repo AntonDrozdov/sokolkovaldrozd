@@ -411,9 +411,6 @@ section {
             margin-top: 30px;
         }
 
-        .kc-title {
-        }
-
         .kc-images {
             text-align: center;
 
@@ -422,7 +419,6 @@ section {
                 padding: 2px;
                 margin: 2px;
             }
-
 
             .kc-main-gallery-image {
                 width: 95%;
@@ -439,6 +435,9 @@ section {
                 cursor: pointer;
             }
 
+            .kc-thumb-gallery-image-wrapper{
+                margin-top: 3px;
+            }
 
             .kc-thumb-gallery-image-wrapper a:hover {
                 opacity: 0.5;
@@ -479,13 +478,19 @@ section {
 
         .kc-description {
             text-align: left;
+            line-height: 1.4em;
+
+            .kc-text {
+                margin-top:5px;
+                font-weight: 400;
+            }
 
             .kc-infotext {
                 text-indent: 0em;
                 margin: 0 15px;
                 text-align: justify;
                 color: $kcblue;
-                font-weight: 600;
+                font-weight: 400;
 
                 span {
                     margin: 0px 15px 0px 0px;
@@ -510,7 +515,7 @@ section {
             }
 
             button:active, button:focus {
-                border-color:$kcblue;
+                border-color: $kcblue;
                 background-color: $kcblue;
                 outline: none !important;
                 box-shadow: none !important;

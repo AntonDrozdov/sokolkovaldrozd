@@ -191,6 +191,7 @@ namespace kcconstruction.Pages.Stroitelstvo
                         "/images/Stroitelstvo/KarkasnyeDoma/Vyborg_karkas/IGDV_005.jpg",
                         "/images/Stroitelstvo/KarkasnyeDoma/Vyborg_karkas/IGDV_006.jpg"
                     },
+                    FullCycleLink = "Proektirovanie/KarkasnyeDoma",
                     Region = "Выборг",
                     CommonProperties = "",
                     BuildingType = "",
@@ -199,6 +200,7 @@ namespace kcconstruction.Pages.Stroitelstvo
                     Floor = "",
                     Sizes = "",
                     Square = "",
+                    IsFullCycled = true
                 }
             });
         }

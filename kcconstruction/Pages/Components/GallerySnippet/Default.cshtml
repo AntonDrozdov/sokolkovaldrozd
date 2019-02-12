@@ -109,25 +109,25 @@
         {
             <div class="kc-text kc-infotext">                    
                 <div class="kc-cycle-link-wrapper">
-                        @if (@Model.FullCycleLink.Contains("Stroitelstvo"))
-                        {
-                            var hrefValue = "/"+ Model.FullCycleLink+"#"+ Model.Name + "Anchor";
-                            <button onclick="window.location.href='@hrefValue'"  class="btn btn-outline-primary btn-lg btn-block ">
-                                Реализация проекта
-                                <i class="fas fa-arrow-right"></i>
-                                <i class="fas fa-landmark"></i>
-                            </button>
-                        }
-                        else
-                        {
-                            var hrefValue = "/"+ Model.FullCycleLink+"#"+ Model.Name + "Anchor";
-                            <button onclick="window.location.href='@hrefValue'"  class="btn btn-outline-primary btn-lg btn-block ">
-                                Проект
-                                <i class="fas fa-arrow-right"></i>
-                                <i class="fas fa-pencil-alt"></i>
-                            </button>
+                    @if (@Model.FullCycleLink.Contains("Stroitelstvo"))
+                    {
+                        var hrefValue = "/"+ Model.FullCycleLink+"#"+ Model.Name + "Anchor";
+                        <button onclick="window.location.href='@hrefValue'"  class="btn btn-outline-primary btn-lg btn-block ">
+                            Реализация проекта
+                            <i class="fas fa-arrow-right"></i>
+                            <i class="fas fa-landmark"></i>
+                        </button>
+                    }
+                    else
+                    {
+                        var hrefValue = "/"+ Model.FullCycleLink+"#"+ Model.Name + "Anchor";
+                        <button onclick="window.location.href='@hrefValue'"  class="btn btn-outline-primary btn-lg btn-block ">
+                            Проект
+                            <i class="fas fa-arrow-right"></i>
+                            <i class="fas fa-pencil-alt"></i>
+                        </button>
 
-                        }
+                    }
                 </div>
             </div>
         }

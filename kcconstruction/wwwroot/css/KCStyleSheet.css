@@ -291,6 +291,8 @@ section {
     padding: 1px;
     margin: 1px;
     cursor: pointer; }
+  .kc-projects-page .kc-gallery-snippet .kc-images .kc-thumb-gallery-image-wrapper {
+    margin-top: 3px; }
   .kc-projects-page .kc-gallery-snippet .kc-images .kc-thumb-gallery-image-wrapper a:hover {
     opacity: 0.5;
     cursor: pointer; }
@@ -319,13 +321,17 @@ section {
     margin-top: 20px; }
 
 .kc-projects-page .kc-gallery-snippet .kc-description {
-  text-align: left; }
+  text-align: left;
+  line-height: 1.4em; }
+  .kc-projects-page .kc-gallery-snippet .kc-description .kc-text {
+    margin-top: 5px;
+    font-weight: 400; }
   .kc-projects-page .kc-gallery-snippet .kc-description .kc-infotext {
     text-indent: 0em;
     margin: 0 15px;
     text-align: justify;
     color: #0a5098;
-    font-weight: 600; }
+    font-weight: 400; }
     .kc-projects-page .kc-gallery-snippet .kc-description .kc-infotext span {
       margin: 0px 15px 0px 0px; }
 

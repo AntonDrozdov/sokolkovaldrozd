@@ -1,8 +1,23 @@
 ﻿@page
 @model kcconstruction.Pages.Predlozheniya.KarkasnyeDomaModel
 @{
-    Layout = "Layouts/_Layout";
+    ViewData["Title"] = "КС Проектирование - Предложения";
+    Layout = "~/Pages/Layouts/_Layout.cshtml";
 }
 
+
 <h1 class="kc-h1">Каркасные дома</h1>
+
+<div class="row no-gutters kc-main-page no-gutters">
+    <div class="kc-text">
+       Ещё осенью 2017 года мы разработали серию фирменных проектов — КС. В эту серию вошли 3 дома.
+    </div>
+</div>
+
+@foreach (var item in Model.Predlosheniya)
+{
+    <div class="row justify-content-center no-gutters kc-projects-page">
+        @await Component.InvokeAsync("PredlozhenieSnippet", item)
+    </div>
+}
 

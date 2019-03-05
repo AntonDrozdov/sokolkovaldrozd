@@ -41,8 +41,13 @@
 
             for (int j = 0; j < colCount; j++)
             {
-                var picColCount = (j < colsWithExtraAmountOfCols) ? rowCount : rowCount - 1;
-                picColCount = (picColCount == 0) ? 1 : picColCount;
+                double picColCount = rowCount;
+
+                if (colsWithExtraAmountOfCols != 0)
+                {
+                    picColCount = (j < colsWithExtraAmountOfCols) ? rowCount : rowCount - 1;
+                }
+
                 <div class="col-@colMdVal">
                     @for (int i = 0; i < picColCount; i++)
                     {
@@ -64,7 +69,7 @@
     
     <div class="col-md-6 kc-description">
         <div class="kc-text">
-            <p>@Model.CommonProperties</p>
+            <p>@Html.Raw(Model.CommonProperties)</p>
         </div>
         <div class="kc-text kc-infotext">
             <p><span>Регион строительства:</span>@Model.Region</p>
@@ -111,7 +116,7 @@
                 <div class="kc-cycle-link-wrapper">
                     @if (@Model.FullCycleLink.Contains("Stroitelstvo"))
                     {
-                        var hrefValue = "/"+ Model.FullCycleLink+"#"+ Model.Name + "Anchor";
+                        var hrefValue = "/"+ Model.FullCycleLink + "#" + Model.Name + "Anchor";
                         <button onclick="window.location.href='@hrefValue'"  class="btn btn-outline-primary btn-lg btn-block ">
                             Реализация проекта
                             <i class="fas fa-arrow-right"></i>
@@ -120,7 +125,7 @@
                     }
                     else
                     {
-                        var hrefValue = "/"+ Model.FullCycleLink+"#"+ Model.Name + "Anchor";
+                        var hrefValue = "/"+ Model.FullCycleLink + "#"+ Model.Name + "Anchor";
                         <button onclick="window.location.href='@hrefValue'"  class="btn btn-outline-primary btn-lg btn-block ">
                             Проект
                             <i class="fas fa-arrow-right"></i>

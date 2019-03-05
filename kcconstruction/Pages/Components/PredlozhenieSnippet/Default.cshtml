@@ -1,0 +1,109 @@
+﻿@using System.Text
+@model kcconstruction.ViewModels.PredlozhenieSnippetViewModel
+
+
+<div class="row kc-main-page kc-gallery-snippet">
+    
+
+
+    <div class="col-md-12 kc-title">
+        @{
+            var anchorName = Model.Name + "Anchor";
+        }
+        <h2 id="@anchorName" class="kc-h2">@Model.Title</h2>
+    </div>
+
+    <div class="row col-md-6 kc-images justify-content-center no-gutters">
+        @{
+            var tmpStringBuilder = new StringBuilder();
+            foreach (var modelPathToImage in Model.PathToImages)
+            {
+                tmpStringBuilder.Append(modelPathToImage);
+                tmpStringBuilder.Append(';');
+            }
+
+            tmpStringBuilder.Remove(tmpStringBuilder.Length - 1, 1);
+            var imagesAsStringList = tmpStringBuilder.ToString();
+        }
+        
+        <input type="hidden" id="@Model.Name" value="@imagesAsStringList">
+        <a onClick="showGallery('@Model.Name', '@Model.PathToImages[0]');">
+            <img src="@Model.PathToImages[0]" class="kc-main-gallery-image"/>
+        </a>
+        
+        @{
+            int colCount = 3;
+
+            int colMdVal = 12 / colCount;
+
+            double rowCountTmp = Convert.ToDouble(Model.PathToImagesSm.Count - 1) / colCount;
+            double rowCount = Math.Ceiling(rowCountTmp);
+            int colsWithExtraAmountOfCols = (Model.PathToImagesSm.Count - 1) % colCount;
+
+            int imNum = 1;
+
+            for (int j = 0; j < colCount; j++)
+            {
+                double picColCount = rowCount;
+
+                if (colsWithExtraAmountOfCols != 0)
+                {
+                    picColCount = (j < colsWithExtraAmountOfCols) ? rowCount : rowCount - 1;
+                }
+
+                <div class="col-@colMdVal">
+                    @for (int i = 0; i < picColCount; i++)
+                    {
+                        if (imNum < @Model.PathToImagesSm.Count)
+                        {
+                            <div class="kc-thumb-gallery-image-wrapper">
+                                <a onClick="showGallery('@Model.Name', '@Model.PathToImagesSm[imNum]');">
+                                    <img src="@Model.PathToImagesSm[imNum]" class="kc-thumb-gallery-image"/>
+                                </a>
+                            </div>
+                            imNum++;
+                        }
+                    }
+                </div>
+            }
+        }
+
+
+    </div>
+    
+    
+    <div class="col-md-6 kc-description justify-content-center no-gutters ">
+        <div class="kc-text">
+            <p>@Model.CommonProperties</p>
+        </div>
+        
+        <table>
+            <tr>
+                <td><span>Площадь:</span></td>
+                <td>@Model.Square</td>
+            </tr>
+            
+            <tr>
+                <td><span>Этажность:</span></td>
+                <td>@Model.Floor</td>
+            </tr>
+        </table>
+
+            @*<div class="kc-text kc-infotext">
+                <p><span>Площадь:</span>@Model.Square</p>
+            </div>
+
+        
+
+            <div class="kc-text kc-infotext">
+                <p><span>Этажность:</span>@Model.Floor</p>
+            </div>*@
+
+    </div>
+    
+
+
+
+</div>
+
+

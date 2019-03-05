@@ -57,6 +57,7 @@
     <Folder Include="wwwroot\images\covers\" />
     <Folder Include="wwwroot\images\pics\kc2\" />
     <Folder Include="wwwroot\images\pics\kc3\" />
+    <Folder Include="wwwroot\images\Predlozheniya\Fundamenty\" />
     <Folder Include="wwwroot\images\Proektirovanie\FahverkovyeDoma\" />
     <Folder Include="wwwroot\images\Proektirovanie\BKDK\" />
     <Folder Include="wwwroot\images\Proektirovanie\Fundamenty\" />
@@ -64,6 +65,15 @@
     <Folder Include="wwwroot\images\Stroitelstvo\Fundamenty\" />
     <Folder Include="wwwroot\images\Stroitelstvo\StropilnyeSistemy\" />
     <Folder Include="wwwroot\libs\font-awesome\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Update="Pages\Components\PredlozhenieSnippet\Default.cshtml">
+      <Pack>$(IncludeRazorContentInPack)</Pack>
+    </Content>
+    <Content Update="Pages\Download.cshtml">
+      <Pack>$(IncludeRazorContentInPack)</Pack>
+    </Content>
   </ItemGroup>
 
   <Target Name="DebugEnsureNodeEnv" BeforeTargets="Build" Condition=" '$(Configuration)' == 'Debug' And !Exists('$(SpaRoot)node_modules') ">

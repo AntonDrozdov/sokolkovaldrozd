@@ -19,6 +19,16 @@ body {
     background-image: url('/images/sitebackgroung.jpg');
     background-repeat: repeat-x;
     background-size: 100% 100%;
+
+
+    form:active, form:focus,
+    .btn:active, .btn:focus,
+    input:active, input:focus,
+    textarea:active, textarea:focus,
+    button:active, button:focus {
+        outline: none !important;
+        box-shadow: none !important;
+    }
 }
 
 .container {
@@ -39,6 +49,7 @@ body {
             margin-top: 7px !important;
             float: right !important;
             font-size: 26px !important;
+            color:$kcblue;
         }
     }
 
@@ -167,7 +178,6 @@ section {
         text-align: center;
 
         p {
-            color: $kcblue;
             font-size: 30px;
             font-weight: 700;
         }
@@ -182,12 +192,15 @@ section {
         img {
             width: 100%;
         }
+
+
     }
 
     .kc-cover-section {
         img {
             width: 100%;
             height: auto;
+            max-height:260px;
             padding: 5px;
             border: $kcborderwidth solid $kcblue;
         }
@@ -218,13 +231,10 @@ section {
         }
 
         span {
-            color: $kcblue;
             font-size: 26px;
             font-weight: 900;
         }
     }
-
-
 
     .kc-fundament-cover {
         margin-top: 20px;
@@ -241,8 +251,8 @@ section {
         margin: 0 15px;
         text-align: justify;
         font-size: 20px;
-        color: $kcblue;
         font-weight: 600;
+        color:#000000;
 
         i {
             font-size: 30px;
@@ -254,7 +264,6 @@ section {
     .kc-ul-text {
         text-align: justify;
         font-size: 17px;
-        color: $kcblue;
         font-weight: 600;
 
         li {
@@ -267,7 +276,7 @@ section {
     }
 }
 
-.kc-contacts-page {
+.kc-contacts-page, kc-download-page {
     .kc-map {
         padding: 0px 10px;
     }
@@ -291,7 +300,10 @@ section {
         line-height: 1em;
         text-align: center;
         font-weight: 500;
-        color: $kcblue;
+    }
+
+    a:hover{
+        text-decoration:none;
     }
 
     .kc-address {
@@ -305,7 +317,6 @@ section {
         font-weight: 500;
         margin: 20px;
         padding: 15px 15px 5px;
-        color: $kcblue;
     }
 
     .kc-contacts-feedback-button {
@@ -331,8 +342,42 @@ section {
     }
 }
 
+.kc-download-page {
+    table {
+        width: 100%;
+
+
+
+        td {
+            text-align: center;
+            padding: 10px;
+            border: $kcborderwidth solid $kcblue;
+
+            h3 {
+                color: $kcblue;
+            }
+        }
+    }
+
+    a:hover {
+        text-decoration: none;
+    }
+
+    .kc-contacts-download-button {
+        border: $kcborderwidth solid $kcblue;
+        color: $kcblue;
+        font-weight: 500;
+        border-radius: 0;
+    }
+
+    .kc-contacts-download-button:hover {
+        background-color: $kcblue;
+        color: $kclightfont;
+    }
+}
+
 .kc-feedback-form {
-    color: $kcblue;
+ 
     font-weight: 500;
 
     .logopic {
@@ -391,15 +436,14 @@ section {
 
 .kc-projects-page {
     .kc-text {
+        text-indent: 1.5em;
         margin: 0 15px;
         text-align: unset !important;
         font-size: 16px;
-        color: $kcblue;
         font-weight: 600;
 
         span {
             font-size: 16px;
-            color: $kcblue;
             font-weight: 500;
             text-decoration: underline;
             margin: 15px;
@@ -435,7 +479,7 @@ section {
                 cursor: pointer;
             }
 
-            .kc-thumb-gallery-image-wrapper{
+            .kc-thumb-gallery-image-wrapper {
                 margin-top: 3px;
             }
 
@@ -481,7 +525,7 @@ section {
             line-height: 1.4em;
 
             .kc-text {
-                margin-top:5px;
+                margin-top: 5px;
                 font-weight: 400;
             }
 
@@ -489,12 +533,16 @@ section {
                 text-indent: 0em;
                 margin: 0 15px;
                 text-align: justify;
-                color: $kcblue;
                 font-weight: 400;
 
                 span {
                     margin: 0px 15px 0px 0px;
                 }
+            }
+
+            .kc-inlinelink{
+                text-decoration:underline;
+                color:#000000;                 
             }
         }
 
@@ -523,6 +571,17 @@ section {
 
             i {
                 margin-right: 5px;
+            }
+        }
+
+        table {
+            width: 90%;
+            margin: 0px 15px;
+
+
+            td {
+                padding: 10px;
+                border: $kcborderwidth solid $kcblue;
             }
         }
     }

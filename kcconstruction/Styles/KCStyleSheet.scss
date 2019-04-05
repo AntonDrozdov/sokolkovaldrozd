@@ -54,7 +54,7 @@ body {
     }
 
     .kc-bigmainlink:hover {
-        border-bottom: $kcborderwidth solid $kcblue;
+        //border-bottom: $kcborderwidth solid $kcblue;
     }
 
     .kc-bigmainlink a:hover {
@@ -100,6 +100,15 @@ section {
     .kc-brand-title {
         font-weight: 700;
     }
+
+    .kc-navbar-contacts {
+        margin: auto;
+        text-align: center;
+        font-weight: bold;
+    }
+
+    .kc-header-contacts-address {
+        font-size: 12px;    }
 }
 
 .kc-footer {
@@ -343,36 +352,45 @@ section {
 }
 
 .kc-download-page {
+    text-align: center;
+
     table {
-        width: 100%;
-
-
+        width:100%;
+        margin:0 15px;
 
         td {
-            text-align: center;
-            padding: 10px;
-            border: $kcborderwidth solid $kcblue;
-
-            h3 {
-                color: $kcblue;
-            }
+            border:$kcborderwidth solid $kcblue;
         }
-    }
 
-    a:hover {
-        text-decoration: none;
-    }
+        .kc-downloadfiletype {
+            padding: 10px;
+            color: $kcblue;
+            font-size: 34px;
+        }
 
-    .kc-contacts-download-button {
-        border: $kcborderwidth solid $kcblue;
-        color: $kcblue;
-        font-weight: 500;
-        border-radius: 0;
-    }
+        a:hover {
+            text-decoration: none;
+        }
 
-    .kc-contacts-download-button:hover {
-        background-color: $kcblue;
-        color: $kclightfont;
+        .kc-contacts-download-button {
+            
+            margin: 10px auto;
+            max-width: 170px;
+            border: $kcborderwidth solid $kcblue;
+            color: $kcblue;
+            font-weight: 500;
+            border-radius: 0;
+        }
+
+        .kc-contacts-download-button:hover {
+            background-color: $kcblue;
+            color: $kclightfont;
+        }
+
+        h2 {
+            font-size: 22px;
+            color: $kcblue;
+        }
     }
 }
 
@@ -698,7 +716,7 @@ section {
     margin-top: 60px;
     margin-bottom: 30px;
     margin-left: 15px;
-    font-size: 25px;
+    font-size: 23px;
 }
 
 .kc-h3 {

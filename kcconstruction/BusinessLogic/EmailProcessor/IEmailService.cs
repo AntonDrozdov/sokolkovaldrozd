@@ -2,11 +2,13 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using kcconstruction.BusinessLogic.EmailProcessor;
 
 namespace kcconstruction.BusinessLogic
 {
     interface IEmailService
     {
-        void Send(string text);
+        bool Send(Message message);
+
     }
 }

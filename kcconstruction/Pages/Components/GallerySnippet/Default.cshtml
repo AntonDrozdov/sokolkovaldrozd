@@ -24,10 +24,11 @@
         }
 
         <input type="hidden" id="@Model.Name" value="@imagesAsStringList">
-        <a onClick="showGallery('@Model.Name', '@Model.PathToImages[0]');">
-            <img src="@Model.PathToImages[0]" class="kc-main-gallery-image"/>
-        </a>
-
+        <div class="col-12">
+            <a onClick="showGallery('@Model.Name', '@Model.PathToImages[0]');">
+                <img src="@Model.PathToImages[0]" class="kc-main-gallery-image"/>
+            </a>
+        </div>
         @{
             int colCount = 4;
 

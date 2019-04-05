@@ -19,7 +19,7 @@
                                     <input type="name" name="name" class="form-control" id="name" placeholder="Ваше Имя">
                                 </div>
                                 <div class="form-group">
-                                    <label for="email1">Email:</label>
+                                    <label for="email">Email:</label>
                                     <input type="email" name="email" class="form-control" id="email1" placeholder="Email">
                                 </div>
                                 <div class="form-group">
@@ -30,7 +30,7 @@
                                     <label for="message">Сообщение:</label>
                                     <textarea class="form-control" name="message" rows="3"></textarea>
                                 </div>
-                                <button type="submit" class="btn btn-outline-primary btn-block kc-feedback-form-button">Отправить
+                                <button type="submit" asp-page="/Contacts" asp-page-handler="ResetName" class="btn btn-outline-primary btn-block kc-feedback-form-button">Отправить
                                 </button>
                             </form>
                         </div>

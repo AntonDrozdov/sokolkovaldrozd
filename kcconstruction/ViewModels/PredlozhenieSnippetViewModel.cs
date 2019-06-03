@@ -19,6 +19,7 @@ namespace kcconstruction.ViewModels
         public string Floor { get; set; }
         public string Sizes { get; set; }
         public string Square { get; set; }
+        public string Price { get; set; }
         public bool IsFullCycled { get; set; } = false;
         public string FullCycleLink { get; set; } = "/";
     }

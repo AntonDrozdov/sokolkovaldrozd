@@ -50,6 +50,7 @@ namespace kcconstruction.Pages.Predlozheniya
                     Floor = "Одноэтажный",
                     Sizes = "",
                     Square = "47м2 ",
+                    Price = "от 2,39 млн руб"
 
                 },
                 new PredlozhenieSnippetViewModel
@@ -95,6 +96,7 @@ namespace kcconstruction.Pages.Predlozheniya
                     Floor = "Одноэтажный",
                     Sizes = "",
                     Square = "79м2",
+                    Price = "от 3,67 млн руб"
                 },
                                 new PredlozhenieSnippetViewModel
                 {
@@ -140,7 +142,8 @@ namespace kcconstruction.Pages.Predlozheniya
                     FundamentType = "",
                     Floor = "Двухэтажный",
                     Sizes = "",
-                    Square = "153м2"
+                    Square = "153м2",
+                    Price = "от 5,78 млн руб"
                 }
             });
 

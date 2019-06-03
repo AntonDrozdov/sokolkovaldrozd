@@ -39,6 +39,7 @@
 
   <ItemGroup>
     <Content Include="gulpfile.js" />
+    <Content Include="Styles\KCStyleSheet.scss" />
   </ItemGroup>
 
   <ItemGroup>
@@ -54,7 +55,6 @@
 
   <ItemGroup>
     <Folder Include="wwwroot\fonts\" />
-    <Folder Include="wwwroot\images\covers\" />
     <Folder Include="wwwroot\images\pics\kc2\" />
     <Folder Include="wwwroot\images\pics\kc3\" />
     <Folder Include="wwwroot\images\Predlozheniya\Fundamenty\" />

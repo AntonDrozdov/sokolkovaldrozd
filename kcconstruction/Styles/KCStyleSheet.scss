@@ -11,6 +11,9 @@ $kcborderwidth:2px;
     }
 }
 
+a:hover {
+    text-decoration: none;
+}
 
 body {
     margin: 0 auto;
@@ -41,6 +44,7 @@ body {
     padding-right: 0px;
 
     .kc-bigmainlink {
+    
         border-bottom: $kcborderwidth solid $kclightfont;
         border-color: transparent;
         padding-bottom: 10px;
@@ -50,6 +54,10 @@ body {
             float: right !important;
             font-size: 26px !important;
             color:$kcblue;
+        }
+
+        h2 {
+            font-size:20px;
         }
     }
 
@@ -80,8 +88,11 @@ section {
 .kc-navbar {
     background-color: $kcblue !important;
     color: $kclightfont;
-
+    font-weight: 500;
+    
     a {
+        color: #212529 !important;
+
         &.navbar-brand, &.nav-link {
             color: $kclightfont !important;
             text-decoration: none;
@@ -93,22 +104,30 @@ section {
         box-shadow: none;
     }
 
-    .kc-navbar-link:hover {
-        font-weight: 500;
-    }
-
     .kc-brand-title {
         font-weight: 700;
     }
 
     .kc-navbar-contacts {
         margin: auto;
+        padding-right: 10px;
         text-align: center;
         font-weight: bold;
+
+        img {
+            padding-top: 5px;
+            width: 50px;
+        }
     }
 
     .kc-header-contacts-address {
-        font-size: 12px;    }
+        width: 260px;
+        font-size: 12px;
+
+        a {
+            color: $kclightfont !important;
+        }
+    }
 }
 
 .kc-footer {
@@ -129,15 +148,19 @@ section {
             p span {
                 font-weight: 600;
                 font-size: 20px;
-                margin-top:5px;
+                margin-top: 5px;
             }
 
             line-height: 1em;
             text-align: center;
             border: $kcborderwidth solid $kclightfont;
             font-weight: 500;
-            margin: 20px;
+            margin: 10px;
             padding: 15px 15px 5px;
+
+            img {
+                width: 30px;
+            }
         }
     }
 
@@ -160,6 +183,8 @@ section {
 
     ul.list-unstyled li {
         list-style-type: none;
+        padding: 3px 0;
+        font-weight: 700;
     }
 
     ul.quick-links li a {
@@ -175,10 +200,7 @@ section {
         transition: .5s all ease;
     }
 
-    ul.quick-links li:hover {
-        padding: 3px 0;
-        font-weight: 700;
-    }
+
 }
 
 .kc-main-page {
@@ -197,19 +219,11 @@ section {
         max-width: 250px;
     }
 
-    .kc-covers {
-        img {
-            width: 100%;
-        }
-
-
-    }
-
     .kc-cover-section {
         img {
             width: 100%;
             height: auto;
-            max-height:260px;
+            max-width: 350px;
             padding: 5px;
             border: $kcborderwidth solid $kcblue;
         }
@@ -221,7 +235,6 @@ section {
         }
 
         text-align: center;
-        margin-bottom: 15px;
         padding: 5px;
 
         .kc-text {
@@ -246,12 +259,25 @@ section {
     }
 
     .kc-fundament-cover {
-        margin-top: 20px;
+        margin-top: 15px;
     }
 
     .kc-typical-projects-cover {
         img {
             border: none;
+        }
+    }
+
+    .kc-text-head {
+        text-indent: 1.5em;
+        margin: 0 15px 15px 15px;
+        text-align: justify;
+        font-size: 16px;
+        font-weight: 600;
+        color: #000000;
+
+        a {
+            color: $kcblue;
         }
     }
 
@@ -261,7 +287,7 @@ section {
         text-align: justify;
         font-size: 20px;
         font-weight: 600;
-        color:#000000;
+        color: #000000;
 
         i {
             font-size: 30px;
@@ -283,11 +309,22 @@ section {
     .kc-icon {
         max-width: 100px;
     }
+
+    .kc-partners {
+        display: flex;
+        justify-content: space-around;
+        align-items:center;
+
+        img {
+            max-width: 180px;
+        }
+    }
 }
 
 .kc-contacts-page, kc-download-page {
     .kc-map {
-        padding: 0px 10px;
+        margin: auto;
+        padding: 0 10px;
     }
 
     .kc-person {
@@ -311,10 +348,6 @@ section {
         font-weight: 500;
     }
 
-    a:hover{
-        text-decoration:none;
-    }
-
     .kc-address {
         p span {
             font-weight: 600;
@@ -326,6 +359,18 @@ section {
         font-weight: 500;
         margin: 20px;
         padding: 15px 15px 5px;
+
+        a {
+            color: $kcblue !important;
+        }
+
+        span {
+            text-decoration: underline;
+        }
+
+        img {
+            width: 30px;
+        }
     }
 
     .kc-contacts-feedback-button {
@@ -355,11 +400,11 @@ section {
     text-align: center;
 
     table {
-        width:100%;
-        margin:0 15px;
+        width: 100%;
+        margin: 0 15px;
 
         td {
-            border:$kcborderwidth solid $kcblue;
+            border: $kcborderwidth solid $kcblue;
         }
 
         .kc-downloadfiletype {
@@ -373,7 +418,6 @@ section {
         }
 
         .kc-contacts-download-button {
-            
             margin: 10px auto;
             max-width: 170px;
             border: $kcborderwidth solid $kcblue;
@@ -395,7 +439,6 @@ section {
 }
 
 .kc-feedback-form {
- 
     font-weight: 500;
 
     .logopic {
@@ -558,9 +601,9 @@ section {
                 }
             }
 
-            .kc-inlinelink{
-                text-decoration:underline;
-                color:#000000;                 
+            .kc-inlinelink {
+                text-decoration: underline;
+                color: #000000;
             }
         }
 

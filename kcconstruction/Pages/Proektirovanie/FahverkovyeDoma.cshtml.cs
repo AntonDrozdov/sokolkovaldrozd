@@ -14,7 +14,7 @@ namespace kcconstruction.Pages.Proektirovanie
             {
                 new GallerySnippetViewModel
                 {
-                    Title = "Фахверковый дом в Екатеренбурге",
+                    Title = "Фахверковый дом в Екатеринбурге",
                     Name="fachverkekat_prj",
                     PathToImagesSm = new List<string>
                     {

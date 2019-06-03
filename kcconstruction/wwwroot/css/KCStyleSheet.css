@@ -2,6 +2,9 @@
   .body-content {
     padding-top: 50px; } }
 
+a:hover {
+  text-decoration: none; }
+
 body {
   margin: 0 auto;
   min-height: 100vh;
@@ -33,6 +36,8 @@ body {
       float: right !important;
       font-size: 26px !important;
       color: #0a5098; }
+    .container-fluid .kc-bigmainlink h2 {
+      font-size: 20px; }
   .container-fluid .kc-bigmainlink a:hover {
     text-decoration: none; }
   .container-fluid h2 {
@@ -49,23 +54,31 @@ section {
 
 .kc-navbar {
   background-color: #0a5098 !important;
-  color: #ffffff; }
-  .kc-navbar a.navbar-brand, .kc-navbar a.nav-link {
-    color: #ffffff !important;
-    text-decoration: none; }
+  color: #ffffff;
+  font-weight: 500; }
+  .kc-navbar a {
+    color: #212529 !important; }
+    .kc-navbar a.navbar-brand, .kc-navbar a.nav-link {
+      color: #ffffff !important;
+      text-decoration: none; }
   .kc-navbar button:active, .kc-navbar button:focus {
     outline: none !important;
     box-shadow: none; }
-  .kc-navbar .kc-navbar-link:hover {
-    font-weight: 500; }
   .kc-navbar .kc-brand-title {
     font-weight: 700; }
   .kc-navbar .kc-navbar-contacts {
     margin: auto;
+    padding-right: 10px;
     text-align: center;
     font-weight: bold; }
+    .kc-navbar .kc-navbar-contacts img {
+      padding-top: 5px;
+      width: 50px; }
   .kc-navbar .kc-header-contacts-address {
+    width: 260px;
     font-size: 12px; }
+    .kc-navbar .kc-header-contacts-address a {
+      color: #ffffff !important; }
 
 .kc-footer {
   margin-top: 15px;
@@ -78,7 +91,7 @@ section {
       text-align: center;
       border: 2px solid #ffffff;
       font-weight: 500;
-      margin: 20px;
+      margin: 10px;
       padding: 15px 15px 5px; }
       .kc-footer .kc-footer-contacts .kc-footer-contacts-data h5 {
         font-size: 30px;
@@ -87,6 +100,8 @@ section {
         font-weight: 600;
         font-size: 20px;
         margin-top: 5px; }
+      .kc-footer .kc-footer-contacts .kc-footer-contacts-data img {
+        width: 30px; }
   .kc-footer h5 {
     font-size: 26px;
     text-decoration: underline;
@@ -100,7 +115,9 @@ section {
     background-color: transparent;
     -webkit-text-decoration-skip: objects; }
   .kc-footer ul.list-unstyled li {
-    list-style-type: none; }
+    list-style-type: none;
+    padding: 3px 0;
+    font-weight: 700; }
   .kc-footer ul.quick-links li a {
     font-size: 18px;
     margin-left: 10px;
@@ -110,9 +127,6 @@ section {
     -webkit-transition: .5s all ease;
     -moz-transition: .5s all ease;
     transition: .5s all ease; }
-  .kc-footer ul.quick-links li:hover {
-    padding: 3px 0;
-    font-weight: 700; }
 
 .kc-main-page .kc-textalign-center {
   text-align: center; }
@@ -124,17 +138,13 @@ section {
   margin: 45px 25px 10px 25px;
   max-width: 250px; }
 
-.kc-main-page .kc-covers img {
-  width: 100%; }
-
 .kc-main-page .kc-cover-section {
   text-align: center;
-  margin-bottom: 15px;
   padding: 5px; }
   .kc-main-page .kc-cover-section img {
     width: 100%;
     height: auto;
-    max-height: 260px;
+    max-width: 350px;
     padding: 5px;
     border: 2px solid #0a5098; }
   .kc-main-page .kc-cover-section i {
@@ -155,10 +165,20 @@ section {
     font-weight: 900; }
 
 .kc-main-page .kc-fundament-cover {
-  margin-top: 20px; }
+  margin-top: 15px; }
 
 .kc-main-page .kc-typical-projects-cover img {
   border: none; }
+
+.kc-main-page .kc-text-head {
+  text-indent: 1.5em;
+  margin: 0 15px 15px 15px;
+  text-align: justify;
+  font-size: 16px;
+  font-weight: 600;
+  color: #000000; }
+  .kc-main-page .kc-text-head a {
+    color: #0a5098; }
 
 .kc-main-page .kc-text {
   text-indent: 1.5em;
@@ -182,8 +202,16 @@ section {
 .kc-main-page .kc-icon {
   max-width: 100px; }
 
+.kc-main-page .kc-partners {
+  display: flex;
+  justify-content: space-around;
+  align-items: center; }
+  .kc-main-page .kc-partners img {
+    max-width: 180px; }
+
 .kc-contacts-page .kc-map, kc-download-page .kc-map {
-  padding: 0px 10px; }
+  margin: auto;
+  padding: 0 10px; }
 
 .kc-contacts-page .kc-person, kc-download-page .kc-person {
   text-align: center;
@@ -200,9 +228,6 @@ section {
     font-weight: 600;
     font-size: 20px; }
 
-.kc-contacts-page a:hover, kc-download-page a:hover {
-  text-decoration: none; }
-
 .kc-contacts-page .kc-address, kc-download-page .kc-address {
   text-align: center;
   border: 2px solid #0a5098;
@@ -212,6 +237,12 @@ section {
   .kc-contacts-page .kc-address p span, kc-download-page .kc-address p span {
     font-weight: 600;
     font-size: 20px; }
+  .kc-contacts-page .kc-address a, kc-download-page .kc-address a {
+    color: #0a5098 !important; }
+  .kc-contacts-page .kc-address span, kc-download-page .kc-address span {
+    text-decoration: underline; }
+  .kc-contacts-page .kc-address img, kc-download-page .kc-address img {
+    width: 30px; }
 
 .kc-contacts-page .kc-contacts-feedback-button, kc-download-page .kc-contacts-feedback-button {
   border: 2px solid #0a5098;

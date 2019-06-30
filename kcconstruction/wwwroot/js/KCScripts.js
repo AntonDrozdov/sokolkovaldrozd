@@ -3,9 +3,9 @@ $(document).ready(function () {
     showGallery = function (idOfSourceInput, pathToCurrentImageSm) {
         $("#pictureDemonstratorSourceInput").val( $("#" + idOfSourceInput).val());
 
-         showImage(pathToCurrentImageSm);
+        showImage(pathToCurrentImageSm);
 
-         $("#pictureDemonstrator").modal('show');
+        $("#pictureDemonstrator").modal('show');
     };
 
     showImage = function (pathToCurrentImageSm) {
@@ -64,8 +64,30 @@ $(document).ready(function () {
         showNextImage("back");
     });
 
-    $('#contactsFeedbackForm').on('click', function () {
+    $('#contactsFeedbackFormBtn').on('click', function () {
         $("#feedbackForm").modal('show');
     });
 
+    $('#askQuestionIcon').on('click', function () {
+        $("#feedbackForm").modal('show');
+    });
+   
+
+    sendFeedbackForm = function () {
+
+        var formData = new FormData($("form").get(0));
+
+        debugger;
+        $.ajax({
+            type: 'POST',
+            url: 'FeedbackForm/FeedbackForm',
+            data: formData,
+            contentType: false,
+            processData: false,
+            success: function(response) {
+                alert('Ваше сообщение отправлено. Мы свяжемся с Вами.');
+            },
+            error: function (response) {}
+        });
+    }
 });

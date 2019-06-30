@@ -73,7 +73,8 @@ section {
     font-weight: bold; }
     .kc-navbar .kc-navbar-contacts img {
       padding-top: 5px;
-      width: 50px; }
+      width: 50px;
+      cursor: pointer; }
   .kc-navbar .kc-header-contacts-address {
     width: 260px;
     font-size: 12px; }
@@ -207,9 +208,11 @@ section {
   justify-content: space-around;
   align-items: center; }
   .kc-main-page .kc-partners img {
+    margin-top: 20px;
     max-width: 180px; }
 
 .kc-contacts-page .kc-map, kc-download-page .kc-map {
+  text-align: center;
   margin: auto;
   padding: 0 10px; }
 

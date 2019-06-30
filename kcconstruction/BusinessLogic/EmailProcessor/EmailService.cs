@@ -8,11 +8,11 @@ using Microsoft.Extensions.Logging;
 
 namespace kcconstruction.BusinessLogic
 {
-    public class EmailSender : IEmailService
+    public class EmailService : IEmailService
     {
         private SmtpClient SmptClient { get; }
 
-        public EmailSender()
+        public EmailService()
         {
             ISmtpClientFactory smtpClienFactory = new SmtpClientFactory();
             SmptClient = smtpClienFactory.CreateSmtpClient();
@@ -44,12 +44,13 @@ namespace kcconstruction.BusinessLogic
 
         private MailMessage CreateMailMessage(string subject, string body)
         {
-            return new MailMessage(new MailAddress("kc-construction.ru"), new MailAddress("info@kc-construction.ru"))
-            {
-                Subject = subject,
-                Body = body,
-                IsBodyHtml = true
-            };
+            MailMessage mail = new MailMessage();
+            mail.From = new MailAddress("kcconstruction2018@yandex.ru");
+            mail.To.Add(new MailAddress("info@kc-construction.ru")); 
+            mail.Subject = subject;
+            mail.Body = body;
+
+            return mail;
         }
     }
 }

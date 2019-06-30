@@ -6,7 +6,7 @@ using kcconstruction.BusinessLogic.EmailProcessor;
 
 namespace kcconstruction.BusinessLogic
 {
-    interface IEmailService
+    public interface IEmailService
     {
         bool Send(Message message);
 

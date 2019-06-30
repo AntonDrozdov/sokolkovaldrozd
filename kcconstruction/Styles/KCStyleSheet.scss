@@ -117,6 +117,7 @@ section {
         img {
             padding-top: 5px;
             width: 50px;
+            cursor:pointer;
         }
     }
 
@@ -316,6 +317,7 @@ section {
         align-items:center;
 
         img {
+            margin-top:20px;
             max-width: 180px;
         }
     }
@@ -323,6 +325,7 @@ section {
 
 .kc-contacts-page, kc-download-page {
     .kc-map {
+        text-align: center;
         margin: auto;
         padding: 0 10px;
     }

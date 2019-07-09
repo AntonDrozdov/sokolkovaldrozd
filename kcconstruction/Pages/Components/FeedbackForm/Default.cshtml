@@ -7,12 +7,12 @@
                         
                         <div class="col-md-12 logopic">
                             <img src="~/images/logos/kcconstruction_logo_large_alphach.png" />
-                            <button type="button" class="close d-block ml-auto" data-dismiss="modal" aria-hidden="true">
+                            <button id="feedbackCloseBtn" type="button" class="close d-block ml-auto" data-dismiss="modal" aria-hidden="true">
                                 <i class="far fa-window-close"></i>
                             </button>
                         </div>
                         
-                        <div class="col-md-12 ">
+                        <div id="formfeedbackInputs" class="col-md-12 ">
                             <form>
                                 @Html.AntiForgeryToken()
                                 <div class="form-group">
@@ -25,16 +25,53 @@
                                 </div>
                                 <div class="form-group">
                                     <label>Номер телефона:</label>
-                                    <input type="tel" name="Phone" id="kc-feedbackPhone" class="form-control"  placeholder="Телефон">
+                                    <input type="tel" name="Phone" id="kc-feedbackPhone" class="form-control" placeholder="Телефон">
                                 </div>
                                 <div class="form-group">
                                     <label>Сообщение:</label>
                                     <textarea class="form-control" name="Message" id="kc-feedbackMessage" rows="3"></textarea>
                                 </div>
-                                <button type="submit" class="btn btn-outline-primary btn-block kc-feedback-form-button" onclick="sendFeedbackForm()">
+                                <a class="btn btn-outline-primary btn-block kc-feedback-form-button"
+                                   onclick="sendFeedbackForm()">
                                     Отправить
-                                </button>
+                                </a>
+
+                                @*data-target="#feedbackForm"
+        data-toggle="modal"
+        data-backdrop="static"
+        data-keyboard="false">*@
                             </form>
+                        </div>
+                        <div id="formfeedbackInputs-successPost" class="kc-feedback-form-postresult" style="display: none">
+                            <img src="~/images/icons/galochka.png" />
+                            <div class="kc-text">
+                                <p>Спасибо за Ваше обращение.</p>
+                                <p>Мы с Вами свяжемся.</p>
+                                <br />
+                                <p>
+                                    Вы всегда можете позвонить нам по телефону  <h3>8(812)928-96-00</h3>
+                                    или найти нас по адресу:
+                                    <a href="https://yandex.ru/maps/-/CCVLRR8r" target="_blank" title="Показать на Yandex.Maps">
+                                        <i class="fas fa-map-marker-alt"></i>
+                                        г. Санкт-Петербург, ул. Инструментальная, д.3, литера А офис 216
+                                    </a>
+                                </p>
+                            </div>
+                        </div>
+                        <div id="formfeedbackInputs-failPost" class ="kc-feedback-form-postresult" style="display: none">
+                            <img src="~/images/icons/krestik.png" />
+                            <div class="kc-text">
+                                <p>Во время отправки Вашего сообщения произошла ошибка.</p>
+                                <br />
+                                <p>
+                                    Попробуйте связаться с нами по телефону <h3>8(812)928-96-00</h3>
+                                    Наш адрес:
+                                    <a href="https://yandex.ru/maps/-/CCVLRR8r" target="_blank" title="Показать на Yandex.Maps">
+                                        <i class="fas fa-map-marker-alt"></i>
+                                        г. Санкт-Петербург, ул. Инструментальная, д.3, литера А офис 216
+                                    </a>
+                                </p>
+                            </div>
                         </div>
                     </div>
                 </div>

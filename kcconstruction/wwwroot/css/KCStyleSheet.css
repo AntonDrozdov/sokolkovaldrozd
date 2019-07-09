@@ -327,11 +327,16 @@ kc-download-page button:active, kc-download-page button:focus {
     opacity: 1;
     outline: none;
     margin-bottom: 10px; }
-  .kc-feedback-form form:active, .kc-feedback-form form:focus,
-  .kc-feedback-form .btn:active, .kc-feedback-form .btn:focus,
-  .kc-feedback-form input:active, .kc-feedback-form input:focus,
-  .kc-feedback-form textarea:active, .kc-feedback-form textarea:focus,
-  .kc-feedback-form button:active, .kc-feedback-form button:focus {
+  .kc-feedback-form .kc-feedback-form-postresult {
+    text-align: center; }
+    .kc-feedback-form .kc-feedback-form-postresult img {
+      margin: 20px;
+      height: 50px; }
+    .kc-feedback-form .kc-feedback-form-postresult i {
+      margin-top: 5px;
+      font-size: 26px;
+      color: #0a5098; }
+  .kc-feedback-form .form:active, .kc-feedback-form form:focus, .kc-feedback-form .btn:active, .kc-feedback-form .btn:focus, .kc-feedback-form input:active, .kc-feedback-form input:focus, .kc-feedback-form textarea:active, .kc-feedback-form textarea:focus, .kc-feedback-form button:active, .kc-feedback-form button:focus {
     outline: none !important;
     box-shadow: none !important; }
 

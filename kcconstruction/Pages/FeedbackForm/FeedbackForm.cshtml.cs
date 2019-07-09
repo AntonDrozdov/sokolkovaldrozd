@@ -1,7 +1,10 @@
-﻿using kcconstruction.BusinessLogic;
+﻿using System;
+using System.Net;
+using kcconstruction.BusinessLogic;
 using kcconstruction.BusinessLogic.EmailProcessor;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
+using Newtonsoft.Json;
 
 namespace kcconstruction.Pages.FeedbackForm
 {
@@ -14,7 +17,7 @@ namespace kcconstruction.Pages.FeedbackForm
             _emailService = emailService;
         }
 
-        public void OnPost()
+        public IActionResult OnPost()
         {
             var Name = Request.Form["Name"].ToString();
             var Email = Request.Form["Email"].ToString();
@@ -32,9 +35,15 @@ namespace kcconstruction.Pages.FeedbackForm
 
             };
 
-            _emailService.Send(emailMessage);
+            if (_emailService.Send(emailMessage))
+            {
+                return new JsonResult(new { status = "success" });
+            }
+            else
+            {
+                return new JsonResult(new { status = "fail" });
+            }
+
         }
     }
-
-
 }

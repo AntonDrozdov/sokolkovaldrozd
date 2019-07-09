@@ -488,11 +488,22 @@ section {
         margin-bottom: 10px;
     }
 
-    form:active, form:focus,
-    .btn:active, .btn:focus,
-    input:active, input:focus,
-    textarea:active, textarea:focus,
-    button:active, button:focus {
+    .kc-feedback-form-postresult {
+        text-align: center;
+
+        img {
+            margin: 20px;
+            height: 50px;
+        }
+
+        i {
+            margin-top: 5px ;
+            font-size: 26px ;
+            color: $kcblue;
+        }
+    }
+
+    .form:active, form:focus, .btn:active, .btn:focus, input:active, input:focus, textarea:active, textarea:focus, button:active, button:focus {
         outline: none !important;
         box-shadow: none !important;
     }

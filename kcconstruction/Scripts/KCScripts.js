@@ -30,7 +30,7 @@
         //                $(this).parent().animate({ opacity: 1 }, 1000);
         //            });
         //    });
-    }
+    };
 
     showNextImage = function (direction) {
         let currentImage = $("#pictureDemonstratorCurrentImage").val();
@@ -54,7 +54,7 @@
         }
 
         showImage(imageList[indexOfNextImage]);
-    }
+    };
 
     $('#pictureDemonstrator-nextImage').on("click", function (evnt) {
         showNextImage("forward");
@@ -65,29 +65,57 @@
     });
 
     $('#contactsFeedbackFormBtn').on('click', function () {
-        $("#feedbackForm").modal('show');
+        showFeedbackForm();
     });
 
     $('#askQuestionIcon').on('click', function () {
-        $("#feedbackForm").modal('show');
+        showFeedbackForm();
     });
-   
+
+    showFeedbackForm = function () {
+        $("#formfeedbackInputs-successPost").hide();
+        $("#formfeedbackInputs-failPost").hide();
+        $("#formfeedbackInputs").show();
+        $('#feedbackForm').modal({ backdrop: 'static', keyboard: false });
+    }
 
     sendFeedbackForm = function () {
 
         var formData = new FormData($("form").get(0));
 
-        debugger;
         $.ajax({
             type: 'POST',
             url: 'FeedbackForm/FeedbackForm',
+            async: true,
             data: formData,
+            dataType: 'json',
             contentType: false,
             processData: false,
-            success: function(response) {
-                alert('Ваше сообщение отправлено. Мы свяжемся с Вами.');
+            success: function (response) {
+                if (response.status == "success") {
+                    showPostFeedbackFormResult("formfeedbackInputs-successPost");
+                } else {
+                    showPostFeedbackFormResult("formfeedbackInputs-failPost");
+                }
+
             },
-            error: function (response) {}
+            error: function (response) {
+                showPostFeedbackFormResult("formfeedbackInputs-failPost");
+            }
+        }).then(function (response) {
         });
+
+    };
+
+
+    showPostFeedbackFormResult = function (elementName) {
+        $("#formfeedbackInputs").hide();
+
+        $("#" + elementName).show();
+
+        setTimeout(function() {
+            $("#" + elementName).hide();
+            $("#feedbackCloseBtn").click();
+        }, 5000);
     }
 });

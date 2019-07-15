@@ -82,7 +82,7 @@ section {
       color: #ffffff !important; }
 
 .kc-footer {
-  margin-top: 15px;
+  margin-top: 30px;
   padding: 30px 30px 30px 30px;
   background: #0a5098 !important; }
   .kc-footer .kc-footer-contacts {
@@ -299,6 +299,10 @@ kc-download-page button:active, kc-download-page button:focus {
 
 .kc-feedback-form {
   font-weight: 500; }
+  .kc-feedback-form .error {
+    font-size: smaller;
+    color: #ff0000;
+    font-style: italic; }
   .kc-feedback-form .logopic {
     text-align: center; }
     .kc-feedback-form .logopic img {
@@ -306,13 +310,13 @@ kc-download-page button:active, kc-download-page button:focus {
       max-height: 40px; }
   .kc-feedback-form .kc-feedback-form-button {
     border: 2px solid #0a5098;
-    color: #0a5098;
+    color: #0a5098 !important;
     font-weight: 500;
     border-radius: 0;
     margin-bottom: 10px; }
   .kc-feedback-form .kc-feedback-form-button:hover {
     background-color: #0a5098;
-    color: #ffffff; }
+    color: #ffffff !important; }
   .kc-feedback-form input, .kc-feedback-form textarea {
     border: 1px solid #0a5098;
     border-radius: 0px; }

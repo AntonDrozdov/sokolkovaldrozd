@@ -3,13 +3,14 @@
     "name": "asp.net",
     "private": true,
     "devDependencies": {
-        "bootstrap": "4.1.3",
-        "jquery": "3.3.1",
+        "bootstrap": "^4.1.3",
+        "jquery": "3.4.1",
         "popper.js": "1.12.9",
         "gulp": "3.9.1",
         "gulp-sass": "3.1.0",
         "rimraf": "2.6.3"
+    },
+    "dependencies": {
+        "jquery-validation": "^1.19.1"
     }
 }
-
-//+ npm install --save-dev @fortawesome/fontawesome-free (i dont know why but this is not be able installed through common way as above - need to start manually)

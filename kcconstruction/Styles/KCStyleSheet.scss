@@ -132,13 +132,12 @@ section {
 }
 
 .kc-footer {
-    margin-top: 15px;
+    margin-top: 30px;
     padding: 30px 30px 30px 30px;
     background: $kcblue !important;
 
     .kc-footer-contacts {
         color: $kclightfont;
-
 
         .kc-footer-contacts-data {
             h5 {
@@ -444,6 +443,12 @@ section {
 .kc-feedback-form {
     font-weight: 500;
 
+    .error{
+        font-size:smaller;
+        color:#ff0000;
+        font-style:italic;
+    }
+
     .logopic {
         text-align: center;
 
@@ -455,7 +460,7 @@ section {
 
     .kc-feedback-form-button {
         border: $kcborderwidth solid $kcblue;
-        color: $kcblue;
+        color: $kcblue !important;
         font-weight: 500;
         border-radius: 0;
         margin-bottom: 10px;
@@ -463,7 +468,7 @@ section {
 
     .kc-feedback-form-button:hover {
         background-color: $kcblue;
-        color: $kclightfont;
+        color: $kclightfont !important;
     }
 
     input, textarea {

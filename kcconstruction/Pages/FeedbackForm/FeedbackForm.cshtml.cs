@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Net;
+using System.Text.RegularExpressions;
 using kcconstruction.BusinessLogic;
 using kcconstruction.BusinessLogic.EmailProcessor;
 using Microsoft.AspNetCore.Mvc;
@@ -24,6 +25,11 @@ namespace kcconstruction.Pages.FeedbackForm
             var Phone = Request.Form["Phone"].ToString();
             var Message = Request.Form["Message"].ToString();
 
+            if (!validateFeedbackForm(Name, Email, Phone, Message))
+            {
+                return new JsonResult(new { status = "fail" });
+            }
+
             var emailMessage = new Message
             {
                 Subject = "Запрос с сайта kc-construction.ru",
@@ -37,12 +43,29 @@ namespace kcconstruction.Pages.FeedbackForm
 
             if (_emailService.Send(emailMessage))
             {
-                return new JsonResult(new { status = "success" });
+                return new JsonResult(new {status = "success"});
             }
             else
             {
-                return new JsonResult(new { status = "fail" });
+                return new JsonResult(new {status = "fail"});
             }
+            
+        }
+
+        private bool validateFeedbackForm(string name, string email, string phone, string message)
+        {
+            var nameValid = name.Length >= 2;
+
+            string pattern = "[.\\-_a-z0-9]+@([a-z0-9][\\-a-z0-9]+\\.)+[a-z]{2,6}";
+            var emailValid = Regex.Match(email, pattern, RegexOptions.IgnoreCase).Success;
+            
+            pattern = "^[0-9]{3, 10}$";
+            var telephonValid = Regex.Match(email, pattern, RegexOptions.IgnoreCase).Success;
+
+            var messageValid = message.Length >= 10 && message.Length <= 3000;
+
+            return nameValid && emailValid && telephonValid && messageValid;
+
 
         }
     }

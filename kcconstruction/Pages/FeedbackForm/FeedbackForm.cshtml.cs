@@ -1,21 +1,22 @@
-﻿using System;
-using System.Net;
-using System.Text.RegularExpressions;
-using kcconstruction.BusinessLogic;
-using kcconstruction.BusinessLogic.EmailProcessor;
+﻿using System.Text.RegularExpressions;
+using kcconstruction.BusinessLogic.Interfaces;
+using kcconstruction.BusinessLogic.Interfaces.EmailService;
+using kcconstruction.BusinessLogic.Interfaces.ValidationService;
+using kcconstruction.BusinessLogic.Models.EmailService;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
-using Newtonsoft.Json;
 
 namespace kcconstruction.Pages.FeedbackForm
 {
     public class FeedbackFormModel : PageModel
     {
-        private readonly  IEmailService _emailService;
+        private readonly IEmailService _emailService;
+        private readonly IValidationService _validationService;
 
-        public FeedbackFormModel(IEmailService emailService)
+        public FeedbackFormModel(IEmailService emailService, IValidationService validationService)
         {
             _emailService = emailService;
+            _validationService = validationService;
         }
 
         public IActionResult OnPost()
@@ -25,7 +26,7 @@ namespace kcconstruction.Pages.FeedbackForm
             var Phone = Request.Form["Phone"].ToString();
             var Message = Request.Form["Message"].ToString();
 
-            if (!validateFeedbackForm(Name, Email, Phone, Message))
+            if (!_validationService.ValidateFeedbackForm(Name, Email, Phone, Message))
             {
                 return new JsonResult(new { status = "fail" });
             }
@@ -45,27 +46,7 @@ namespace kcconstruction.Pages.FeedbackForm
             {
                 return new JsonResult(new {status = "success"});
             }
-            else
-            {
-                return new JsonResult(new {status = "fail"});
-            }
-            
-        }
-
-        private bool validateFeedbackForm(string name, string email, string phone, string message)
-        {
-            var nameValid = name.Length >= 2;
-
-            string pattern = "[.\\-_a-z0-9]+@([a-z0-9][\\-a-z0-9]+\\.)+[a-z]{2,6}";
-            var emailValid = Regex.Match(email, pattern, RegexOptions.IgnoreCase).Success;
-            
-            pattern = "^[0-9]{3, 10}$";
-            var telephonValid = Regex.Match(email, pattern, RegexOptions.IgnoreCase).Success;
-
-            var messageValid = message.Length >= 10 && message.Length <= 3000;
-
-            return nameValid && emailValid && telephonValid && messageValid;
-
+            return new JsonResult(new {status = "fail"});
 
         }
     }

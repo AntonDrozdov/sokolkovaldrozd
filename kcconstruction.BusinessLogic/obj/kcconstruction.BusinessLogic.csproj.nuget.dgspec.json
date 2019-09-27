@@ -1,0 +1,67 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\DEVELOP\\kcconstructiongit\\kcconstruction.BusinessLogic\\kcconstruction.BusinessLogic.csproj": {}
+  },
+  "projects": {
+    "C:\\DEVELOP\\kcconstructiongit\\kcconstruction.BusinessLogic\\kcconstruction.BusinessLogic.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\DEVELOP\\kcconstructiongit\\kcconstruction.BusinessLogic\\kcconstruction.BusinessLogic.csproj",
+        "projectName": "kcconstruction.BusinessLogic",
+        "projectPath": "C:\\DEVELOP\\kcconstructiongit\\kcconstruction.BusinessLogic\\kcconstruction.BusinessLogic.csproj",
+        "packagesPath": "C:\\Users\\anton.drozdov\\.nuget\\packages\\",
+        "outputPath": "C:\\DEVELOP\\kcconstructiongit\\kcconstruction.BusinessLogic\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\anton.drozdov\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://btlteamcity.saltswharf.btl.com:7990/NuGetServer/nuget": {},
+          "http://btlteamcity.saltswharf.btl.com:8080/guestAuth/app/nuget/v1/FeedService.svc/": {},
+          "http://btlteamcity.saltswharf.btl.com:8080/httpAuth/app/nuget/v1/FeedService.svc": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.Extensions.Options": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}

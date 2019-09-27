@@ -1,9 +1,19 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28010.2003
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29102.190
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "kcconstruction", "kcconstruction\kcconstruction.csproj", "{BAE2E8AF-EA2A-4AF7-BB5D-3AC67AE9D67A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "kcconstruction.Web", "kcconstruction\kcconstruction.Web.csproj", "{BAE2E8AF-EA2A-4AF7-BB5D-3AC67AE9D67A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "kcconstruction.BusinessLogic", "kcconstruction.BusinessLogic\kcconstruction.BusinessLogic.csproj", "{686213FA-3533-412E-B7C9-F0F96777ADD1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{ED216E88-3402-480B-A107-68DB3AB9616D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UnitTests", "UnitTests", "{0A77EABE-F133-4475-B300-303B8C62C219}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ApiTests", "ApiTests", "{A6C7877F-E7D7-4F3C-A4F1-953CD81C99D8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "kcconstruction.BusinessLogic.Tests", "kcconstruction.BusinessLogic.Tests\kcconstruction.BusinessLogic.Tests.csproj", "{55513D3A-00F0-4458-B6A2-715ADBD6D931}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,9 +25,22 @@ Global
 		{BAE2E8AF-EA2A-4AF7-BB5D-3AC67AE9D67A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BAE2E8AF-EA2A-4AF7-BB5D-3AC67AE9D67A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BAE2E8AF-EA2A-4AF7-BB5D-3AC67AE9D67A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{686213FA-3533-412E-B7C9-F0F96777ADD1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{686213FA-3533-412E-B7C9-F0F96777ADD1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{686213FA-3533-412E-B7C9-F0F96777ADD1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{686213FA-3533-412E-B7C9-F0F96777ADD1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{55513D3A-00F0-4458-B6A2-715ADBD6D931}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55513D3A-00F0-4458-B6A2-715ADBD6D931}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55513D3A-00F0-4458-B6A2-715ADBD6D931}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55513D3A-00F0-4458-B6A2-715ADBD6D931}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0A77EABE-F133-4475-B300-303B8C62C219} = {ED216E88-3402-480B-A107-68DB3AB9616D}
+		{A6C7877F-E7D7-4F3C-A4F1-953CD81C99D8} = {ED216E88-3402-480B-A107-68DB3AB9616D}
+		{55513D3A-00F0-4458-B6A2-715ADBD6D931} = {0A77EABE-F133-4475-B300-303B8C62C219}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1E9E0038-C899-4B6D-B146-D77E0A9CDB2A}

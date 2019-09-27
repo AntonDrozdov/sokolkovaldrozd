@@ -1,0 +1,8 @@
+C:\DEVELOP\kcconstructiongit\kcconstruction.BusinessLogic\bin\Debug\netcoreapp2.1\kcconstruction.BusinessLogic.deps.json
+C:\DEVELOP\kcconstructiongit\kcconstruction.BusinessLogic\bin\Debug\netcoreapp2.1\kcconstruction.BusinessLogic.dll
+C:\DEVELOP\kcconstructiongit\kcconstruction.BusinessLogic\bin\Debug\netcoreapp2.1\kcconstruction.BusinessLogic.pdb
+C:\DEVELOP\kcconstructiongit\kcconstruction.BusinessLogic\obj\Debug\netcoreapp2.1\kcconstruction.BusinessLogic.csproj.CoreCompileInputs.cache
+C:\DEVELOP\kcconstructiongit\kcconstruction.BusinessLogic\obj\Debug\netcoreapp2.1\kcconstruction.BusinessLogic.AssemblyInfoInputs.cache
+C:\DEVELOP\kcconstructiongit\kcconstruction.BusinessLogic\obj\Debug\netcoreapp2.1\kcconstruction.BusinessLogic.AssemblyInfo.cs
+C:\DEVELOP\kcconstructiongit\kcconstruction.BusinessLogic\obj\Debug\netcoreapp2.1\kcconstruction.BusinessLogic.dll
+C:\DEVELOP\kcconstructiongit\kcconstruction.BusinessLogic\obj\Debug\netcoreapp2.1\kcconstruction.BusinessLogic.pdb

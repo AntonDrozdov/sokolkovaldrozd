@@ -1,7 +1,11 @@
-using kcconstruction.BusinessLogic;
+using kcconstruction.BusinessLogic.Interfaces;
+using kcconstruction.BusinessLogic.Interfaces.EmailService;
+using kcconstruction.BusinessLogic.Interfaces.ValidationService;
+using kcconstruction.BusinessLogic.Models.AppSettings;
+using kcconstruction.BusinessLogic.Services.EmailService;
+using kcconstruction.BusinessLogic.Services.ValidationService;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.SpaServices.AngularCli;
 using Microsoft.Extensions.Configuration;
@@ -21,9 +25,16 @@ namespace kcconsruction
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
+            
+            services.AddOptions();
+
+            services.Configure<CustomKCSettings>(Configuration.GetSection("CustomKCSettings"));
 
             services.AddTransient<IEmailService, EmailService>();
+            services.AddTransient<ISmtpClientFactory, SmtpClientFactory>();
+            services.AddTransient<IValidationService, ValidationService>();
 
             // In production, the Angular files will be served from this directory
             services.AddSpaStaticFiles(configuration =>

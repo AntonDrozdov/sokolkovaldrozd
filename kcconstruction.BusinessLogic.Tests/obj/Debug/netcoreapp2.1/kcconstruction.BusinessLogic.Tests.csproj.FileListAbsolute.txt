@@ -1,0 +1,17 @@
+C:\DEVELOP\kcconstructiongit\kcconstruction.BusinessLogic.Tests\bin\Debug\netcoreapp2.1\NUnit3.TestAdapter.dll
+C:\DEVELOP\kcconstructiongit\kcconstruction.BusinessLogic.Tests\bin\Debug\netcoreapp2.1\NUnit3.TestAdapter.pdb
+C:\DEVELOP\kcconstructiongit\kcconstruction.BusinessLogic.Tests\bin\Debug\netcoreapp2.1\nunit.engine.netstandard.dll
+C:\DEVELOP\kcconstructiongit\kcconstruction.BusinessLogic.Tests\bin\Debug\netcoreapp2.1\kcconstruction.BusinessLogic.Tests.deps.json
+C:\DEVELOP\kcconstructiongit\kcconstruction.BusinessLogic.Tests\bin\Debug\netcoreapp2.1\kcconstruction.BusinessLogic.Tests.runtimeconfig.json
+C:\DEVELOP\kcconstructiongit\kcconstruction.BusinessLogic.Tests\bin\Debug\netcoreapp2.1\kcconstruction.BusinessLogic.Tests.runtimeconfig.dev.json
+C:\DEVELOP\kcconstructiongit\kcconstruction.BusinessLogic.Tests\bin\Debug\netcoreapp2.1\kcconstruction.BusinessLogic.Tests.dll
+C:\DEVELOP\kcconstructiongit\kcconstruction.BusinessLogic.Tests\bin\Debug\netcoreapp2.1\kcconstruction.BusinessLogic.Tests.pdb
+C:\DEVELOP\kcconstructiongit\kcconstruction.BusinessLogic.Tests\bin\Debug\netcoreapp2.1\kcconstruction.BusinessLogic.dll
+C:\DEVELOP\kcconstructiongit\kcconstruction.BusinessLogic.Tests\bin\Debug\netcoreapp2.1\kcconstruction.BusinessLogic.pdb
+C:\DEVELOP\kcconstructiongit\kcconstruction.BusinessLogic.Tests\obj\Debug\netcoreapp2.1\kcconstruction.BusinessLogic.Tests.csprojAssemblyReference.cache
+C:\DEVELOP\kcconstructiongit\kcconstruction.BusinessLogic.Tests\obj\Debug\netcoreapp2.1\kcconstruction.BusinessLogic.Tests.csproj.CoreCompileInputs.cache
+C:\DEVELOP\kcconstructiongit\kcconstruction.BusinessLogic.Tests\obj\Debug\netcoreapp2.1\kcconstruction.BusinessLogic.Tests.AssemblyInfoInputs.cache
+C:\DEVELOP\kcconstructiongit\kcconstruction.BusinessLogic.Tests\obj\Debug\netcoreapp2.1\kcconstruction.BusinessLogic.Tests.AssemblyInfo.cs
+C:\DEVELOP\kcconstructiongit\kcconstruction.BusinessLogic.Tests\obj\Debug\netcoreapp2.1\kcconstruction.BusinessLogic.Tests.csproj.CopyComplete
+C:\DEVELOP\kcconstructiongit\kcconstruction.BusinessLogic.Tests\obj\Debug\netcoreapp2.1\kcconstruction.BusinessLogic.Tests.dll
+C:\DEVELOP\kcconstructiongit\kcconstruction.BusinessLogic.Tests\obj\Debug\netcoreapp2.1\kcconstruction.BusinessLogic.Tests.pdb

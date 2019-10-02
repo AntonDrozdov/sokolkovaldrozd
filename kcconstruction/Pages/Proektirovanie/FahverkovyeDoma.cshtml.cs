@@ -1,5 +1,5 @@
 ﻿using System.Collections.Generic;
-using kcconstruction.ViewModels;
+using kcconstruction.Web.ViewModels;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 
 namespace kcconstruction.Pages.Proektirovanie

@@ -1,8 +1,8 @@
 ﻿using System.Threading.Tasks;
-using kcconstruction.ViewModels;
+using kcconstruction.Web.ViewModels;
 using Microsoft.AspNetCore.Mvc;
 
-namespace kcconstruction.Pages.Components.GallerySnippet
+namespace kcconstruction.Web.Pages.Components.GallerySnippet
 { 
     public class GallerySnippetViewComponent: ViewComponent
     {

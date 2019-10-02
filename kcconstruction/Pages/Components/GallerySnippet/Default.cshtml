@@ -1,6 +1,18 @@
-﻿@using System.Text
-@model kcconstruction.ViewModels.GallerySnippetViewModel
+﻿@using kcconstruction.Web.ViewModels
+@model kcconstruction.Web.ViewModels.GallerySnippetViewModel
 
+@{
+    var pictureDemonstratorViewModel = new PictureDemonstratorViewModel
+    {
+        Id = "kc-pictureDemonstrator-" + Model.Name,
+        Name = Model.Name,
+        PathToImages = Model.PathToImages
+    };
+
+
+}
+
+@await Component.InvokeAsync("ModalPictureDemonstrator", pictureDemonstratorViewModel);
 
 <div class="row kc-main-page kc-gallery-snippet">
     <div class="col-md-12 kc-title">
@@ -9,26 +21,15 @@
         }
         <h2 id="@anchorName" class="kc-h2">@Model.Title</h2>
     </div>
-    
+
     <div class="row col-md-6 kc-images justify-content-center no-gutters">
-        @{
-            var tmpStringBuilder = new StringBuilder();
-            foreach (var modelPathToImage in Model.PathToImages)
-            {
-                tmpStringBuilder.Append(modelPathToImage);
-                tmpStringBuilder.Append(';');
-            }
 
-            tmpStringBuilder.Remove(tmpStringBuilder.Length-1, 1);
-            var imagesAsStringList = tmpStringBuilder.ToString();
-        }
-
-        <input type="hidden" id="@Model.Name" value="@imagesAsStringList">
         <div class="col-12">
-            <a onClick="showGallery('@Model.Name', '@Model.PathToImages[0]');">
-                <img src="@Model.PathToImages[0]" class="kc-main-gallery-image"/>
+            <a onClick="showGallery('@pictureDemonstratorViewModel.Id');">
+                <img src="@Model.PathToImages[0]" class="kc-main-gallery-image" />
             </a>
         </div>
+
         @{
             int colCount = 4;
 
@@ -55,8 +56,8 @@
                         if (imNum < @Model.PathToImagesSm.Count)
                         {
                             <div class="kc-thumb-gallery-image-wrapper">
-                                <a onClick="showGallery('@Model.Name', '@Model.PathToImagesSm[imNum]');">
-                                    <img src="@Model.PathToImagesSm[imNum]" class="kc-thumb-gallery-image"/>
+                                <a onClick="showGallery('@pictureDemonstratorViewModel.Id')">
+                                    <img src="@Model.PathToImagesSm[imNum]" class="kc-thumb-gallery-image" />
                                 </a>
                             </div>
                             imNum++;
@@ -67,7 +68,7 @@
         }
 
     </div>
-    
+
     <div class="col-md-6 kc-description">
         <div class="kc-text">
             <p>@Html.Raw(Model.CommonProperties)</p>
@@ -113,12 +114,12 @@
         }
         @if (Model.IsFullCycled)
         {
-            <div class="kc-text kc-infotext">                    
+            <div class="kc-text kc-infotext">
                 <div class="kc-cycle-link-wrapper">
                     @if (@Model.FullCycleLink.Contains("Stroitelstvo"))
                     {
-                        var hrefValue = "/"+ Model.FullCycleLink + "#" + Model.Name + "Anchor";
-                        <button onclick="window.location.href='@hrefValue'"  class="btn btn-outline-primary btn-lg btn-block ">
+                        var hrefValue = "/" + Model.FullCycleLink + "#" + Model.Name + "Anchor";
+                        <button onclick="window.location.href='@hrefValue'" class="btn btn-outline-primary btn-lg btn-block ">
                             Реализация проекта
                             <i class="fas fa-arrow-right"></i>
                             <i class="fas fa-landmark"></i>
@@ -126,8 +127,8 @@
                     }
                     else
                     {
-                        var hrefValue = "/"+ Model.FullCycleLink + "#"+ Model.Name + "Anchor";
-                        <button onclick="window.location.href='@hrefValue'"  class="btn btn-outline-primary btn-lg btn-block ">
+                        var hrefValue = "/" + Model.FullCycleLink + "#" + Model.Name + "Anchor";
+                        <button onclick="window.location.href='@hrefValue'" class="btn btn-outline-primary btn-lg btn-block ">
                             Проект
                             <i class="fas fa-arrow-right"></i>
                             <i class="fas fa-pencil-alt"></i>

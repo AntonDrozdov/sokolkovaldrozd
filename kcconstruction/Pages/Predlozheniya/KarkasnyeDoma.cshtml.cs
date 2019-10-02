@@ -1,9 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using kcconstruction.ViewModels;
-using Microsoft.AspNetCore.Mvc;
+﻿using System.Collections.Generic;
+using kcconstruction.Web.ViewModels;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 
 namespace kcconstruction.Pages.Predlozheniya

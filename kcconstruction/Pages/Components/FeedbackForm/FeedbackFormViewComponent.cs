@@ -1,7 +1,7 @@
 ﻿using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 
-namespace kcconstruction.Pages.Components.FeedbackForm
+namespace kcconstruction.Web.Pages.Components.FeedbackForm
 {
     public class FeedbackFormViewComponent : ViewComponent
     {

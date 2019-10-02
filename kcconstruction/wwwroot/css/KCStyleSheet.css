@@ -448,26 +448,20 @@ kc-download-page button:active, kc-download-page button:focus {
     padding: 10px;
     border: 2px solid #0a5098; }
 
+.modal {
+  margin-top: 35px;
+  padding-right: 15px !important; }
+
 .kc-pictureDemonstrator {
-  width: 90%;
-  height: 90%;
-  margin: auto;
-  overflow-x: unset !important;
-  overflow-y: unset;
   padding-right: 15px !important;
   text-align: center; }
-  .kc-pictureDemonstrator i {
-    float: none; }
-  .kc-pictureDemonstrator img {
-    max-width: 100%;
-    max-height: 680px; }
+  .kc-pictureDemonstrator .kc-pictureDemonstrator-carousel {
+    padding: 0px 10px 0px 10px; }
+  .kc-pictureDemonstrator .carousel-control-prev, .kc-pictureDemonstrator .carousel-control-next {
+    margin: 0px 10px 0px 10px; }
   .kc-pictureDemonstrator .logopic img {
     margin-left: 60px;
     max-height: 40px; }
-  .kc-pictureDemonstrator #pictureDemonstratorContainer {
-    text-align: center; }
-    .kc-pictureDemonstrator #pictureDemonstratorContainer table {
-      margin: auto; }
   .kc-pictureDemonstrator button:active, .kc-pictureDemonstrator button:focus {
     outline: none !important;
     box-shadow: none; }
@@ -484,25 +478,7 @@ kc-download-page button:active, kc-download-page button:focus {
     opacity: 1;
     outline: none;
     margin-bottom: 15px;
-    margin-left: 10px; }
-  .kc-pictureDemonstrator .kc-pictureDemonstrator-controls {
-    width: 100%;
-    cursor: pointer; }
-  .kc-pictureDemonstrator .arrows {
-    text-align: center;
-    margin-top: 15px; }
-  .kc-pictureDemonstrator .kc-left-arrow {
-    float: left;
-    width: 45%; }
-  .kc-pictureDemonstrator .kc-right-arrow {
-    float: right;
-    width: 45%; }
-  .kc-pictureDemonstrator .modal-dialog {
-    margin: auto;
-    max-width: unset; }
-  .kc-pictureDemonstrator .modal-open, .kc-pictureDemonstrator .modal {
-    overflow-x: unset;
-    overflow-y: unset; }
+    margin-right: 10px; }
 
 .kc-h1 {
   text-align: center;

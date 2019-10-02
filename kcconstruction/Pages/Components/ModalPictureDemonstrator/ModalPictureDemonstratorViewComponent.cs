@@ -1,13 +1,14 @@
 ﻿using System.Threading.Tasks;
+using kcconstruction.Web.ViewModels;
 using Microsoft.AspNetCore.Mvc;
 
-namespace kcconstruction.Pages.Components.ModalPictureDemonstrator
+namespace kcconstruction.Web.Pages.Components.ModalPictureDemonstrator
 {
     public class ModalPictureDemonstratorViewComponent: ViewComponent
     {
-        public async Task<IViewComponentResult> InvokeAsync()
+        public async Task<IViewComponentResult> InvokeAsync(PictureDemonstratorViewModel model)
         {
-            return View();
+            return View(model);
         }
     }
 }

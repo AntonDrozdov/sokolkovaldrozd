@@ -1,11 +1,6 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 
-namespace kcconstruction.Pages.Components.GallerySnippet
+namespace kcconstruction.Web.Pages.Components.GallerySnippet
 {
     public class DefaultModel : PageModel
     {

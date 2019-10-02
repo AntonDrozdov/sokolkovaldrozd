@@ -20,33 +20,33 @@
     <!-- /Yandex.Metrika counter -->
 
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
-
+    
     <!--RELEASE CSS and SCRIPTS-->
     <link href="~/vendor.min.css" rel="stylesheet"/>
     <script src="~/vendor.min.js"></script>
 
     <!--DEVELOPMENT CSS and SCRIPTS-->
-    <link href="~/libs/font-awesome/css/all.min.css" rel="stylesheet"/>
     <link href="~/css/KCStyleSheet.css" rel="stylesheet"/>
     <script src="~/js/KCScripts.js"></script>
 
     <title>@ViewBag.Title</title>
 </head>
 <body>
-    @await Component.InvokeAsync("ModalPictureDemonstrator")
 
-    @await Component.InvokeAsync("FeedbackForm")
+@await Component.InvokeAsync("FeedbackForm")
 
-    @await Component.InvokeAsync("MainMenu")
-    <div class="container">
-        <div class="container-fluid">
+@await Component.InvokeAsync("MainMenu")
 
-            @RenderBody()
-        </div>
+<div class="container">
+    <div class="container-fluid">
 
+        @RenderBody()
     </div>
-    @await Component.InvokeAsync("Footer")
+
+</div>
+@await Component.InvokeAsync("Footer")
 </body>
+
 </html>
 
 

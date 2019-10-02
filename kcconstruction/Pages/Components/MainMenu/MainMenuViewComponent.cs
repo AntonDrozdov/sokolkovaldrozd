@@ -1,7 +1,7 @@
 ﻿using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 
-namespace kcconstruction.Pages.Components.MainMenu
+namespace kcconstruction.Web.Pages.Components.MainMenu
 {
     public class MainMenuViewComponent: ViewComponent
     {
